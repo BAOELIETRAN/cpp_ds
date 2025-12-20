@@ -1,8 +1,8 @@
-# Install script for directory: D:/LEETCODE/LEARN/cpp_ds/vector
+# Install script for directory: D:/LEETCODE/LEARN/cpp_ds
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/MY_VECTOR")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/CPP_DS")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/LEETCODE/LEARN/cpp_ds/build/_deps/googletest-build/cmake_install.cmake")
+  include("D:/LEETCODE/LEARN/cpp_ds/build/vector/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT

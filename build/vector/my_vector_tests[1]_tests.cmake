@@ -1,0 +1,5 @@
+add_test([=[AddingTest.HandleNegativeInt]=]  D:/LEETCODE/LEARN/cpp_ds/build/vector/Debug/my_vector_tests.exe [==[--gtest_filter=AddingTest.HandleNegativeInt]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[AddingTest.HandleNegativeInt]=]  PROPERTIES DEF_SOURCE_LINE [==[D:\LEETCODE\LEARN\cpp_ds\vector\tests\test_vector.cpp:8]==] WORKING_DIRECTORY D:/LEETCODE/LEARN/cpp_ds/build/vector SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[AddingTest.HandlePositiveInt]=]  D:/LEETCODE/LEARN/cpp_ds/build/vector/Debug/my_vector_tests.exe [==[--gtest_filter=AddingTest.HandlePositiveInt]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[AddingTest.HandlePositiveInt]=]  PROPERTIES DEF_SOURCE_LINE [==[D:\LEETCODE\LEARN\cpp_ds\vector\tests\test_vector.cpp:13]==] WORKING_DIRECTORY D:/LEETCODE/LEARN/cpp_ds/build/vector SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  my_vector_tests_TESTS AddingTest.HandleNegativeInt AddingTest.HandlePositiveInt)

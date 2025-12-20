@@ -1,5 +1,6 @@
-# A CMake file describes how a C++ project should be built, 
-# and CMake generates platform-specific build files that call the compiler.
+# A CMake file describes how a C++ project should be built.
+# == It generates scripts for other build automation tools.
+# CMake generates build files (e.g., Makefiles, Ninja files, ...) - Makefiles build project.
 
 # cmake version >= 3.14 (must)
 cmake_minimum_required(VERSION 3.14)
@@ -29,9 +30,8 @@ set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 # in the build file of the project --> there will be a build section for google test
 FetchContent_MakeAvailable(googletest)
 
-# enable CMake's testing system (CTest)
-# --> allowing user to register project's tests and run them with ctest  
-# cmake does not look up for test files 
+# activate testing infrastructure (CTest) at this level
+# --> ctest makes testing easier!
 enable_testing()
 
 # take vector.cpp and compile it into a reusable library "my_vector_lib"
@@ -60,8 +60,10 @@ target_link_libraries(my_vector_tests
     GTest::gtest_main
 )
 
-# this helps CMake understand google test
+# load built-in Google Test CMake module, 
+# which provides helper functions (e.g., gtest_discover_tests)
+
 include(GoogleTest)
 
-# run the test file
+# finds, registers (with CTest), and runs Google Test tests defined in my_vector_tests
 gtest_discover_tests(my_vector_tests)
