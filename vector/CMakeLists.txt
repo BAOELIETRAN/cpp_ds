@@ -3,16 +3,17 @@
 # CMake generates build files (e.g., Makefiles, Ninja files, ...) - Makefiles build project.
 
 # cmake version >= 3.14 (must)
+# this project needs CMAKE version >= 3.14
 cmake_minimum_required(VERSION 3.14)
 
 # project declaration
 # name: MY_VECTOR
 # language: cxx - c++
-# --> allow cmake to find the correct compiler
+# --> allow cmake to find a C++ compiler and set up C++ build rules
 project(MY_VECTOR LANGUAGES CXX)
 
 # set the project standard
-# need to be 20
+# compile everything with C++ 20 (must)
 # if our compiler doesn't support C++ 20 --> fail (instead of CMake silently fallback to C++ 17)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -67,3 +68,8 @@ include(GoogleTest)
 
 # finds, registers (with CTest), and runs Google Test tests defined in my_vector_tests
 gtest_discover_tests(my_vector_tests)
+
+# the test program (test_vector.cpp) is the main program, and it is linked
+# with the vector.cpp program and google test.
+# --> we need to tell the test vector program where is the header file when it is linked with the vector.cpp program.
+# (linking is for compiled code, but I use .cpp here for simplicity)

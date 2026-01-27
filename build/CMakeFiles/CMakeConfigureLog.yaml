@@ -37,6 +37,8 @@ events:
       ENV{PATH}:
         - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "D:\\TRY HACK ME\\bin\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\WINDOWS\\system32"
@@ -69,6 +71,8 @@ events:
         - "C:\\nvm4w\\nodejs"
         - "C:\\Program Files\\Vagrant\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -104,7 +108,7 @@ events:
       The output was:
       0
       MSBuild version 17.7.2+d6990bcfa for .NET Framework
-      Build started 12/19/2025 9:32:03 PM.
+      Build started 1/26/2026 9:21:44 PM.
       
       Project "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\4.2.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -132,7 +136,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.60
+      Time Elapsed 00:00:00.55
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -194,6 +198,8 @@ events:
       - "C:/nvm4w/nodejs/"
       - "C:/Program Files/Vagrant/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/dotnet/"
       - "C:/Users/BAO ELIE TRAN/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/BAO ELIE TRAN/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/BAO ELIE TRAN/.cargo/bin/"
@@ -211,6 +217,8 @@ events:
     found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "D:\\TRY HACK ME\\bin\\"
@@ -245,6 +253,8 @@ events:
         - "C:\\nvm4w\\nodejs"
         - "C:\\Program Files\\Vagrant\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -316,6 +326,8 @@ events:
       - "C:/nvm4w/nodejs/"
       - "C:/Program Files/Vagrant/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/dotnet/"
       - "C:/Users/BAO ELIE TRAN/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/BAO ELIE TRAN/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/BAO ELIE TRAN/.cargo/bin/"
@@ -419,6 +431,12 @@ events:
       - "C:/Program Files/CMake/bin/lld-link.com"
       - "C:/Program Files/CMake/bin/lld-link.exe"
       - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
       - "C:/Users/BAO ELIE TRAN/AppData/Local/Programs/Python/Python312/Scripts/lld-link.com"
       - "C:/Users/BAO ELIE TRAN/AppData/Local/Programs/Python/Python312/Scripts/lld-link.exe"
       - "C:/Users/BAO ELIE TRAN/AppData/Local/Programs/Python/Python312/Scripts/lld-link"
@@ -460,6 +478,8 @@ events:
       ENV{PATH}:
         - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "D:\\TRY HACK ME\\bin\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\WINDOWS\\system32"
@@ -492,6 +512,8 @@ events:
         - "C:\\nvm4w\\nodejs"
         - "C:\\Program Files\\Vagrant\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -561,6 +583,8 @@ events:
       - "C:/nvm4w/nodejs/"
       - "C:/Program Files/Vagrant/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/dotnet/"
       - "C:/Users/BAO ELIE TRAN/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/BAO ELIE TRAN/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/BAO ELIE TRAN/.cargo/bin/"
@@ -578,6 +602,8 @@ events:
     found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "D:\\TRY HACK ME\\bin\\"
@@ -612,6 +638,8 @@ events:
         - "C:\\nvm4w\\nodejs"
         - "C:\\Program Files\\Vagrant\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -681,6 +709,8 @@ events:
       - "C:/nvm4w/nodejs/"
       - "C:/Program Files/Vagrant/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/dotnet/"
       - "C:/Users/BAO ELIE TRAN/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/BAO ELIE TRAN/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/BAO ELIE TRAN/.cargo/bin/"
@@ -784,6 +814,12 @@ events:
       - "C:/Program Files/CMake/bin/mt.com"
       - "C:/Program Files/CMake/bin/mt.exe"
       - "C:/Program Files/CMake/bin/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
       - "C:/Users/BAO ELIE TRAN/AppData/Local/Programs/Python/Python312/Scripts/mt.com"
       - "C:/Users/BAO ELIE TRAN/AppData/Local/Programs/Python/Python312/Scripts/mt.exe"
       - "C:/Users/BAO ELIE TRAN/AppData/Local/Programs/Python/Python312/Scripts/mt"
@@ -825,6 +861,8 @@ events:
       ENV{PATH}:
         - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "D:\\TRY HACK ME\\bin\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\WINDOWS\\system32"
@@ -857,6 +895,8 @@ events:
         - "C:\\nvm4w\\nodejs"
         - "C:\\Program Files\\Vagrant\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -926,6 +966,8 @@ events:
       - "C:/nvm4w/nodejs/"
       - "C:/Program Files/Vagrant/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/dotnet/"
       - "C:/Users/BAO ELIE TRAN/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/BAO ELIE TRAN/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/BAO ELIE TRAN/.cargo/bin/"
@@ -943,6 +985,8 @@ events:
     found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/lib.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "D:\\TRY HACK ME\\bin\\"
@@ -977,6 +1021,8 @@ events:
         - "C:\\nvm4w\\nodejs"
         - "C:\\Program Files\\Vagrant\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -1048,6 +1094,8 @@ events:
       - "C:/nvm4w/nodejs/"
       - "C:/Program Files/Vagrant/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/dotnet/"
       - "C:/Users/BAO ELIE TRAN/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/BAO ELIE TRAN/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/BAO ELIE TRAN/.cargo/bin/"
@@ -1160,6 +1208,12 @@ events:
       - "C:/Program Files/CMake/bin/rc.com"
       - "C:/Program Files/CMake/bin/rc.exe"
       - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
       - "C:/Users/BAO ELIE TRAN/AppData/Local/Programs/Python/Python312/Scripts/rc.com"
       - "C:/Users/BAO ELIE TRAN/AppData/Local/Programs/Python/Python312/Scripts/rc.exe"
       - "C:/Users/BAO ELIE TRAN/AppData/Local/Programs/Python/Python312/Scripts/rc"
@@ -1237,6 +1291,8 @@ events:
       ENV{PATH}:
         - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "D:\\TRY HACK ME\\bin\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\WINDOWS\\system32"
@@ -1269,6 +1325,8 @@ events:
         - "C:\\nvm4w\\nodejs"
         - "C:\\Program Files\\Vagrant\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -1303,8 +1361,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-no0z7g"
-      binary: "D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-no0z7g"
+      source: "D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-vf2gxj"
+      binary: "D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-vf2gxj"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1314,38 +1372,38 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-no0z7g'
+        Change Dir: 'D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-vf2gxj'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_aa991.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_18c57.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.7.2+d6990bcfa for .NET Framework
-        Build started 12/19/2025 9:32:04 PM.
+        Build started 1/26/2026 9:21:45 PM.
         
-        Project "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-no0z7g\\cmTC_aa991.vcxproj" on node 1 (default targets).
+        Project "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vf2gxj\\cmTC_18c57.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-no0z7g\\Debug\\".
-          Creating directory "cmTC_aa991.dir\\Debug\\cmTC_aa991.tlog\\".
+          Creating directory "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vf2gxj\\Debug\\".
+          Creating directory "cmTC_18c57.dir\\Debug\\cmTC_18c57.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_aa991.dir\\Debug\\cmTC_aa991.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_aa991.dir\\Debug\\cmTC_aa991.tlog\\unsuccessfulbuild".
+          Creating "cmTC_18c57.dir\\Debug\\cmTC_18c57.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_18c57.dir\\Debug\\cmTC_18c57.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_aa991.dir\\Debug\\\\" /Fd"cmTC_aa991.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_18c57.dir\\Debug\\\\" /Fd"cmTC_18c57.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
           CMakeCXXCompilerABI.cpp
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_aa991.dir\\Debug\\\\" /Fd"cmTC_aa991.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_18c57.dir\\Debug\\\\" /Fd"cmTC_18c57.dir\\Debug\\vc143.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-no0z7g\\Debug\\cmTC_aa991.exe" /INCREMENTAL /ILK:"cmTC_aa991.dir\\Debug\\cmTC_aa991.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-no0z7g/Debug/cmTC_aa991.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-no0z7g/Debug/cmTC_aa991.lib" /MACHINE:X64  /machine:x64 cmTC_aa991.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_aa991.vcxproj -> D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-no0z7g\\Debug\\cmTC_aa991.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vf2gxj\\Debug\\cmTC_18c57.exe" /INCREMENTAL /ILK:"cmTC_18c57.dir\\Debug\\cmTC_18c57.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-vf2gxj/Debug/cmTC_18c57.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-vf2gxj/Debug/cmTC_18c57.lib" /MACHINE:X64  /machine:x64 cmTC_18c57.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_18c57.vcxproj -> D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vf2gxj\\Debug\\cmTC_18c57.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_aa991.dir\\Debug\\cmTC_aa991.tlog\\unsuccessfulbuild".
-          Touching "cmTC_aa991.dir\\Debug\\cmTC_aa991.tlog\\cmTC_aa991.lastbuildstate".
-        Done Building Project "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-no0z7g\\cmTC_aa991.vcxproj" (default targets).
+          Deleting file "cmTC_18c57.dir\\Debug\\cmTC_18c57.tlog\\unsuccessfulbuild".
+          Touching "cmTC_18c57.dir\\Debug\\cmTC_18c57.tlog\\cmTC_18c57.lastbuildstate".
+        Done Building Project "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vf2gxj\\cmTC_18c57.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.43
+        Time Elapsed 00:00:00.37
         
       exitCode: 0
   -
@@ -1405,6 +1463,8 @@ events:
       ENV{PATH}:
         - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "D:\\TRY HACK ME\\bin\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\WINDOWS\\system32"
@@ -1437,6 +1497,8 @@ events:
         - "C:\\nvm4w\\nodejs"
         - "C:\\Program Files\\Vagrant\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -1478,7 +1540,7 @@ events:
       The output was:
       0
       MSBuild version 17.7.2+d6990bcfa for .NET Framework
-      Build started 12/19/2025 9:32:08 PM.
+      Build started 1/26/2026 9:21:47 PM.
       
       Project "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\4.2.1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -1506,7 +1568,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.04
+      Time Elapsed 00:00:00.38
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -1568,6 +1630,8 @@ events:
       - "C:/nvm4w/nodejs/"
       - "C:/Program Files/Vagrant/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/dotnet/"
       - "C:/Users/BAO ELIE TRAN/AppData/Local/Programs/Python/Python312/Scripts/"
       - "C:/Users/BAO ELIE TRAN/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/BAO ELIE TRAN/.cargo/bin/"
@@ -1683,6 +1747,12 @@ events:
       - "C:/Program Files/CMake/bin/lld-link.com"
       - "C:/Program Files/CMake/bin/lld-link.exe"
       - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
       - "C:/Users/BAO ELIE TRAN/AppData/Local/Programs/Python/Python312/Scripts/lld-link.com"
       - "C:/Users/BAO ELIE TRAN/AppData/Local/Programs/Python/Python312/Scripts/lld-link.exe"
       - "C:/Users/BAO ELIE TRAN/AppData/Local/Programs/Python/Python312/Scripts/lld-link"
@@ -1760,6 +1830,8 @@ events:
       ENV{PATH}:
         - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
         - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\BAO ELIE TRAN\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "D:\\TRY HACK ME\\bin\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\WINDOWS\\system32"
@@ -1792,6 +1864,8 @@ events:
         - "C:\\nvm4w\\nodejs"
         - "C:\\Program Files\\Vagrant\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files\\dotnet\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Python312\\"
         - "C:\\Users\\BAO ELIE TRAN\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -1826,8 +1900,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-9cb72x"
-      binary: "D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-9cb72x"
+      source: "D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-6ql1fc"
+      binary: "D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-6ql1fc"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1836,38 +1910,38 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-9cb72x'
+        Change Dir: 'D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-6ql1fc'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6ae8e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4aa5e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.7.2+d6990bcfa for .NET Framework
-        Build started 12/19/2025 9:32:09 PM.
+        Build started 1/26/2026 9:21:48 PM.
         
-        Project "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9cb72x\\cmTC_6ae8e.vcxproj" on node 1 (default targets).
+        Project "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6ql1fc\\cmTC_4aa5e.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9cb72x\\Debug\\".
-          Creating directory "cmTC_6ae8e.dir\\Debug\\cmTC_6ae8e.tlog\\".
+          Creating directory "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6ql1fc\\Debug\\".
+          Creating directory "cmTC_4aa5e.dir\\Debug\\cmTC_4aa5e.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_6ae8e.dir\\Debug\\cmTC_6ae8e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_6ae8e.dir\\Debug\\cmTC_6ae8e.tlog\\unsuccessfulbuild".
+          Creating "cmTC_4aa5e.dir\\Debug\\cmTC_4aa5e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_4aa5e.dir\\Debug\\cmTC_4aa5e.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_6ae8e.dir\\Debug\\\\" /Fd"cmTC_6ae8e.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_4aa5e.dir\\Debug\\\\" /Fd"cmTC_4aa5e.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x64
           CMakeCCompilerABI.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_6ae8e.dir\\Debug\\\\" /Fd"cmTC_6ae8e.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_4aa5e.dir\\Debug\\\\" /Fd"cmTC_4aa5e.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9cb72x\\Debug\\cmTC_6ae8e.exe" /INCREMENTAL /ILK:"cmTC_6ae8e.dir\\Debug\\cmTC_6ae8e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-9cb72x/Debug/cmTC_6ae8e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-9cb72x/Debug/cmTC_6ae8e.lib" /MACHINE:X64  /machine:x64 cmTC_6ae8e.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_6ae8e.vcxproj -> D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9cb72x\\Debug\\cmTC_6ae8e.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6ql1fc\\Debug\\cmTC_4aa5e.exe" /INCREMENTAL /ILK:"cmTC_4aa5e.dir\\Debug\\cmTC_4aa5e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-6ql1fc/Debug/cmTC_4aa5e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-6ql1fc/Debug/cmTC_4aa5e.lib" /MACHINE:X64  /machine:x64 cmTC_4aa5e.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_4aa5e.vcxproj -> D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6ql1fc\\Debug\\cmTC_4aa5e.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_6ae8e.dir\\Debug\\cmTC_6ae8e.tlog\\unsuccessfulbuild".
-          Touching "cmTC_6ae8e.dir\\Debug\\cmTC_6ae8e.tlog\\cmTC_6ae8e.lastbuildstate".
-        Done Building Project "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9cb72x\\cmTC_6ae8e.vcxproj" (default targets).
+          Deleting file "cmTC_4aa5e.dir\\Debug\\cmTC_4aa5e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_4aa5e.dir\\Debug\\cmTC_4aa5e.tlog\\cmTC_4aa5e.lastbuildstate".
+        Done Building Project "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6ql1fc\\cmTC_4aa5e.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.07
+        Time Elapsed 00:00:00.37
         
       exitCode: 0
   -
@@ -1910,8 +1984,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-hm09i1"
-      binary: "D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-hm09i1"
+      source: "D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-b5o1km"
+      binary: "D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-b5o1km"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1920,38 +1994,38 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-hm09i1'
+        Change Dir: 'D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-b5o1km'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_aeb4a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_aa18d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.7.2+d6990bcfa for .NET Framework
-        Build started 12/19/2025 9:32:11 PM.
+        Build started 1/26/2026 9:21:49 PM.
         
-        Project "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hm09i1\\cmTC_aeb4a.vcxproj" on node 1 (default targets).
+        Project "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b5o1km\\cmTC_aa18d.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hm09i1\\Debug\\".
-          Creating directory "cmTC_aeb4a.dir\\Debug\\cmTC_aeb4a.tlog\\".
+          Creating directory "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b5o1km\\Debug\\".
+          Creating directory "cmTC_aa18d.dir\\Debug\\cmTC_aa18d.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_aeb4a.dir\\Debug\\cmTC_aeb4a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_aeb4a.dir\\Debug\\cmTC_aeb4a.tlog\\unsuccessfulbuild".
+          Creating "cmTC_aa18d.dir\\Debug\\cmTC_aa18d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_aa18d.dir\\Debug\\cmTC_aa18d.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_aeb4a.dir\\Debug\\\\" /Fd"cmTC_aeb4a.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hm09i1\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_aa18d.dir\\Debug\\\\" /Fd"cmTC_aa18d.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b5o1km\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x64
           src.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_aeb4a.dir\\Debug\\\\" /Fd"cmTC_aeb4a.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hm09i1\\src.c"
-        D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hm09i1\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hm09i1\\cmTC_aeb4a.vcxproj]
-        Done Building Project "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hm09i1\\cmTC_aeb4a.vcxproj" (default targets) -- FAILED.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_aa18d.dir\\Debug\\\\" /Fd"cmTC_aa18d.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b5o1km\\src.c"
+        D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b5o1km\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b5o1km\\cmTC_aa18d.vcxproj]
+        Done Building Project "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b5o1km\\cmTC_aa18d.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hm09i1\\cmTC_aeb4a.vcxproj" (default target) (1) ->
+        "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b5o1km\\cmTC_aa18d.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hm09i1\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hm09i1\\cmTC_aeb4a.vcxproj]
+          D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b5o1km\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b5o1km\\cmTC_aa18d.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.63
+        Time Elapsed 00:00:00.25
         
       exitCode: 1
   -
@@ -1965,8 +2039,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-efdaor"
-      binary: "D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-efdaor"
+      source: "D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-7ubizl"
+      binary: "D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-7ubizl"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1975,40 +2049,40 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-efdaor'
+        Change Dir: 'D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-7ubizl'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_10d9b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e4d2d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.7.2+d6990bcfa for .NET Framework
-        Build started 12/19/2025 9:32:12 PM.
+        Build started 1/26/2026 9:21:49 PM.
         
-        Project "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-efdaor\\cmTC_10d9b.vcxproj" on node 1 (default targets).
+        Project "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7ubizl\\cmTC_e4d2d.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-efdaor\\Debug\\".
-          Creating directory "cmTC_10d9b.dir\\Debug\\cmTC_10d9b.tlog\\".
+          Creating directory "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7ubizl\\Debug\\".
+          Creating directory "cmTC_e4d2d.dir\\Debug\\cmTC_e4d2d.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_10d9b.dir\\Debug\\cmTC_10d9b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_10d9b.dir\\Debug\\cmTC_10d9b.tlog\\unsuccessfulbuild".
+          Creating "cmTC_e4d2d.dir\\Debug\\cmTC_e4d2d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e4d2d.dir\\Debug\\cmTC_e4d2d.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_10d9b.dir\\Debug\\\\" /Fd"cmTC_10d9b.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-efdaor\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_e4d2d.dir\\Debug\\\\" /Fd"cmTC_e4d2d.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7ubizl\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x64
-          CheckFunctionExists.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_10d9b.dir\\Debug\\\\" /Fd"cmTC_10d9b.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-efdaor\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_e4d2d.dir\\Debug\\\\" /Fd"cmTC_e4d2d.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7ubizl\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-efdaor\\Debug\\cmTC_10d9b.exe" /INCREMENTAL /ILK:"cmTC_10d9b.dir\\Debug\\cmTC_10d9b.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-efdaor/Debug/cmTC_10d9b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-efdaor/Debug/cmTC_10d9b.lib" /MACHINE:X64  /machine:x64 cmTC_10d9b.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-efdaor\\cmTC_10d9b.vcxproj]
-        Done Building Project "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-efdaor\\cmTC_10d9b.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7ubizl\\Debug\\cmTC_e4d2d.exe" /INCREMENTAL /ILK:"cmTC_e4d2d.dir\\Debug\\cmTC_e4d2d.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-7ubizl/Debug/cmTC_e4d2d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-7ubizl/Debug/cmTC_e4d2d.lib" /MACHINE:X64  /machine:x64 cmTC_e4d2d.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7ubizl\\cmTC_e4d2d.vcxproj]
+        Done Building Project "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7ubizl\\cmTC_e4d2d.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-efdaor\\cmTC_10d9b.vcxproj" (default target) (1) ->
+        "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7ubizl\\cmTC_e4d2d.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-efdaor\\cmTC_10d9b.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7ubizl\\cmTC_e4d2d.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:01.18
+        Time Elapsed 00:00:00.30
         
       exitCode: 1
   -
@@ -2022,8 +2096,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-kb0w6s"
-      binary: "D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-kb0w6s"
+      source: "D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-k0y4x9"
+      binary: "D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-k0y4x9"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -2032,40 +2106,40 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-kb0w6s'
+        Change Dir: 'D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-k0y4x9'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8bfc0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6706f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.7.2+d6990bcfa for .NET Framework
-        Build started 12/19/2025 9:32:14 PM.
+        Build started 1/26/2026 9:21:50 PM.
         
-        Project "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kb0w6s\\cmTC_8bfc0.vcxproj" on node 1 (default targets).
+        Project "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k0y4x9\\cmTC_6706f.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kb0w6s\\Debug\\".
-          Creating directory "cmTC_8bfc0.dir\\Debug\\cmTC_8bfc0.tlog\\".
+          Creating directory "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k0y4x9\\Debug\\".
+          Creating directory "cmTC_6706f.dir\\Debug\\cmTC_6706f.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_8bfc0.dir\\Debug\\cmTC_8bfc0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_8bfc0.dir\\Debug\\cmTC_8bfc0.tlog\\unsuccessfulbuild".
+          Creating "cmTC_6706f.dir\\Debug\\cmTC_6706f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6706f.dir\\Debug\\cmTC_6706f.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_8bfc0.dir\\Debug\\\\" /Fd"cmTC_8bfc0.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kb0w6s\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_6706f.dir\\Debug\\\\" /Fd"cmTC_6706f.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k0y4x9\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x64
-          CheckFunctionExists.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_8bfc0.dir\\Debug\\\\" /Fd"cmTC_8bfc0.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kb0w6s\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_6706f.dir\\Debug\\\\" /Fd"cmTC_6706f.dir\\Debug\\vc143.pdb" /external:W3 /TC /errorReport:queue "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k0y4x9\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kb0w6s\\Debug\\cmTC_8bfc0.exe" /INCREMENTAL /ILK:"cmTC_8bfc0.dir\\Debug\\cmTC_8bfc0.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-kb0w6s/Debug/cmTC_8bfc0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-kb0w6s/Debug/cmTC_8bfc0.lib" /MACHINE:X64  /machine:x64 cmTC_8bfc0.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kb0w6s\\cmTC_8bfc0.vcxproj]
-        Done Building Project "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kb0w6s\\cmTC_8bfc0.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k0y4x9\\Debug\\cmTC_6706f.exe" /INCREMENTAL /ILK:"cmTC_6706f.dir\\Debug\\cmTC_6706f.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-k0y4x9/Debug/cmTC_6706f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/LEETCODE/LEARN/cpp_ds/build/CMakeFiles/CMakeScratch/TryCompile-k0y4x9/Debug/cmTC_6706f.lib" /MACHINE:X64  /machine:x64 cmTC_6706f.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k0y4x9\\cmTC_6706f.vcxproj]
+        Done Building Project "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k0y4x9\\cmTC_6706f.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kb0w6s\\cmTC_8bfc0.vcxproj" (default target) (1) ->
+        "D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k0y4x9\\cmTC_6706f.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kb0w6s\\cmTC_8bfc0.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\LEETCODE\\LEARN\\cpp_ds\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k0y4x9\\cmTC_6706f.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:01.02
+        Time Elapsed 00:00:00.30
         
       exitCode: 1
 ...

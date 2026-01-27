@@ -18,6 +18,8 @@ enable_testing()
 # build from root without root enable_testing(): cmake will
 # create test infra at child level --> tests are registered at that level
 # --> root does not know about tests
+# if we have other projects in cpp_ds, this parent cmakelists will help us build all the projects
+# and run all the tests
 add_subdirectory(vector)
 
 # a few helpful commands:

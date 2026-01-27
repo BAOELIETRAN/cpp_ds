@@ -1,0 +1,10 @@
+^D:\LEETCODE\LEARN\CPP_DS\VECTOR\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\2A85EF06452FD845F1C49997432ED80F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/LEETCODE/LEARN/cpp_ds/vector/build/_deps/googletest-subbuild -BD:/LEETCODE/LEARN/cpp_ds/vector/build/_deps/googletest-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/LEETCODE/LEARN/cpp_ds/vector/build/_deps/googletest-subbuild/googletest-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
