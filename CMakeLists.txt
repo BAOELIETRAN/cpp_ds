@@ -8,6 +8,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # create testing infrastructure at root level
 # ctest is enabled at parent level --> subdirs can register tests 
 # that will be visible at parent level
+# ctest - test runner of CMake
 enable_testing()
 
 # go process vector/CMakeLists.txt

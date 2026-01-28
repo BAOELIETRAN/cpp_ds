@@ -18,7 +18,7 @@ namespace mck{
         public:
             // default constructor:
             my_vector();
-            // constructor with number of elements:
+            // constructor with n number of elements:
             my_vector(int n);
             // copy constructor - create deep copy of another vector:
             /**
@@ -47,11 +47,11 @@ namespace mck{
             // const at the end of the member function = this function is not allowed to modify the object
             // setter & getter
             int* get_array_pointer() const;
-            void set_array_pointer();
+            // void set_array_pointer();
             int get_size() const;
-            void set_size();
+            // void set_size();
             size_t get_capacity() const;
-            void set_capacity();
+            // void set_capacity();
 
             // other important member functions:
 
