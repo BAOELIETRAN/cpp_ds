@@ -72,7 +72,7 @@ namespace mck{
 
             // remove all elements (size will be 0)
             void clear();
-    }
+    };
 }
 
 #endif

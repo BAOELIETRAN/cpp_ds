@@ -1,3 +1,9 @@
-AddingTest.HandleNegativeInt 1 0.0096127
-AddingTest.HandlePositiveInt 1 0.0078319
+InitializingTest.ZeroElement 6 0.00127767
+InitializingTest.SomeElements 6 0.00142025
+InitializingTest.CopyVector 4 0.00199648
+MemberFunctionTest.EmptyTest 3 0.00295027
+MemberFunctionTest.AtTest 2 0.00464445
+MemberFunctionTest.PushBack 1 0.0079862
+MemberFunctionTest.PopBack 1 0.0096526
+MemberFunctionTest.Clear 1 0.009264
 ---

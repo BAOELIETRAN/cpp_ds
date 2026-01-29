@@ -1,20 +1,20 @@
-Start testing: Jan 26 21:22 Eastern Standard Time
+Start testing: Jan 28 22:21 Eastern Standard Time
 ----------------------------------------------------------
-1/2 Testing: AddingTest.HandleNegativeInt
-1/2 Test: AddingTest.HandleNegativeInt
-Command: "D:/LEETCODE/LEARN/cpp_ds/build/vector/Debug/my_vector_tests.exe" "--gtest_filter=AddingTest.HandleNegativeInt" "--gtest_also_run_disabled_tests"
+1/8 Testing: InitializingTest.ZeroElement
+1/8 Test: InitializingTest.ZeroElement
+Command: "D:/LEETCODE/LEARN/cpp_ds/build/vector/Debug/my_vector_tests.exe" "--gtest_filter=InitializingTest.ZeroElement" "--gtest_also_run_disabled_tests"
 Directory: D:/LEETCODE/LEARN/cpp_ds/build/vector
-"AddingTest.HandleNegativeInt" start time: Jan 26 21:22 Eastern Standard Time
+"InitializingTest.ZeroElement" start time: Jan 28 22:21 Eastern Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\LEETCODE\LEARN\cpp_ds\build\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = AddingTest.HandleNegativeInt
+Note: Google Test filter = InitializingTest.ZeroElement
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from AddingTest
-[ RUN      ] AddingTest.HandleNegativeInt
-[       OK ] AddingTest.HandleNegativeInt (0 ms)
-[----------] 1 test from AddingTest (0 ms total)
+[----------] 1 test from InitializingTest
+[ RUN      ] InitializingTest.ZeroElement
+[       OK ] InitializingTest.ZeroElement (0 ms)
+[----------] 1 test from InitializingTest (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
@@ -23,25 +23,25 @@ Note: Google Test filter = AddingTest.HandleNegativeInt
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"AddingTest.HandleNegativeInt" end time: Jan 26 21:22 Eastern Standard Time
-"AddingTest.HandleNegativeInt" time elapsed: 00:00:00
+"InitializingTest.ZeroElement" end time: Jan 28 22:21 Eastern Standard Time
+"InitializingTest.ZeroElement" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/2 Testing: AddingTest.HandlePositiveInt
-2/2 Test: AddingTest.HandlePositiveInt
-Command: "D:/LEETCODE/LEARN/cpp_ds/build/vector/Debug/my_vector_tests.exe" "--gtest_filter=AddingTest.HandlePositiveInt" "--gtest_also_run_disabled_tests"
+2/8 Testing: InitializingTest.SomeElements
+2/8 Test: InitializingTest.SomeElements
+Command: "D:/LEETCODE/LEARN/cpp_ds/build/vector/Debug/my_vector_tests.exe" "--gtest_filter=InitializingTest.SomeElements" "--gtest_also_run_disabled_tests"
 Directory: D:/LEETCODE/LEARN/cpp_ds/build/vector
-"AddingTest.HandlePositiveInt" start time: Jan 26 21:22 Eastern Standard Time
+"InitializingTest.SomeElements" start time: Jan 28 22:21 Eastern Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\LEETCODE\LEARN\cpp_ds\build\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = AddingTest.HandlePositiveInt
+Note: Google Test filter = InitializingTest.SomeElements
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from AddingTest
-[ RUN      ] AddingTest.HandlePositiveInt
-[       OK ] AddingTest.HandlePositiveInt (0 ms)
-[----------] 1 test from AddingTest (0 ms total)
+[----------] 1 test from InitializingTest
+[ RUN      ] InitializingTest.SomeElements
+[       OK ] InitializingTest.SomeElements (0 ms)
+[----------] 1 test from InitializingTest (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
@@ -50,8 +50,170 @@ Note: Google Test filter = AddingTest.HandlePositiveInt
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"AddingTest.HandlePositiveInt" end time: Jan 26 21:22 Eastern Standard Time
-"AddingTest.HandlePositiveInt" time elapsed: 00:00:00
+"InitializingTest.SomeElements" end time: Jan 28 22:21 Eastern Standard Time
+"InitializingTest.SomeElements" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jan 26 21:22 Eastern Standard Time
+3/8 Testing: InitializingTest.CopyVector
+3/8 Test: InitializingTest.CopyVector
+Command: "D:/LEETCODE/LEARN/cpp_ds/build/vector/Debug/my_vector_tests.exe" "--gtest_filter=InitializingTest.CopyVector" "--gtest_also_run_disabled_tests"
+Directory: D:/LEETCODE/LEARN/cpp_ds/build/vector
+"InitializingTest.CopyVector" start time: Jan 28 22:21 Eastern Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\LEETCODE\LEARN\cpp_ds\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = InitializingTest.CopyVector
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from InitializingTest
+[ RUN      ] InitializingTest.CopyVector
+[       OK ] InitializingTest.CopyVector (0 ms)
+[----------] 1 test from InitializingTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"InitializingTest.CopyVector" end time: Jan 28 22:21 Eastern Standard Time
+"InitializingTest.CopyVector" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/8 Testing: MemberFunctionTest.EmptyTest
+4/8 Test: MemberFunctionTest.EmptyTest
+Command: "D:/LEETCODE/LEARN/cpp_ds/build/vector/Debug/my_vector_tests.exe" "--gtest_filter=MemberFunctionTest.EmptyTest" "--gtest_also_run_disabled_tests"
+Directory: D:/LEETCODE/LEARN/cpp_ds/build/vector
+"MemberFunctionTest.EmptyTest" start time: Jan 28 22:21 Eastern Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\LEETCODE\LEARN\cpp_ds\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = MemberFunctionTest.EmptyTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MemberFunctionTest
+[ RUN      ] MemberFunctionTest.EmptyTest
+[       OK ] MemberFunctionTest.EmptyTest (0 ms)
+[----------] 1 test from MemberFunctionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MemberFunctionTest.EmptyTest" end time: Jan 28 22:21 Eastern Standard Time
+"MemberFunctionTest.EmptyTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/8 Testing: MemberFunctionTest.AtTest
+5/8 Test: MemberFunctionTest.AtTest
+Command: "D:/LEETCODE/LEARN/cpp_ds/build/vector/Debug/my_vector_tests.exe" "--gtest_filter=MemberFunctionTest.AtTest" "--gtest_also_run_disabled_tests"
+Directory: D:/LEETCODE/LEARN/cpp_ds/build/vector
+"MemberFunctionTest.AtTest" start time: Jan 28 22:21 Eastern Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\LEETCODE\LEARN\cpp_ds\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = MemberFunctionTest.AtTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MemberFunctionTest
+[ RUN      ] MemberFunctionTest.AtTest
+[       OK ] MemberFunctionTest.AtTest (0 ms)
+[----------] 1 test from MemberFunctionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MemberFunctionTest.AtTest" end time: Jan 28 22:21 Eastern Standard Time
+"MemberFunctionTest.AtTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/8 Testing: MemberFunctionTest.PushBack
+6/8 Test: MemberFunctionTest.PushBack
+Command: "D:/LEETCODE/LEARN/cpp_ds/build/vector/Debug/my_vector_tests.exe" "--gtest_filter=MemberFunctionTest.PushBack" "--gtest_also_run_disabled_tests"
+Directory: D:/LEETCODE/LEARN/cpp_ds/build/vector
+"MemberFunctionTest.PushBack" start time: Jan 28 22:21 Eastern Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\LEETCODE\LEARN\cpp_ds\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = MemberFunctionTest.PushBack
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MemberFunctionTest
+[ RUN      ] MemberFunctionTest.PushBack
+[       OK ] MemberFunctionTest.PushBack (0 ms)
+[----------] 1 test from MemberFunctionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MemberFunctionTest.PushBack" end time: Jan 28 22:21 Eastern Standard Time
+"MemberFunctionTest.PushBack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/8 Testing: MemberFunctionTest.PopBack
+7/8 Test: MemberFunctionTest.PopBack
+Command: "D:/LEETCODE/LEARN/cpp_ds/build/vector/Debug/my_vector_tests.exe" "--gtest_filter=MemberFunctionTest.PopBack" "--gtest_also_run_disabled_tests"
+Directory: D:/LEETCODE/LEARN/cpp_ds/build/vector
+"MemberFunctionTest.PopBack" start time: Jan 28 22:21 Eastern Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\LEETCODE\LEARN\cpp_ds\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = MemberFunctionTest.PopBack
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MemberFunctionTest
+[ RUN      ] MemberFunctionTest.PopBack
+[       OK ] MemberFunctionTest.PopBack (0 ms)
+[----------] 1 test from MemberFunctionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MemberFunctionTest.PopBack" end time: Jan 28 22:21 Eastern Standard Time
+"MemberFunctionTest.PopBack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/8 Testing: MemberFunctionTest.Clear
+8/8 Test: MemberFunctionTest.Clear
+Command: "D:/LEETCODE/LEARN/cpp_ds/build/vector/Debug/my_vector_tests.exe" "--gtest_filter=MemberFunctionTest.Clear" "--gtest_also_run_disabled_tests"
+Directory: D:/LEETCODE/LEARN/cpp_ds/build/vector
+"MemberFunctionTest.Clear" start time: Jan 28 22:21 Eastern Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\LEETCODE\LEARN\cpp_ds\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = MemberFunctionTest.Clear
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MemberFunctionTest
+[ RUN      ] MemberFunctionTest.Clear
+[       OK ] MemberFunctionTest.Clear (0 ms)
+[----------] 1 test from MemberFunctionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MemberFunctionTest.Clear" end time: Jan 28 22:21 Eastern Standard Time
+"MemberFunctionTest.Clear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 28 22:21 Eastern Standard Time
