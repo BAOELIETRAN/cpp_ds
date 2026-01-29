@@ -3,6 +3,12 @@
 #include <stdexcept>
 #include "vector.h"
 
+/**
+ * optimize with:
+ * - template
+ * - constexpr
+ * - pass by reference
+ */
 namespace mck{
     // create a new empty vector 
     // by allocating some space (capacity)
