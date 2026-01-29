@@ -1,5 +1,6 @@
 #include <iostream>
 #include <new>
+#include <stdexcept>
 #include "vector.h"
 
 namespace mck{
@@ -61,4 +62,96 @@ namespace mck{
         }
     }
 
+    // destructor - clean up memory
+    my_vector::~my_vector(){
+        if (m_array_pointer != nullptr){
+            delete[] m_array_pointer;
+        }
+    }
+
+    // allocate a new array and copy elements
+    // new capacity = 2 * old capacity
+    void my_vector::resize(){
+        m_capacity = m_capacity * 2;
+        try{
+            // create a new pointer
+            int* new_array_pointer = new int[m_capacity];
+            // copy all the data from the old vector
+            for (int i = 0; i < m_size; i ++){
+                new_array_pointer[i] = m_array_pointer[i];
+            }
+            // if the addr of the new int[] != that of old int[]
+            if (m_array_pointer != new_array_pointer){
+                delete m_array_pointer;
+            }
+            m_array_pointer = new_array_pointer;
+        }
+        catch (const std::bad_alloc& e){
+            std::cerr << "Memory allocation failed: " << e.what() << '\n';
+            exit(1);
+        }
+    }
+
+    // get m_array_pointer
+    int* my_vector::get_array_pointer() const{
+        return m_array_pointer;
+    }
+
+    // get the number of elements inside the vector
+    int my_vector::get_size() const{
+        return m_size; 
+    }
+
+    // get the current capacity of the vector (size of the array)
+    size_t my_vector::get_capacity() const{
+        return m_capacity;
+    }
+
+    // check if the vector is empty?
+    bool my_vector::is_empty() const{
+        if (m_size == 0){
+            return true;
+        }
+        return false;
+    }
+
+    // return a reference (not a pointer) to the element at specified location pos
+    // this function can not be const because when we return a reference to an element,
+    // the caller can modify that element --> can not const
+    // this is "operator overloading" - we overload the operator "[]"
+    // why we return int&: vec[2] = 10. int& a = vec[2], a = 10 ~ vec[2] = 10
+    int& my_vector::operator[](int pos){
+        return m_array_pointer[pos];
+    }
+
+    // similar to operator[], but with bound checking
+    int& my_vector::at(int pos){
+        if (pos < 0 || pos >= m_size){
+            throw std::out_of_range("Index out of range");
+        }
+        return m_array_pointer[pos];
+    }
+
+    // add an element to the end of the vector
+    void my_vector::push_back(int value){
+        // resize if there is no space left
+        if (m_size == m_capacity){
+            resize();
+        }
+        m_array_pointer[m_size] = value;
+        m_size ++;
+    }
+
+    // remove the last element of the vector
+    void my_vector::pop_back(){
+        if (m_size == 0){
+            throw std::out_of_range("Calling pop_back() on an empty vector");
+        }
+        m_size --;
+    }
+
+    // remove all elements (size will be 0)
+    void my_vector::clear(){
+        m_size = 0;
+    }
 }

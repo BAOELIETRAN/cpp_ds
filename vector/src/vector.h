@@ -42,7 +42,7 @@ namespace mck{
              */
             my_vector(const my_vector& other_vector);
             // destructor - clean up memory:
-            destructor();
+            ~my_vector();
 
             // const at the end of the member function = this function is not allowed to modify the object
             // setter & getter
@@ -59,10 +59,10 @@ namespace mck{
             bool is_empty() const;
 
             // return a reference to the element at specified location pos
-            int& operator[](int pos) const;
+            int& operator[](int pos);
 
             // similar to operator[], but with bound checking
-            int& at(int pos) const;
+            int& at(int pos);
 
             // add an element to the end of the vector
             void push_back(int value);
