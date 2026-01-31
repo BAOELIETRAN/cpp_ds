@@ -1,5 +1,5 @@
-libdir=C:/Program Files (x86)/MY_VECTOR/lib
-includedir=C:/Program Files (x86)/MY_VECTOR/include
+libdir=C:/Program Files (x86)/CPP_DS/lib
+includedir=C:/Program Files (x86)/CPP_DS/include
 
 Name: gmock_main
 Description: GoogleMock (with main() function)

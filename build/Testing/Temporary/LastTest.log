@@ -1,10 +1,10 @@
-Start testing: Jan 28 22:21 Eastern Standard Time
+Start testing: Jan 31 00:02 Eastern Standard Time
 ----------------------------------------------------------
 1/8 Testing: InitializingTest.ZeroElement
 1/8 Test: InitializingTest.ZeroElement
 Command: "D:/LEETCODE/LEARN/cpp_ds/build/vector/Debug/my_vector_tests.exe" "--gtest_filter=InitializingTest.ZeroElement" "--gtest_also_run_disabled_tests"
 Directory: D:/LEETCODE/LEARN/cpp_ds/build/vector
-"InitializingTest.ZeroElement" start time: Jan 28 22:21 Eastern Standard Time
+"InitializingTest.ZeroElement" start time: Jan 31 00:02 Eastern Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\LEETCODE\LEARN\cpp_ds\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -23,7 +23,7 @@ Note: Google Test filter = InitializingTest.ZeroElement
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"InitializingTest.ZeroElement" end time: Jan 28 22:21 Eastern Standard Time
+"InitializingTest.ZeroElement" end time: Jan 31 00:02 Eastern Standard Time
 "InitializingTest.ZeroElement" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -31,7 +31,7 @@ Test Passed.
 2/8 Test: InitializingTest.SomeElements
 Command: "D:/LEETCODE/LEARN/cpp_ds/build/vector/Debug/my_vector_tests.exe" "--gtest_filter=InitializingTest.SomeElements" "--gtest_also_run_disabled_tests"
 Directory: D:/LEETCODE/LEARN/cpp_ds/build/vector
-"InitializingTest.SomeElements" start time: Jan 28 22:21 Eastern Standard Time
+"InitializingTest.SomeElements" start time: Jan 31 00:02 Eastern Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\LEETCODE\LEARN\cpp_ds\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -50,7 +50,7 @@ Note: Google Test filter = InitializingTest.SomeElements
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"InitializingTest.SomeElements" end time: Jan 28 22:21 Eastern Standard Time
+"InitializingTest.SomeElements" end time: Jan 31 00:02 Eastern Standard Time
 "InitializingTest.SomeElements" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -58,7 +58,7 @@ Test Passed.
 3/8 Test: InitializingTest.CopyVector
 Command: "D:/LEETCODE/LEARN/cpp_ds/build/vector/Debug/my_vector_tests.exe" "--gtest_filter=InitializingTest.CopyVector" "--gtest_also_run_disabled_tests"
 Directory: D:/LEETCODE/LEARN/cpp_ds/build/vector
-"InitializingTest.CopyVector" start time: Jan 28 22:21 Eastern Standard Time
+"InitializingTest.CopyVector" start time: Jan 31 00:02 Eastern Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\LEETCODE\LEARN\cpp_ds\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -77,7 +77,7 @@ Note: Google Test filter = InitializingTest.CopyVector
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"InitializingTest.CopyVector" end time: Jan 28 22:21 Eastern Standard Time
+"InitializingTest.CopyVector" end time: Jan 31 00:02 Eastern Standard Time
 "InitializingTest.CopyVector" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -85,7 +85,7 @@ Test Passed.
 4/8 Test: MemberFunctionTest.EmptyTest
 Command: "D:/LEETCODE/LEARN/cpp_ds/build/vector/Debug/my_vector_tests.exe" "--gtest_filter=MemberFunctionTest.EmptyTest" "--gtest_also_run_disabled_tests"
 Directory: D:/LEETCODE/LEARN/cpp_ds/build/vector
-"MemberFunctionTest.EmptyTest" start time: Jan 28 22:21 Eastern Standard Time
+"MemberFunctionTest.EmptyTest" start time: Jan 31 00:02 Eastern Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\LEETCODE\LEARN\cpp_ds\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -104,7 +104,7 @@ Note: Google Test filter = MemberFunctionTest.EmptyTest
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MemberFunctionTest.EmptyTest" end time: Jan 28 22:21 Eastern Standard Time
+"MemberFunctionTest.EmptyTest" end time: Jan 31 00:02 Eastern Standard Time
 "MemberFunctionTest.EmptyTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -112,7 +112,7 @@ Test Passed.
 5/8 Test: MemberFunctionTest.AtTest
 Command: "D:/LEETCODE/LEARN/cpp_ds/build/vector/Debug/my_vector_tests.exe" "--gtest_filter=MemberFunctionTest.AtTest" "--gtest_also_run_disabled_tests"
 Directory: D:/LEETCODE/LEARN/cpp_ds/build/vector
-"MemberFunctionTest.AtTest" start time: Jan 28 22:21 Eastern Standard Time
+"MemberFunctionTest.AtTest" start time: Jan 31 00:02 Eastern Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\LEETCODE\LEARN\cpp_ds\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -131,7 +131,7 @@ Note: Google Test filter = MemberFunctionTest.AtTest
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MemberFunctionTest.AtTest" end time: Jan 28 22:21 Eastern Standard Time
+"MemberFunctionTest.AtTest" end time: Jan 31 00:02 Eastern Standard Time
 "MemberFunctionTest.AtTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -139,7 +139,7 @@ Test Passed.
 6/8 Test: MemberFunctionTest.PushBack
 Command: "D:/LEETCODE/LEARN/cpp_ds/build/vector/Debug/my_vector_tests.exe" "--gtest_filter=MemberFunctionTest.PushBack" "--gtest_also_run_disabled_tests"
 Directory: D:/LEETCODE/LEARN/cpp_ds/build/vector
-"MemberFunctionTest.PushBack" start time: Jan 28 22:21 Eastern Standard Time
+"MemberFunctionTest.PushBack" start time: Jan 31 00:02 Eastern Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\LEETCODE\LEARN\cpp_ds\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -158,7 +158,7 @@ Note: Google Test filter = MemberFunctionTest.PushBack
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MemberFunctionTest.PushBack" end time: Jan 28 22:21 Eastern Standard Time
+"MemberFunctionTest.PushBack" end time: Jan 31 00:02 Eastern Standard Time
 "MemberFunctionTest.PushBack" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -166,7 +166,7 @@ Test Passed.
 7/8 Test: MemberFunctionTest.PopBack
 Command: "D:/LEETCODE/LEARN/cpp_ds/build/vector/Debug/my_vector_tests.exe" "--gtest_filter=MemberFunctionTest.PopBack" "--gtest_also_run_disabled_tests"
 Directory: D:/LEETCODE/LEARN/cpp_ds/build/vector
-"MemberFunctionTest.PopBack" start time: Jan 28 22:21 Eastern Standard Time
+"MemberFunctionTest.PopBack" start time: Jan 31 00:02 Eastern Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\LEETCODE\LEARN\cpp_ds\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -185,7 +185,7 @@ Note: Google Test filter = MemberFunctionTest.PopBack
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MemberFunctionTest.PopBack" end time: Jan 28 22:21 Eastern Standard Time
+"MemberFunctionTest.PopBack" end time: Jan 31 00:02 Eastern Standard Time
 "MemberFunctionTest.PopBack" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -193,7 +193,7 @@ Test Passed.
 8/8 Test: MemberFunctionTest.Clear
 Command: "D:/LEETCODE/LEARN/cpp_ds/build/vector/Debug/my_vector_tests.exe" "--gtest_filter=MemberFunctionTest.Clear" "--gtest_also_run_disabled_tests"
 Directory: D:/LEETCODE/LEARN/cpp_ds/build/vector
-"MemberFunctionTest.Clear" start time: Jan 28 22:21 Eastern Standard Time
+"MemberFunctionTest.Clear" start time: Jan 31 00:02 Eastern Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\LEETCODE\LEARN\cpp_ds\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -212,8 +212,8 @@ Note: Google Test filter = MemberFunctionTest.Clear
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"MemberFunctionTest.Clear" end time: Jan 28 22:21 Eastern Standard Time
+"MemberFunctionTest.Clear" end time: Jan 31 00:02 Eastern Standard Time
 "MemberFunctionTest.Clear" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jan 28 22:21 Eastern Standard Time
+End testing: Jan 31 00:02 Eastern Standard Time
