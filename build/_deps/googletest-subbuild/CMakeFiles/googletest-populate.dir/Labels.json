@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "D:/LEETCODE/LEARN/cpp_ds/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+			"file" : "D:/LEARN/C++/cpp_ds/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
 		},
 		{
-			"file" : "D:/LEETCODE/LEARN/cpp_ds/build/_deps/googletest-subbuild/CMakeFiles/c3afe60a048657eb1ae5f9619a62ab9f/googletest-populate.rule"
+			"file" : "D:/LEARN/C++/cpp_ds/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.rule"
 		},
 		{
-			"file" : "D:/LEETCODE/LEARN/cpp_ds/build/_deps/googletest-subbuild/CMakeFiles/4dc08eb7520a620a1a2bac20025e2440/googletest-populate-complete.rule"
+			"file" : "D:/LEARN/C++/cpp_ds/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete.rule"
 		},
 		{
-			"file" : "D:/LEETCODE/LEARN/cpp_ds/build/_deps/googletest-subbuild/CMakeFiles/9a20b4ccc0685988565b02ec07194c0f/googletest-populate-build.rule"
+			"file" : "D:/LEARN/C++/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build.rule"
 		},
 		{
-			"file" : "D:/LEETCODE/LEARN/cpp_ds/build/_deps/googletest-subbuild/CMakeFiles/9a20b4ccc0685988565b02ec07194c0f/googletest-populate-configure.rule"
+			"file" : "D:/LEARN/C++/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure.rule"
 		},
 		{
-			"file" : "D:/LEETCODE/LEARN/cpp_ds/build/_deps/googletest-subbuild/CMakeFiles/9a20b4ccc0685988565b02ec07194c0f/googletest-populate-download.rule"
+			"file" : "D:/LEARN/C++/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download.rule"
 		},
 		{
-			"file" : "D:/LEETCODE/LEARN/cpp_ds/build/_deps/googletest-subbuild/CMakeFiles/9a20b4ccc0685988565b02ec07194c0f/googletest-populate-install.rule"
+			"file" : "D:/LEARN/C++/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install.rule"
 		},
 		{
-			"file" : "D:/LEETCODE/LEARN/cpp_ds/build/_deps/googletest-subbuild/CMakeFiles/9a20b4ccc0685988565b02ec07194c0f/googletest-populate-mkdir.rule"
+			"file" : "D:/LEARN/C++/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir.rule"
 		},
 		{
-			"file" : "D:/LEETCODE/LEARN/cpp_ds/build/_deps/googletest-subbuild/CMakeFiles/9a20b4ccc0685988565b02ec07194c0f/googletest-populate-patch.rule"
+			"file" : "D:/LEARN/C++/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch.rule"
 		},
 		{
-			"file" : "D:/LEETCODE/LEARN/cpp_ds/build/_deps/googletest-subbuild/CMakeFiles/9a20b4ccc0685988565b02ec07194c0f/googletest-populate-test.rule"
+			"file" : "D:/LEARN/C++/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test.rule"
 		},
 		{
-			"file" : "D:/LEETCODE/LEARN/cpp_ds/build/_deps/googletest-subbuild/CMakeFiles/9a20b4ccc0685988565b02ec07194c0f/googletest-populate-update.rule"
+			"file" : "D:/LEARN/C++/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update.rule"
 		}
 	],
 	"target" : 

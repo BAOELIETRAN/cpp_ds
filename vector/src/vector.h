@@ -50,23 +50,24 @@ namespace mck{
 
             // const at the end of the member function = this function is not allowed to modify the object
             // setter & getter
-            T* get_array_pointer() const;
+            constexpr T* get_array_pointer() const;
             // void set_array_pointer();
-            int get_size() const;
+            constexpr int get_size() const;
             // void set_size();
-            size_t get_capacity() const;
+            constexpr size_t get_capacity() const;
             // void set_capacity();
 
             // other important member functions:
 
             // check if the vector is empty?
-            bool is_empty() const;
+            constexpr bool is_empty() const;
 
             // return a reference to the element at specified location pos
-            T& operator[](int pos);
+            constexpr T& operator[](int pos);
 
             // similar to operator[], but with bound checking
-            T& at(int pos);
+            // allows in C++ 20
+            constexpr T& at(int pos);
 
             // add an element to the end of the vector
             void push_back(T value);
@@ -75,7 +76,7 @@ namespace mck{
             void pop_back();
 
             // remove all elements (size will be 0)
-            void clear();
+            constexpr void clear();
     };
 
     // since we use template functions --> we need to put their definitions inside this header file
@@ -160,22 +161,22 @@ namespace mck{
     }
 
     template<typename T>
-    T* my_vector<T>::get_array_pointer() const{
+    constexpr T* my_vector<T>::get_array_pointer() const{
         return m_array_pointer;
     }
 
     template<typename T>
-    int my_vector<T>::get_size() const{
+    constexpr int my_vector<T>::get_size() const{
         return m_size; 
     }
 
     template<typename T>
-    size_t my_vector<T>::get_capacity() const{
+    constexpr size_t my_vector<T>::get_capacity() const{
         return m_capacity;
     }
 
     template<typename T>
-    bool my_vector<T>::is_empty() const{
+    constexpr bool my_vector<T>::is_empty() const{
         if (m_size == 0){
             return true;
         }
@@ -183,12 +184,12 @@ namespace mck{
     }
 
     template<typename T>
-    T& my_vector<T>::operator[](int pos){
+    constexpr T& my_vector<T>::operator[](int pos){
         return m_array_pointer[pos];
     }
 
     template<typename T>
-    T& my_vector<T>::at(int pos){
+    constexpr T& my_vector<T>::at(int pos){
         if (pos < 0 || pos >= m_size){
             throw std::out_of_range("Index out of range");
         }
@@ -214,7 +215,7 @@ namespace mck{
     }
 
     template<typename T>
-    void my_vector<T>::clear(){
+    constexpr void my_vector<T>::clear(){
         m_size = 0;
     }
 }

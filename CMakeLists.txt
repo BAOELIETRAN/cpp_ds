@@ -22,6 +22,7 @@ enable_testing()
 # if we have other projects in cpp_ds, this parent cmakelists will help us build all the projects
 # and run all the tests
 add_subdirectory(vector)
+add_subdirectory(linked_list)
 
 # a few helpful commands:
 # ====================================================================

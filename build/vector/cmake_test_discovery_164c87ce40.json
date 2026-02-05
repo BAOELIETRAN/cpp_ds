@@ -8,17 +8,17 @@
       "testsuite": [
         {
           "name": "ZeroElement",
-          "file": "D:\\LEETCODE\\LEARN\\cpp_ds\\vector\\tests\\test_vector.cpp",
+          "file": "D:\\LEARN\\C++\\cpp_ds\\vector\\tests\\test_vector.cpp",
           "line": 8
         },
         {
           "name": "SomeElements",
-          "file": "D:\\LEETCODE\\LEARN\\cpp_ds\\vector\\tests\\test_vector.cpp",
+          "file": "D:\\LEARN\\C++\\cpp_ds\\vector\\tests\\test_vector.cpp",
           "line": 13
         },
         {
           "name": "CopyVector",
-          "file": "D:\\LEETCODE\\LEARN\\cpp_ds\\vector\\tests\\test_vector.cpp",
+          "file": "D:\\LEARN\\C++\\cpp_ds\\vector\\tests\\test_vector.cpp",
           "line": 21
         }
       ]
@@ -29,27 +29,27 @@
       "testsuite": [
         {
           "name": "EmptyTest",
-          "file": "D:\\LEETCODE\\LEARN\\cpp_ds\\vector\\tests\\test_vector.cpp",
+          "file": "D:\\LEARN\\C++\\cpp_ds\\vector\\tests\\test_vector.cpp",
           "line": 31
         },
         {
           "name": "AtTest",
-          "file": "D:\\LEETCODE\\LEARN\\cpp_ds\\vector\\tests\\test_vector.cpp",
+          "file": "D:\\LEARN\\C++\\cpp_ds\\vector\\tests\\test_vector.cpp",
           "line": 38
         },
         {
           "name": "PushBack",
-          "file": "D:\\LEETCODE\\LEARN\\cpp_ds\\vector\\tests\\test_vector.cpp",
+          "file": "D:\\LEARN\\C++\\cpp_ds\\vector\\tests\\test_vector.cpp",
           "line": 48
         },
         {
           "name": "PopBack",
-          "file": "D:\\LEETCODE\\LEARN\\cpp_ds\\vector\\tests\\test_vector.cpp",
+          "file": "D:\\LEARN\\C++\\cpp_ds\\vector\\tests\\test_vector.cpp",
           "line": 57
         },
         {
           "name": "Clear",
-          "file": "D:\\LEETCODE\\LEARN\\cpp_ds\\vector\\tests\\test_vector.cpp",
+          "file": "D:\\LEARN\\C++\\cpp_ds\\vector\\tests\\test_vector.cpp",
           "line": 66
         }
       ]

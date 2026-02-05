@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libmy_linked_list_lib.a CMakeFiles/my_linked_list_lib.dir/src/linked_list.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libmy_linked_list_lib.a

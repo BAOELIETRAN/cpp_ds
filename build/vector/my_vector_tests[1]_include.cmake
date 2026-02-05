@@ -1,5 +1,5 @@
-if(EXISTS "D:/LEETCODE/LEARN/cpp_ds/build/vector/my_vector_tests[1]_tests.cmake")
-  include("D:/LEETCODE/LEARN/cpp_ds/build/vector/my_vector_tests[1]_tests.cmake")
+if(EXISTS "D:/LEARN/C++/cpp_ds/build/vector/my_vector_tests[1]_tests.cmake")
+  include("D:/LEARN/C++/cpp_ds/build/vector/my_vector_tests[1]_tests.cmake")
 else()
   add_test(my_vector_tests_NOT_BUILT my_vector_tests_NOT_BUILT)
 endif()

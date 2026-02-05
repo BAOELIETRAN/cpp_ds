@@ -1,9 +1,9 @@
-InitializingTest.ZeroElement 1 0.0090345
-InitializingTest.SomeElements 1 0.0090973
-InitializingTest.CopyVector 1 0.0082724
-MemberFunctionTest.EmptyTest 1 0.0092319
-MemberFunctionTest.AtTest 1 0.0082817
-MemberFunctionTest.PushBack 1 0.0085015
-MemberFunctionTest.PopBack 1 0.0077432
-MemberFunctionTest.Clear 1 0.0076803
+InitializingTest.ZeroElement 2 0.0053436
+InitializingTest.SomeElements 2 0.0065857
+InitializingTest.CopyVector 2 0.00708495
+MemberFunctionTest.EmptyTest 2 0.005997
+MemberFunctionTest.AtTest 2 0.0079009
+MemberFunctionTest.PushBack 2 0.00469475
+MemberFunctionTest.PopBack 2 0.00452295
+MemberFunctionTest.Clear 2 0.0051408
 ---

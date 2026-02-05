@@ -22,14 +22,14 @@ function(check_file_hash has_hash hash_is_good)
   set("${has_hash}" TRUE PARENT_SCOPE)
 
   message(VERBOSE "verifying file...
-       file='D:/LEETCODE/LEARN/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.17.0.zip'")
+       file='D:/LEARN/C++/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.17.0.zip'")
 
-  file("" "D:/LEETCODE/LEARN/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.17.0.zip" actual_value)
+  file("" "D:/LEARN/C++/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.17.0.zip" actual_value)
 
   if(NOT "${actual_value}" STREQUAL "")
     set("${hash_is_good}" FALSE PARENT_SCOPE)
     message(VERBOSE " hash of
-    D:/LEETCODE/LEARN/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.17.0.zip
+    D:/LEARN/C++/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.17.0.zip
   does not match expected value
     expected: ''
       actual: '${actual_value}'")
@@ -71,32 +71,32 @@ function(sleep_before_download attempt)
   execute_process(COMMAND "${CMAKE_COMMAND}" -E sleep "${sleep_seconds}")
 endfunction()
 
-if(EXISTS "D:/LEETCODE/LEARN/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.17.0.zip")
+if(EXISTS "D:/LEARN/C++/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.17.0.zip")
   check_file_hash(has_hash hash_is_good)
   if(has_hash)
     if(hash_is_good)
       message(VERBOSE "File already exists and hash match (skip download):
-  file='D:/LEETCODE/LEARN/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.17.0.zip'
+  file='D:/LEARN/C++/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.17.0.zip'
   =''"
       )
       return()
     else()
       message(VERBOSE "File already exists but hash mismatch. Removing...")
-      file(REMOVE "D:/LEETCODE/LEARN/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.17.0.zip")
+      file(REMOVE "D:/LEARN/C++/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.17.0.zip")
     endif()
   else()
     message(VERBOSE "File already exists but no hash specified (use URL_HASH):
-  file='D:/LEETCODE/LEARN/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.17.0.zip'
+  file='D:/LEARN/C++/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.17.0.zip'
 Old file will be removed and new file downloaded from URL."
     )
-    file(REMOVE "D:/LEETCODE/LEARN/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.17.0.zip")
+    file(REMOVE "D:/LEARN/C++/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.17.0.zip")
   endif()
 endif()
 
 set(retry_number 5)
 
 message(VERBOSE "Downloading...
-   dst='D:/LEETCODE/LEARN/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.17.0.zip'
+   dst='D:/LEARN/C++/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.17.0.zip'
    timeout='none'
    inactivity timeout='none'"
 )
@@ -119,7 +119,7 @@ foreach(i RANGE ${retry_number})
 
       file(
         DOWNLOAD
-        "${url}" "D:/LEETCODE/LEARN/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.17.0.zip"
+        "${url}" "D:/LEARN/C++/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.17.0.zip"
         SHOW_PROGRESS
         # no TIMEOUT
         # no INACTIVITY_TIMEOUT
@@ -136,7 +136,7 @@ foreach(i RANGE ${retry_number})
         check_file_hash(has_hash hash_is_good)
         if(has_hash AND NOT hash_is_good)
           message(VERBOSE "Hash mismatch, removing...")
-          file(REMOVE "D:/LEETCODE/LEARN/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.17.0.zip")
+          file(REMOVE "D:/LEARN/C++/cpp_ds/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.17.0.zip")
         else()
           message(VERBOSE "Downloading... done")
           return()
