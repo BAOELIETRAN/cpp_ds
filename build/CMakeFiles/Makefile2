@@ -425,8 +425,8 @@ linked_list/CMakeFiles/my_linked_list_lib.dir/clean:
 # Target rules for target linked_list/CMakeFiles/my_linked_list_tests.dir
 
 # All Build rule for target.
-linked_list/CMakeFiles/my_linked_list_tests.dir/all: linked_list/CMakeFiles/my_linked_list_lib.dir/all
 linked_list/CMakeFiles/my_linked_list_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+linked_list/CMakeFiles/my_linked_list_tests.dir/all: linked_list/CMakeFiles/my_linked_list_lib.dir/all
 linked_list/CMakeFiles/my_linked_list_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_tests.dir\build.make linked_list/CMakeFiles/my_linked_list_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_tests.dir\build.make linked_list/CMakeFiles/my_linked_list_tests.dir/build
