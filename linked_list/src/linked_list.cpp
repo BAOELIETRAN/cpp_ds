@@ -158,4 +158,41 @@ namespace tlinh{
         }
         m_tail->next = nullptr;
     }
+
+    // delete a node at index
+    void my_linked_list::delete_at_index(int index){
+        if (index < 0 || index >= m_size){
+            throw std::out_of_range("the index is out of range");
+        }
+        if (index == 0){
+            delete_at_head();
+            return;
+        }
+        if (index == m_size - 1){
+            delete_at_tail();
+            return;
+        }
+        Node* prev_node = get_node(index - 1);
+        Node* curr_node = get_node(index);
+        Node* next_node = curr_node->next;
+        prev_node->next = next_node;
+        delete curr_node;
+        m_size --;
+    }
+
+    // clear the linked list
+    void my_linked_list::clear(){
+        if (m_head == nullptr){
+            return;
+        }
+        Node* temp = m_head;
+        while (temp != nullptr){
+            Node* next_node = temp->next;
+            delete temp;
+            temp = next_node;
+        }
+        m_head = nullptr;
+        m_tail = nullptr;
+        m_size = 0;
+    }
 }
