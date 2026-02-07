@@ -46,10 +46,16 @@ namespace tlinh{
 
             /* member functions */
             // get value of a node at index
-            int get(int index) const;
+            int get(std::size_t index) const;
             
             // get node at index
-            Node* get_node(int index) const;
+            Node* get_node(std::size_t index) const;
+
+            // get value of the first element
+            int front() const;
+
+            // get the value of the last element
+            int back() const;
 
             // add a node at head
             void add_at_head(int val);
@@ -58,7 +64,7 @@ namespace tlinh{
             void add_at_tail(int val);
 
             // add a node at an index
-            void add_at_index(int val, int index);
+            void add_at_index(std::size_t index, int val);
 
             // delete a node at head
             void delete_at_head();
@@ -67,7 +73,7 @@ namespace tlinh{
             void delete_at_tail();
 
             // delete a node at index
-            void delete_at_index(int index);
+            void delete_at_index(std::size_t index);
 
             // return the current size (# of elements)
             std::size_t get_size() const {return m_size;};

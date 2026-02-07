@@ -14,6 +14,7 @@ namespace tlinh{
                 }
                 temp->next = new_node;
                 temp = temp->next;
+                m_size ++;
                 other_temp = other_temp->next;
             }
             m_head = dummy_node->next;
@@ -23,10 +24,8 @@ namespace tlinh{
 
     // copy constructor
     my_linked_list::my_linked_list(const my_linked_list& other_list) : m_head{nullptr}, m_tail{nullptr}, m_size{0}{
-        if (this != &other_list){
-            // copying
-            copy_from(other_list);
-        }
+        // copying
+        copy_from(other_list);
     }
 
     // operator overloading
@@ -55,7 +54,7 @@ namespace tlinh{
     }
 
     // get value of a node at index
-    int my_linked_list::get(int index) const{
+    int my_linked_list::get(std::size_t index) const{
         if (index < 0 || index >= m_size){
             throw std::out_of_range("The index is out of range!");
         }
@@ -68,7 +67,7 @@ namespace tlinh{
     }
 
     // get node at index
-    my_linked_list::Node* my_linked_list::get_node(int index) const{
+    my_linked_list::Node* my_linked_list::get_node(std::size_t index) const{
         if (index < 0 || index >= m_size){
             throw std::out_of_range("The index is out of range!");
         }
@@ -109,23 +108,23 @@ namespace tlinh{
     }
 
     // add a node at index
-    void my_linked_list::add_at_index(int index, int val){
-        if (index < 0 || index >= m_size){
+    void my_linked_list::add_at_index(std::size_t index, int val){
+        if (index < 0 || index > m_size){
             throw std::out_of_range("The index is out of range");
         }
         if (index == 0){
             add_at_head(val);
             return;
         }
-        if (index == m_size - 1){
+        if (index == m_size){
             add_at_tail(val);
             return;
         }   
         Node* new_node = new Node(val);
         Node* prev_node = get_node(index - 1);
-        Node* next_node = get_node(index + 1);
+        Node* curr_node = prev_node->next;
         prev_node->next = new_node;
-        new_node->next = next_node;
+        new_node->next = curr_node;
         m_size ++;
     }
 
@@ -148,19 +147,19 @@ namespace tlinh{
         if (m_head == nullptr){
             return;
         }
-        Node* prev_node = get_node(m_size - 1);
+        if (m_size == 1){
+            delete_at_head();
+            return;
+        }
+        Node* prev_node = get_node(m_size - 2);
         delete m_tail;
         m_tail = prev_node;
         m_size --;
-        if (m_tail == nullptr){
-            m_head = nullptr;
-            return;
-        }
         m_tail->next = nullptr;
     }
 
     // delete a node at index
-    void my_linked_list::delete_at_index(int index){
+    void my_linked_list::delete_at_index(std::size_t index){
         if (index < 0 || index >= m_size){
             throw std::out_of_range("the index is out of range");
         }
@@ -194,5 +193,21 @@ namespace tlinh{
         m_head = nullptr;
         m_tail = nullptr;
         m_size = 0;
+    }
+
+    // get value of the first element
+    int my_linked_list::front() const{
+        if (m_head == nullptr){
+            throw std::out_of_range("The list is empty!");
+        }
+        return m_head->value;
+    }
+
+    // get the value of the last element
+    int my_linked_list::back() const{
+        if (m_head == nullptr){
+            throw std::out_of_range("The list is empty!");
+        }
+        return m_tail->value;
     }
 }
