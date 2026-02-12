@@ -1,6 +1,6 @@
 vector/CMakeFiles/my_vector_tests.dir/tests/test_vector.cpp.obj: \
- D:\LEARN\C++\cpp_ds\vector\tests\test_vector.cpp \
- D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/gtest.h \
+ D:\LEETCODE\cpp_ds\vector\tests\test_vector.cpp \
+ D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/gtest.h \
  C:/msys64/ucrt64/include/c++/15.2.0/cstddef \
  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/os_defines.h \
@@ -184,9 +184,9 @@ vector/CMakeFiles/my_vector_tests.dir/tests/test_vector.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_vector.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_bvector.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/vector.tcc \
- D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h \
- D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/gtest-message.h \
- D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h \
+ D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h \
+ D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/gtest-message.h \
+ D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h \
  C:/msys64/ucrt64/include/c++/15.2.0/version \
  C:/msys64/ucrt64/include/string.h \
  C:/msys64/ucrt64/include/sec_api/string_s.h \
@@ -200,8 +200,8 @@ vector/CMakeFiles/my_vector_tests.dir/tests/test_vector.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_facets_nonio.tcc \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_conv.h \
  C:/msys64/ucrt64/include/sys/stat.h C:/msys64/ucrt64/include/io.h \
- D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h \
- D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h \
+ D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h \
+ D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h \
  C:/msys64/ucrt64/include/direct.h \
  C:/msys64/ucrt64/include/c++/15.2.0/condition_variable \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/chrono.h \
@@ -222,9 +222,9 @@ vector/CMakeFiles/my_vector_tests.dir/tests/test_vector.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/enable_special_members.h \
  C:/msys64/ucrt64/include/c++/15.2.0/variant \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/monostate.h \
- D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h \
- D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h \
- D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h \
+ D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h \
+ D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h \
+ D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h \
  C:/msys64/ucrt64/include/c++/15.2.0/functional \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/std_function.h \
  C:/msys64/ucrt64/include/c++/15.2.0/unordered_map \
@@ -232,29 +232,29 @@ vector/CMakeFiles/my_vector_tests.dir/tests/test_vector.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/hashtable.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/hashtable_policy.h \
  C:/msys64/ucrt64/include/c++/15.2.0/array \
- D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/gtest-printers.h \
+ D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/gtest-printers.h \
  C:/msys64/ucrt64/include/c++/15.2.0/utility \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_relops.h \
- D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h \
+ D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/float.h \
  C:/msys64/ucrt64/include/float.h C:/msys64/ucrt64/include/c++/15.2.0/map \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_map.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_multimap.h \
- D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h \
- D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
- D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
+ D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h \
+ D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
+ D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
  C:/msys64/ucrt64/include/c++/15.2.0/cxxabi.h \
  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/cxxabi_tweaks.h \
  C:/msys64/ucrt64/include/c++/15.2.0/span \
- D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h \
- D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/gtest-param-test.h \
+ D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h \
+ D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/gtest-param-test.h \
  C:/msys64/ucrt64/include/c++/15.2.0/iterator \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/stream_iterator.h \
- D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h \
+ D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h \
  C:/msys64/ucrt64/include/c++/15.2.0/cassert \
  C:/msys64/ucrt64/include/assert.h \
- D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/gtest-test-part.h \
- D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
- D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
- D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h \
- D:/LEARN/C++/cpp_ds/vector/src/vector.h
+ D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/gtest-test-part.h \
+ D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
+ D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
+ D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h \
+ D:/LEETCODE/cpp_ds/vector/src/vector.h

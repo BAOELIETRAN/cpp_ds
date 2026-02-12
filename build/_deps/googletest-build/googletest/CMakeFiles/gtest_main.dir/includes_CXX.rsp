@@ -1,1 +1,1 @@
--isystem "D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googletest/include" -isystem "D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googletest"
+-isystem "D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include" -isystem "D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest"

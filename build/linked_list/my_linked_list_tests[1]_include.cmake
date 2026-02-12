@@ -1,5 +1,5 @@
-if(EXISTS "D:/LEARN/C++/cpp_ds/build/linked_list/my_linked_list_tests[1]_tests.cmake")
-  include("D:/LEARN/C++/cpp_ds/build/linked_list/my_linked_list_tests[1]_tests.cmake")
+if(EXISTS "D:/LEETCODE/cpp_ds/build/linked_list/my_linked_list_tests[1]_tests.cmake")
+  include("D:/LEETCODE/cpp_ds/build/linked_list/my_linked_list_tests[1]_tests.cmake")
 else()
   add_test(my_linked_list_tests_NOT_BUILT my_linked_list_tests_NOT_BUILT)
 endif()

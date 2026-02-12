@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\LEARN\C++\cpp_ds
+CMAKE_SOURCE_DIR = D:\LEETCODE\cpp_ds
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\LEARN\C++\cpp_ds\build
+CMAKE_BINARY_DIR = D:\LEETCODE\cpp_ds\build
 
 # Include any dependencies generated for this target.
 include linked_list/CMakeFiles/my_linked_list_lib.dir/depend.make
@@ -73,18 +73,18 @@ linked_list/CMakeFiles/my_linked_list_lib.dir/codegen:
 
 linked_list/CMakeFiles/my_linked_list_lib.dir/src/linked_list.cpp.obj: linked_list/CMakeFiles/my_linked_list_lib.dir/flags.make
 linked_list/CMakeFiles/my_linked_list_lib.dir/src/linked_list.cpp.obj: linked_list/CMakeFiles/my_linked_list_lib.dir/includes_CXX.rsp
-linked_list/CMakeFiles/my_linked_list_lib.dir/src/linked_list.cpp.obj: D:/LEARN/C++/cpp_ds/linked_list/src/linked_list.cpp
+linked_list/CMakeFiles/my_linked_list_lib.dir/src/linked_list.cpp.obj: D:/LEETCODE/cpp_ds/linked_list/src/linked_list.cpp
 linked_list/CMakeFiles/my_linked_list_lib.dir/src/linked_list.cpp.obj: linked_list/CMakeFiles/my_linked_list_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\LEARN\C++\cpp_ds\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object linked_list/CMakeFiles/my_linked_list_lib.dir/src/linked_list.cpp.obj"
-	cd /d D:\LEARN\C++\cpp_ds\build\linked_list && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT linked_list/CMakeFiles/my_linked_list_lib.dir/src/linked_list.cpp.obj -MF CMakeFiles\my_linked_list_lib.dir\src\linked_list.cpp.obj.d -o CMakeFiles\my_linked_list_lib.dir\src\linked_list.cpp.obj -c D:\LEARN\C++\cpp_ds\linked_list\src\linked_list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object linked_list/CMakeFiles/my_linked_list_lib.dir/src/linked_list.cpp.obj"
+	cd /d D:\LEETCODE\cpp_ds\build\linked_list && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT linked_list/CMakeFiles/my_linked_list_lib.dir/src/linked_list.cpp.obj -MF CMakeFiles\my_linked_list_lib.dir\src\linked_list.cpp.obj.d -o CMakeFiles\my_linked_list_lib.dir\src\linked_list.cpp.obj -c D:\LEETCODE\cpp_ds\linked_list\src\linked_list.cpp
 
 linked_list/CMakeFiles/my_linked_list_lib.dir/src/linked_list.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_linked_list_lib.dir/src/linked_list.cpp.i"
-	cd /d D:\LEARN\C++\cpp_ds\build\linked_list && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\LEARN\C++\cpp_ds\linked_list\src\linked_list.cpp > CMakeFiles\my_linked_list_lib.dir\src\linked_list.cpp.i
+	cd /d D:\LEETCODE\cpp_ds\build\linked_list && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\LEETCODE\cpp_ds\linked_list\src\linked_list.cpp > CMakeFiles\my_linked_list_lib.dir\src\linked_list.cpp.i
 
 linked_list/CMakeFiles/my_linked_list_lib.dir/src/linked_list.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_linked_list_lib.dir/src/linked_list.cpp.s"
-	cd /d D:\LEARN\C++\cpp_ds\build\linked_list && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\LEARN\C++\cpp_ds\linked_list\src\linked_list.cpp -o CMakeFiles\my_linked_list_lib.dir\src\linked_list.cpp.s
+	cd /d D:\LEETCODE\cpp_ds\build\linked_list && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\LEETCODE\cpp_ds\linked_list\src\linked_list.cpp -o CMakeFiles\my_linked_list_lib.dir\src\linked_list.cpp.s
 
 # Object files for target my_linked_list_lib
 my_linked_list_lib_OBJECTS = \
@@ -96,19 +96,19 @@ my_linked_list_lib_EXTERNAL_OBJECTS =
 linked_list/libmy_linked_list_lib.a: linked_list/CMakeFiles/my_linked_list_lib.dir/src/linked_list.cpp.obj
 linked_list/libmy_linked_list_lib.a: linked_list/CMakeFiles/my_linked_list_lib.dir/build.make
 linked_list/libmy_linked_list_lib.a: linked_list/CMakeFiles/my_linked_list_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\LEARN\C++\cpp_ds\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libmy_linked_list_lib.a"
-	cd /d D:\LEARN\C++\cpp_ds\build\linked_list && $(CMAKE_COMMAND) -P CMakeFiles\my_linked_list_lib.dir\cmake_clean_target.cmake
-	cd /d D:\LEARN\C++\cpp_ds\build\linked_list && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\my_linked_list_lib.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libmy_linked_list_lib.a"
+	cd /d D:\LEETCODE\cpp_ds\build\linked_list && $(CMAKE_COMMAND) -P CMakeFiles\my_linked_list_lib.dir\cmake_clean_target.cmake
+	cd /d D:\LEETCODE\cpp_ds\build\linked_list && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\my_linked_list_lib.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 linked_list/CMakeFiles/my_linked_list_lib.dir/build: linked_list/libmy_linked_list_lib.a
 .PHONY : linked_list/CMakeFiles/my_linked_list_lib.dir/build
 
 linked_list/CMakeFiles/my_linked_list_lib.dir/clean:
-	cd /d D:\LEARN\C++\cpp_ds\build\linked_list && $(CMAKE_COMMAND) -P CMakeFiles\my_linked_list_lib.dir\cmake_clean.cmake
+	cd /d D:\LEETCODE\cpp_ds\build\linked_list && $(CMAKE_COMMAND) -P CMakeFiles\my_linked_list_lib.dir\cmake_clean.cmake
 .PHONY : linked_list/CMakeFiles/my_linked_list_lib.dir/clean
 
 linked_list/CMakeFiles/my_linked_list_lib.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\LEARN\C++\cpp_ds D:\LEARN\C++\cpp_ds\linked_list D:\LEARN\C++\cpp_ds\build D:\LEARN\C++\cpp_ds\build\linked_list D:\LEARN\C++\cpp_ds\build\linked_list\CMakeFiles\my_linked_list_lib.dir\DependInfo.cmake "--color=$(COLOR)" my_linked_list_lib
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\LEETCODE\cpp_ds D:\LEETCODE\cpp_ds\linked_list D:\LEETCODE\cpp_ds\build D:\LEETCODE\cpp_ds\build\linked_list D:\LEETCODE\cpp_ds\build\linked_list\CMakeFiles\my_linked_list_lib.dir\DependInfo.cmake "--color=$(COLOR)" my_linked_list_lib
 .PHONY : linked_list/CMakeFiles/my_linked_list_lib.dir/depend
 

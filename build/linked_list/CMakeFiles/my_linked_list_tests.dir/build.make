@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\LEARN\C++\cpp_ds
+CMAKE_SOURCE_DIR = D:\LEETCODE\cpp_ds
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\LEARN\C++\cpp_ds\build
+CMAKE_BINARY_DIR = D:\LEETCODE\cpp_ds\build
 
 # Include any dependencies generated for this target.
 include linked_list/CMakeFiles/my_linked_list_tests.dir/depend.make
@@ -73,18 +73,18 @@ linked_list/CMakeFiles/my_linked_list_tests.dir/codegen:
 
 linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.obj: linked_list/CMakeFiles/my_linked_list_tests.dir/flags.make
 linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.obj: linked_list/CMakeFiles/my_linked_list_tests.dir/includes_CXX.rsp
-linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.obj: D:/LEARN/C++/cpp_ds/linked_list/tests/test_linked_list.cpp
+linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.obj: D:/LEETCODE/cpp_ds/linked_list/tests/test_linked_list.cpp
 linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.obj: linked_list/CMakeFiles/my_linked_list_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\LEARN\C++\cpp_ds\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.obj"
-	cd /d D:\LEARN\C++\cpp_ds\build\linked_list && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.obj -MF CMakeFiles\my_linked_list_tests.dir\tests\test_linked_list.cpp.obj.d -o CMakeFiles\my_linked_list_tests.dir\tests\test_linked_list.cpp.obj -c D:\LEARN\C++\cpp_ds\linked_list\tests\test_linked_list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.obj"
+	cd /d D:\LEETCODE\cpp_ds\build\linked_list && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.obj -MF CMakeFiles\my_linked_list_tests.dir\tests\test_linked_list.cpp.obj.d -o CMakeFiles\my_linked_list_tests.dir\tests\test_linked_list.cpp.obj -c D:\LEETCODE\cpp_ds\linked_list\tests\test_linked_list.cpp
 
 linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.i"
-	cd /d D:\LEARN\C++\cpp_ds\build\linked_list && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\LEARN\C++\cpp_ds\linked_list\tests\test_linked_list.cpp > CMakeFiles\my_linked_list_tests.dir\tests\test_linked_list.cpp.i
+	cd /d D:\LEETCODE\cpp_ds\build\linked_list && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\LEETCODE\cpp_ds\linked_list\tests\test_linked_list.cpp > CMakeFiles\my_linked_list_tests.dir\tests\test_linked_list.cpp.i
 
 linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.s"
-	cd /d D:\LEARN\C++\cpp_ds\build\linked_list && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\LEARN\C++\cpp_ds\linked_list\tests\test_linked_list.cpp -o CMakeFiles\my_linked_list_tests.dir\tests\test_linked_list.cpp.s
+	cd /d D:\LEETCODE\cpp_ds\build\linked_list && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\LEETCODE\cpp_ds\linked_list\tests\test_linked_list.cpp -o CMakeFiles\my_linked_list_tests.dir\tests\test_linked_list.cpp.s
 
 # Object files for target my_linked_list_tests
 my_linked_list_tests_OBJECTS = \
@@ -101,19 +101,19 @@ linked_list/my_linked_list_tests.exe: lib/libgtest.a
 linked_list/my_linked_list_tests.exe: linked_list/CMakeFiles/my_linked_list_tests.dir/linkLibs.rsp
 linked_list/my_linked_list_tests.exe: linked_list/CMakeFiles/my_linked_list_tests.dir/objects1.rsp
 linked_list/my_linked_list_tests.exe: linked_list/CMakeFiles/my_linked_list_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\LEARN\C++\cpp_ds\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable my_linked_list_tests.exe"
-	cd /d D:\LEARN\C++\cpp_ds\build\linked_list && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\my_linked_list_tests.dir\link.txt --verbose=$(VERBOSE)
-	cd /d D:\LEARN\C++\cpp_ds\build\linked_list && "C:\Program Files\CMake\bin\cmake.exe" -D TEST_TARGET=my_linked_list_tests -D TEST_EXECUTABLE=D:/LEARN/C++/cpp_ds/build/linked_list/my_linked_list_tests.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=D:/LEARN/C++/cpp_ds/build/linked_list -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=my_linked_list_tests_TESTS -D CTEST_FILE=D:/LEARN/C++/cpp_ds/build/linked_list/my_linked_list_tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P "C:/Program Files/CMake/share/cmake-4.2/Modules/GoogleTestAddTests.cmake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable my_linked_list_tests.exe"
+	cd /d D:\LEETCODE\cpp_ds\build\linked_list && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\my_linked_list_tests.dir\link.txt --verbose=$(VERBOSE)
+	cd /d D:\LEETCODE\cpp_ds\build\linked_list && "C:\Program Files\CMake\bin\cmake.exe" -D TEST_TARGET=my_linked_list_tests -D TEST_EXECUTABLE=D:/LEETCODE/cpp_ds/build/linked_list/my_linked_list_tests.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=D:/LEETCODE/cpp_ds/build/linked_list -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=my_linked_list_tests_TESTS -D CTEST_FILE=D:/LEETCODE/cpp_ds/build/linked_list/my_linked_list_tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P "C:/Program Files/CMake/share/cmake-4.2/Modules/GoogleTestAddTests.cmake"
 
 # Rule to build all files generated by this target.
 linked_list/CMakeFiles/my_linked_list_tests.dir/build: linked_list/my_linked_list_tests.exe
 .PHONY : linked_list/CMakeFiles/my_linked_list_tests.dir/build
 
 linked_list/CMakeFiles/my_linked_list_tests.dir/clean:
-	cd /d D:\LEARN\C++\cpp_ds\build\linked_list && $(CMAKE_COMMAND) -P CMakeFiles\my_linked_list_tests.dir\cmake_clean.cmake
+	cd /d D:\LEETCODE\cpp_ds\build\linked_list && $(CMAKE_COMMAND) -P CMakeFiles\my_linked_list_tests.dir\cmake_clean.cmake
 .PHONY : linked_list/CMakeFiles/my_linked_list_tests.dir/clean
 
 linked_list/CMakeFiles/my_linked_list_tests.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\LEARN\C++\cpp_ds D:\LEARN\C++\cpp_ds\linked_list D:\LEARN\C++\cpp_ds\build D:\LEARN\C++\cpp_ds\build\linked_list D:\LEARN\C++\cpp_ds\build\linked_list\CMakeFiles\my_linked_list_tests.dir\DependInfo.cmake "--color=$(COLOR)" my_linked_list_tests
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\LEETCODE\cpp_ds D:\LEETCODE\cpp_ds\linked_list D:\LEETCODE\cpp_ds\build D:\LEETCODE\cpp_ds\build\linked_list D:\LEETCODE\cpp_ds\build\linked_list\CMakeFiles\my_linked_list_tests.dir\DependInfo.cmake "--color=$(COLOR)" my_linked_list_tests
 .PHONY : linked_list/CMakeFiles/my_linked_list_tests.dir/depend
 

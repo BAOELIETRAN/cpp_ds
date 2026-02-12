@@ -1,4 +1,4 @@
-# Install script for directory: D:/LEARN/C++/cpp_ds/build/_deps/googletest-src
+# Install script for directory: D:/LEETCODE/cpp_ds/build/_deps/googletest-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -39,12 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/LEARN/C++/cpp_ds/build/_deps/googletest-build/googlemock/cmake_install.cmake")
+  include("D:/LEETCODE/cpp_ds/build/_deps/googletest-build/googlemock/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/LEARN/C++/cpp_ds/build/_deps/googletest-build/install_local_manifest.txt"
+  file(WRITE "D:/LEETCODE/cpp_ds/build/_deps/googletest-build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

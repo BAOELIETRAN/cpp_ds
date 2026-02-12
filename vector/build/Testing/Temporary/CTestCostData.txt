@@ -1,3 +1,0 @@
-AddingTest.HandleNegativeInt 1 0.0089763
-AddingTest.HandlePositiveInt 1 0.0099045
----

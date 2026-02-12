@@ -1,1 +1,1 @@
--I"D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googlemock/include" -I"D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googlemock" -isystem "D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googletest/include" -isystem "D:/LEARN/C++/cpp_ds/build/_deps/googletest-src/googletest"
+-I"D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googlemock/include" -I"D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googlemock" -isystem "D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include" -isystem "D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest"

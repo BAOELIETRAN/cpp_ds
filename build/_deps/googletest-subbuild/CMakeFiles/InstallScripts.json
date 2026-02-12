@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"D:/LEARN/C++/cpp_ds/build/_deps/googletest-subbuild/cmake_install.cmake"
+		"D:/LEETCODE/cpp_ds/build/_deps/googletest-subbuild/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

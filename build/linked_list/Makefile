@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\LEARN\C++\cpp_ds
+CMAKE_SOURCE_DIR = D:\LEETCODE\cpp_ds
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\LEARN\C++\cpp_ds\build
+CMAKE_BINARY_DIR = D:\LEETCODE\cpp_ds\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -141,14 +141,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\LEARN\C++\cpp_ds\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\LEARN\C++\cpp_ds\build\CMakeFiles D:\LEARN\C++\cpp_ds\build\linked_list\\CMakeFiles\progress.marks
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 linked_list/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\LEARN\C++\cpp_ds\build\CMakeFiles 0
+	cd /d D:\LEETCODE\cpp_ds\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\LEETCODE\cpp_ds\build\CMakeFiles D:\LEETCODE\cpp_ds\build\linked_list\\CMakeFiles\progress.marks
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 linked_list/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\LEETCODE\cpp_ds\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 linked_list/clean
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 linked_list/clean
 .PHONY : clean
 
 # The main clean target
@@ -157,22 +157,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 linked_list/preinstall
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 linked_list/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 linked_list/preinstall
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 linked_list/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\LEETCODE\cpp_ds\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 linked_list/CMakeFiles/my_linked_list_lib.dir/rule:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 linked_list/CMakeFiles/my_linked_list_lib.dir/rule
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 linked_list/CMakeFiles/my_linked_list_lib.dir/rule
 .PHONY : linked_list/CMakeFiles/my_linked_list_lib.dir/rule
 
 # Convenience name for target.
@@ -181,12 +181,12 @@ my_linked_list_lib: linked_list/CMakeFiles/my_linked_list_lib.dir/rule
 
 # fast build rule for target.
 my_linked_list_lib/fast:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_lib.dir\build.make linked_list/CMakeFiles/my_linked_list_lib.dir/build
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_lib.dir\build.make linked_list/CMakeFiles/my_linked_list_lib.dir/build
 .PHONY : my_linked_list_lib/fast
 
 # Convenience name for target.
 linked_list/CMakeFiles/my_linked_list_tests.dir/rule:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 linked_list/CMakeFiles/my_linked_list_tests.dir/rule
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 linked_list/CMakeFiles/my_linked_list_tests.dir/rule
 .PHONY : linked_list/CMakeFiles/my_linked_list_tests.dir/rule
 
 # Convenience name for target.
@@ -195,7 +195,7 @@ my_linked_list_tests: linked_list/CMakeFiles/my_linked_list_tests.dir/rule
 
 # fast build rule for target.
 my_linked_list_tests/fast:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_tests.dir\build.make linked_list/CMakeFiles/my_linked_list_tests.dir/build
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_tests.dir\build.make linked_list/CMakeFiles/my_linked_list_tests.dir/build
 .PHONY : my_linked_list_tests/fast
 
 src/linked_list.obj: src/linked_list.cpp.obj
@@ -203,7 +203,7 @@ src/linked_list.obj: src/linked_list.cpp.obj
 
 # target to build an object file
 src/linked_list.cpp.obj:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_lib.dir\build.make linked_list/CMakeFiles/my_linked_list_lib.dir/src/linked_list.cpp.obj
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_lib.dir\build.make linked_list/CMakeFiles/my_linked_list_lib.dir/src/linked_list.cpp.obj
 .PHONY : src/linked_list.cpp.obj
 
 src/linked_list.i: src/linked_list.cpp.i
@@ -211,7 +211,7 @@ src/linked_list.i: src/linked_list.cpp.i
 
 # target to preprocess a source file
 src/linked_list.cpp.i:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_lib.dir\build.make linked_list/CMakeFiles/my_linked_list_lib.dir/src/linked_list.cpp.i
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_lib.dir\build.make linked_list/CMakeFiles/my_linked_list_lib.dir/src/linked_list.cpp.i
 .PHONY : src/linked_list.cpp.i
 
 src/linked_list.s: src/linked_list.cpp.s
@@ -219,7 +219,7 @@ src/linked_list.s: src/linked_list.cpp.s
 
 # target to generate assembly for a file
 src/linked_list.cpp.s:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_lib.dir\build.make linked_list/CMakeFiles/my_linked_list_lib.dir/src/linked_list.cpp.s
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_lib.dir\build.make linked_list/CMakeFiles/my_linked_list_lib.dir/src/linked_list.cpp.s
 .PHONY : src/linked_list.cpp.s
 
 tests/test_linked_list.obj: tests/test_linked_list.cpp.obj
@@ -227,7 +227,7 @@ tests/test_linked_list.obj: tests/test_linked_list.cpp.obj
 
 # target to build an object file
 tests/test_linked_list.cpp.obj:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_tests.dir\build.make linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.obj
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_tests.dir\build.make linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.obj
 .PHONY : tests/test_linked_list.cpp.obj
 
 tests/test_linked_list.i: tests/test_linked_list.cpp.i
@@ -235,7 +235,7 @@ tests/test_linked_list.i: tests/test_linked_list.cpp.i
 
 # target to preprocess a source file
 tests/test_linked_list.cpp.i:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_tests.dir\build.make linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.i
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_tests.dir\build.make linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.i
 .PHONY : tests/test_linked_list.cpp.i
 
 tests/test_linked_list.s: tests/test_linked_list.cpp.s
@@ -243,7 +243,7 @@ tests/test_linked_list.s: tests/test_linked_list.cpp.s
 
 # target to generate assembly for a file
 tests/test_linked_list.cpp.s:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_tests.dir\build.make linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.s
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_tests.dir\build.make linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.s
 .PHONY : tests/test_linked_list.cpp.s
 
 # Help Target
@@ -278,6 +278,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\LEETCODE\cpp_ds\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

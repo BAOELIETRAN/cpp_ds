@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\LEARN\C++\cpp_ds
+CMAKE_SOURCE_DIR = D:\LEETCODE\cpp_ds
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\LEARN\C++\cpp_ds\build
+CMAKE_BINARY_DIR = D:\LEETCODE\cpp_ds\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -141,14 +141,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\LEARN\C++\cpp_ds\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\LEARN\C++\cpp_ds\build\CMakeFiles D:\LEARN\C++\cpp_ds\build\vector\\CMakeFiles\progress.marks
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vector/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\LEARN\C++\cpp_ds\build\CMakeFiles 0
+	cd /d D:\LEETCODE\cpp_ds\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\LEETCODE\cpp_ds\build\CMakeFiles D:\LEETCODE\cpp_ds\build\vector\\CMakeFiles\progress.marks
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vector/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\LEETCODE\cpp_ds\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vector/clean
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vector/clean
 .PHONY : clean
 
 # The main clean target
@@ -157,22 +157,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vector/preinstall
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vector/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vector/preinstall
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vector/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\LEETCODE\cpp_ds\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 vector/CMakeFiles/my_vector_lib.dir/rule:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vector/CMakeFiles/my_vector_lib.dir/rule
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vector/CMakeFiles/my_vector_lib.dir/rule
 .PHONY : vector/CMakeFiles/my_vector_lib.dir/rule
 
 # Convenience name for target.
@@ -181,12 +181,12 @@ my_vector_lib: vector/CMakeFiles/my_vector_lib.dir/rule
 
 # fast build rule for target.
 my_vector_lib/fast:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_lib.dir\build.make vector/CMakeFiles/my_vector_lib.dir/build
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_lib.dir\build.make vector/CMakeFiles/my_vector_lib.dir/build
 .PHONY : my_vector_lib/fast
 
 # Convenience name for target.
 vector/CMakeFiles/my_vector_tests.dir/rule:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vector/CMakeFiles/my_vector_tests.dir/rule
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vector/CMakeFiles/my_vector_tests.dir/rule
 .PHONY : vector/CMakeFiles/my_vector_tests.dir/rule
 
 # Convenience name for target.
@@ -195,7 +195,7 @@ my_vector_tests: vector/CMakeFiles/my_vector_tests.dir/rule
 
 # fast build rule for target.
 my_vector_tests/fast:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_tests.dir\build.make vector/CMakeFiles/my_vector_tests.dir/build
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_tests.dir\build.make vector/CMakeFiles/my_vector_tests.dir/build
 .PHONY : my_vector_tests/fast
 
 src/vector.obj: src/vector.cpp.obj
@@ -203,7 +203,7 @@ src/vector.obj: src/vector.cpp.obj
 
 # target to build an object file
 src/vector.cpp.obj:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_lib.dir\build.make vector/CMakeFiles/my_vector_lib.dir/src/vector.cpp.obj
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_lib.dir\build.make vector/CMakeFiles/my_vector_lib.dir/src/vector.cpp.obj
 .PHONY : src/vector.cpp.obj
 
 src/vector.i: src/vector.cpp.i
@@ -211,7 +211,7 @@ src/vector.i: src/vector.cpp.i
 
 # target to preprocess a source file
 src/vector.cpp.i:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_lib.dir\build.make vector/CMakeFiles/my_vector_lib.dir/src/vector.cpp.i
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_lib.dir\build.make vector/CMakeFiles/my_vector_lib.dir/src/vector.cpp.i
 .PHONY : src/vector.cpp.i
 
 src/vector.s: src/vector.cpp.s
@@ -219,7 +219,7 @@ src/vector.s: src/vector.cpp.s
 
 # target to generate assembly for a file
 src/vector.cpp.s:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_lib.dir\build.make vector/CMakeFiles/my_vector_lib.dir/src/vector.cpp.s
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_lib.dir\build.make vector/CMakeFiles/my_vector_lib.dir/src/vector.cpp.s
 .PHONY : src/vector.cpp.s
 
 tests/test_vector.obj: tests/test_vector.cpp.obj
@@ -227,7 +227,7 @@ tests/test_vector.obj: tests/test_vector.cpp.obj
 
 # target to build an object file
 tests/test_vector.cpp.obj:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_tests.dir\build.make vector/CMakeFiles/my_vector_tests.dir/tests/test_vector.cpp.obj
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_tests.dir\build.make vector/CMakeFiles/my_vector_tests.dir/tests/test_vector.cpp.obj
 .PHONY : tests/test_vector.cpp.obj
 
 tests/test_vector.i: tests/test_vector.cpp.i
@@ -235,7 +235,7 @@ tests/test_vector.i: tests/test_vector.cpp.i
 
 # target to preprocess a source file
 tests/test_vector.cpp.i:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_tests.dir\build.make vector/CMakeFiles/my_vector_tests.dir/tests/test_vector.cpp.i
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_tests.dir\build.make vector/CMakeFiles/my_vector_tests.dir/tests/test_vector.cpp.i
 .PHONY : tests/test_vector.cpp.i
 
 tests/test_vector.s: tests/test_vector.cpp.s
@@ -243,7 +243,7 @@ tests/test_vector.s: tests/test_vector.cpp.s
 
 # target to generate assembly for a file
 tests/test_vector.cpp.s:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_tests.dir\build.make vector/CMakeFiles/my_vector_tests.dir/tests/test_vector.cpp.s
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_tests.dir\build.make vector/CMakeFiles/my_vector_tests.dir/tests/test_vector.cpp.s
 .PHONY : tests/test_vector.cpp.s
 
 # Help Target
@@ -278,6 +278,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d D:\LEARN\C++\cpp_ds\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\LEETCODE\cpp_ds\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

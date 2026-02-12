@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\LEARN\C++\cpp_ds
+CMAKE_SOURCE_DIR = D:\LEETCODE\cpp_ds
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\LEARN\C++\cpp_ds\build
+CMAKE_BINARY_DIR = D:\LEETCODE\cpp_ds\build
 
 # Include any dependencies generated for this target.
 include vector/CMakeFiles/my_vector_tests.dir/depend.make
@@ -73,18 +73,18 @@ vector/CMakeFiles/my_vector_tests.dir/codegen:
 
 vector/CMakeFiles/my_vector_tests.dir/tests/test_vector.cpp.obj: vector/CMakeFiles/my_vector_tests.dir/flags.make
 vector/CMakeFiles/my_vector_tests.dir/tests/test_vector.cpp.obj: vector/CMakeFiles/my_vector_tests.dir/includes_CXX.rsp
-vector/CMakeFiles/my_vector_tests.dir/tests/test_vector.cpp.obj: D:/LEARN/C++/cpp_ds/vector/tests/test_vector.cpp
+vector/CMakeFiles/my_vector_tests.dir/tests/test_vector.cpp.obj: D:/LEETCODE/cpp_ds/vector/tests/test_vector.cpp
 vector/CMakeFiles/my_vector_tests.dir/tests/test_vector.cpp.obj: vector/CMakeFiles/my_vector_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\LEARN\C++\cpp_ds\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object vector/CMakeFiles/my_vector_tests.dir/tests/test_vector.cpp.obj"
-	cd /d D:\LEARN\C++\cpp_ds\build\vector && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT vector/CMakeFiles/my_vector_tests.dir/tests/test_vector.cpp.obj -MF CMakeFiles\my_vector_tests.dir\tests\test_vector.cpp.obj.d -o CMakeFiles\my_vector_tests.dir\tests\test_vector.cpp.obj -c D:\LEARN\C++\cpp_ds\vector\tests\test_vector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object vector/CMakeFiles/my_vector_tests.dir/tests/test_vector.cpp.obj"
+	cd /d D:\LEETCODE\cpp_ds\build\vector && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT vector/CMakeFiles/my_vector_tests.dir/tests/test_vector.cpp.obj -MF CMakeFiles\my_vector_tests.dir\tests\test_vector.cpp.obj.d -o CMakeFiles\my_vector_tests.dir\tests\test_vector.cpp.obj -c D:\LEETCODE\cpp_ds\vector\tests\test_vector.cpp
 
 vector/CMakeFiles/my_vector_tests.dir/tests/test_vector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_vector_tests.dir/tests/test_vector.cpp.i"
-	cd /d D:\LEARN\C++\cpp_ds\build\vector && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\LEARN\C++\cpp_ds\vector\tests\test_vector.cpp > CMakeFiles\my_vector_tests.dir\tests\test_vector.cpp.i
+	cd /d D:\LEETCODE\cpp_ds\build\vector && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\LEETCODE\cpp_ds\vector\tests\test_vector.cpp > CMakeFiles\my_vector_tests.dir\tests\test_vector.cpp.i
 
 vector/CMakeFiles/my_vector_tests.dir/tests/test_vector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_vector_tests.dir/tests/test_vector.cpp.s"
-	cd /d D:\LEARN\C++\cpp_ds\build\vector && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\LEARN\C++\cpp_ds\vector\tests\test_vector.cpp -o CMakeFiles\my_vector_tests.dir\tests\test_vector.cpp.s
+	cd /d D:\LEETCODE\cpp_ds\build\vector && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\LEETCODE\cpp_ds\vector\tests\test_vector.cpp -o CMakeFiles\my_vector_tests.dir\tests\test_vector.cpp.s
 
 # Object files for target my_vector_tests
 my_vector_tests_OBJECTS = \
@@ -101,19 +101,19 @@ vector/my_vector_tests.exe: lib/libgtest.a
 vector/my_vector_tests.exe: vector/CMakeFiles/my_vector_tests.dir/linkLibs.rsp
 vector/my_vector_tests.exe: vector/CMakeFiles/my_vector_tests.dir/objects1.rsp
 vector/my_vector_tests.exe: vector/CMakeFiles/my_vector_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\LEARN\C++\cpp_ds\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable my_vector_tests.exe"
-	cd /d D:\LEARN\C++\cpp_ds\build\vector && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\my_vector_tests.dir\link.txt --verbose=$(VERBOSE)
-	cd /d D:\LEARN\C++\cpp_ds\build\vector && "C:\Program Files\CMake\bin\cmake.exe" -D TEST_TARGET=my_vector_tests -D TEST_EXECUTABLE=D:/LEARN/C++/cpp_ds/build/vector/my_vector_tests.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=D:/LEARN/C++/cpp_ds/build/vector -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=my_vector_tests_TESTS -D CTEST_FILE=D:/LEARN/C++/cpp_ds/build/vector/my_vector_tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P "C:/Program Files/CMake/share/cmake-4.2/Modules/GoogleTestAddTests.cmake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable my_vector_tests.exe"
+	cd /d D:\LEETCODE\cpp_ds\build\vector && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\my_vector_tests.dir\link.txt --verbose=$(VERBOSE)
+	cd /d D:\LEETCODE\cpp_ds\build\vector && "C:\Program Files\CMake\bin\cmake.exe" -D TEST_TARGET=my_vector_tests -D TEST_EXECUTABLE=D:/LEETCODE/cpp_ds/build/vector/my_vector_tests.exe -D TEST_EXECUTOR= -D TEST_WORKING_DIR=D:/LEETCODE/cpp_ds/build/vector -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=my_vector_tests_TESTS -D CTEST_FILE=D:/LEETCODE/cpp_ds/build/vector/my_vector_tests[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P "C:/Program Files/CMake/share/cmake-4.2/Modules/GoogleTestAddTests.cmake"
 
 # Rule to build all files generated by this target.
 vector/CMakeFiles/my_vector_tests.dir/build: vector/my_vector_tests.exe
 .PHONY : vector/CMakeFiles/my_vector_tests.dir/build
 
 vector/CMakeFiles/my_vector_tests.dir/clean:
-	cd /d D:\LEARN\C++\cpp_ds\build\vector && $(CMAKE_COMMAND) -P CMakeFiles\my_vector_tests.dir\cmake_clean.cmake
+	cd /d D:\LEETCODE\cpp_ds\build\vector && $(CMAKE_COMMAND) -P CMakeFiles\my_vector_tests.dir\cmake_clean.cmake
 .PHONY : vector/CMakeFiles/my_vector_tests.dir/clean
 
 vector/CMakeFiles/my_vector_tests.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\LEARN\C++\cpp_ds D:\LEARN\C++\cpp_ds\vector D:\LEARN\C++\cpp_ds\build D:\LEARN\C++\cpp_ds\build\vector D:\LEARN\C++\cpp_ds\build\vector\CMakeFiles\my_vector_tests.dir\DependInfo.cmake "--color=$(COLOR)" my_vector_tests
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\LEETCODE\cpp_ds D:\LEETCODE\cpp_ds\vector D:\LEETCODE\cpp_ds\build D:\LEETCODE\cpp_ds\build\vector D:\LEETCODE\cpp_ds\build\vector\CMakeFiles\my_vector_tests.dir\DependInfo.cmake "--color=$(COLOR)" my_vector_tests
 .PHONY : vector/CMakeFiles/my_vector_tests.dir/depend
 
