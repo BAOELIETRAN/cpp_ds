@@ -274,6 +274,32 @@ my_linked_list_tests/fast:
 	$(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_tests.dir\build.make linked_list/CMakeFiles/my_linked_list_tests.dir/build
 .PHONY : my_linked_list_tests/fast
 
+#=============================================================================
+# Target rules for targets named my_stack_lib
+
+# Build rule for target.
+my_stack_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 my_stack_lib
+.PHONY : my_stack_lib
+
+# fast build rule for target.
+my_stack_lib/fast:
+	$(MAKE) $(MAKESILENT) -f stack\CMakeFiles\my_stack_lib.dir\build.make stack/CMakeFiles/my_stack_lib.dir/build
+.PHONY : my_stack_lib/fast
+
+#=============================================================================
+# Target rules for targets named my_stack_tests
+
+# Build rule for target.
+my_stack_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 my_stack_tests
+.PHONY : my_stack_tests
+
+# fast build rule for target.
+my_stack_tests/fast:
+	$(MAKE) $(MAKESILENT) -f stack\CMakeFiles\my_stack_tests.dir\build.make stack/CMakeFiles/my_stack_tests.dir/build
+.PHONY : my_stack_tests/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -293,6 +319,8 @@ help:
 	@echo ... gtest_main
 	@echo ... my_linked_list_lib
 	@echo ... my_linked_list_tests
+	@echo ... my_stack_lib
+	@echo ... my_stack_tests
 	@echo ... my_vector_lib
 	@echo ... my_vector_tests
 .PHONY : help

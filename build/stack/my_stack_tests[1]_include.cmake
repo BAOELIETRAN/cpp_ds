@@ -1,0 +1,5 @@
+if(EXISTS "D:/LEETCODE/cpp_ds/build/stack/my_stack_tests[1]_tests.cmake")
+  include("D:/LEETCODE/cpp_ds/build/stack/my_stack_tests[1]_tests.cmake")
+else()
+  add_test(my_stack_tests_NOT_BUILT my_stack_tests_NOT_BUILT)
+endif()

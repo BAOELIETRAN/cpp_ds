@@ -23,6 +23,7 @@ enable_testing()
 # and run all the tests
 add_subdirectory(vector)
 add_subdirectory(linked_list)
+add_subdirectory(stack)
 
 # a few helpful commands:
 # ====================================================================

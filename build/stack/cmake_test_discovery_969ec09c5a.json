@@ -1,0 +1,52 @@
+{
+  "tests": 8,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "InitializingTest",
+      "tests": 8,
+      "testsuite": [
+        {
+          "name": "ZeroElement",
+          "file": "D:\\LEETCODE\\cpp_ds\\stack\\tests\\test_stack.cpp",
+          "line": 8
+        },
+        {
+          "name": "CopyConstruct",
+          "file": "D:\\LEETCODE\\cpp_ds\\stack\\tests\\test_stack.cpp",
+          "line": 13
+        },
+        {
+          "name": "CopyAssign",
+          "file": "D:\\LEETCODE\\cpp_ds\\stack\\tests\\test_stack.cpp",
+          "line": 22
+        },
+        {
+          "name": "GetTop",
+          "file": "D:\\LEETCODE\\cpp_ds\\stack\\tests\\test_stack.cpp",
+          "line": 32
+        },
+        {
+          "name": "CheckEmpty",
+          "file": "D:\\LEETCODE\\cpp_ds\\stack\\tests\\test_stack.cpp",
+          "line": 40
+        },
+        {
+          "name": "GetSize",
+          "file": "D:\\LEETCODE\\cpp_ds\\stack\\tests\\test_stack.cpp",
+          "line": 48
+        },
+        {
+          "name": "CheckPush",
+          "file": "D:\\LEETCODE\\cpp_ds\\stack\\tests\\test_stack.cpp",
+          "line": 56
+        },
+        {
+          "name": "CheckPop",
+          "file": "D:\\LEETCODE\\cpp_ds\\stack\\tests\\test_stack.cpp",
+          "line": 64
+        }
+      ]
+    }
+  ]
+}
