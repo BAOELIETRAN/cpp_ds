@@ -3,8 +3,10 @@
 namespace wxrdie{
     my_stack& my_stack::operator=(const my_stack& other_stack){
         // copy other stack to this stack
-        m_inner_container = other_stack.m_inner_container;
-        m_size = other_stack.m_inner_container.size();
+        if (this != &other_stack){
+            m_inner_container = other_stack.m_inner_container;
+            m_size = other_stack.m_inner_container.size();
+        }
         return *this;
     }
 
@@ -12,7 +14,7 @@ namespace wxrdie{
         if (m_size == 0){
             throw std::out_of_range("Stack is currently empty");
         }
-        return m_inner_container[m_size - 1];
+        return m_inner_container.back();
     }
 
     void my_stack::push(int val){
