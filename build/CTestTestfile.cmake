@@ -7,3 +7,4 @@
 subdirs("vector")
 subdirs("linked_list")
 subdirs("stack")
+subdirs("queue")

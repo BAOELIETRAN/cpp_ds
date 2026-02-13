@@ -300,6 +300,32 @@ my_stack_tests/fast:
 	$(MAKE) $(MAKESILENT) -f stack\CMakeFiles\my_stack_tests.dir\build.make stack/CMakeFiles/my_stack_tests.dir/build
 .PHONY : my_stack_tests/fast
 
+#=============================================================================
+# Target rules for targets named my_queue_lib
+
+# Build rule for target.
+my_queue_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 my_queue_lib
+.PHONY : my_queue_lib
+
+# fast build rule for target.
+my_queue_lib/fast:
+	$(MAKE) $(MAKESILENT) -f queue\CMakeFiles\my_queue_lib.dir\build.make queue/CMakeFiles/my_queue_lib.dir/build
+.PHONY : my_queue_lib/fast
+
+#=============================================================================
+# Target rules for targets named my_queue_tests
+
+# Build rule for target.
+my_queue_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 my_queue_tests
+.PHONY : my_queue_tests
+
+# fast build rule for target.
+my_queue_tests/fast:
+	$(MAKE) $(MAKESILENT) -f queue\CMakeFiles\my_queue_tests.dir\build.make queue/CMakeFiles/my_queue_tests.dir/build
+.PHONY : my_queue_tests/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -319,6 +345,8 @@ help:
 	@echo ... gtest_main
 	@echo ... my_linked_list_lib
 	@echo ... my_linked_list_tests
+	@echo ... my_queue_lib
+	@echo ... my_queue_tests
 	@echo ... my_stack_lib
 	@echo ... my_stack_tests
 	@echo ... my_vector_lib

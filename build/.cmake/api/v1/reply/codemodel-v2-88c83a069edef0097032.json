@@ -11,7 +11,8 @@
 					[
 						1,
 						5,
-						6
+						6,
+						7
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
@@ -39,8 +40,8 @@
 					"source" : "vector",
 					"targetIndexes" : 
 					[
-						8,
-						9
+						10,
+						11
 					]
 				},
 				{
@@ -125,6 +126,22 @@
 					"source" : "stack",
 					"targetIndexes" : 
 					[
+						8,
+						9
+					]
+				},
+				{
+					"build" : "queue",
+					"jsonFile" : "directory-queue-Debug-46915d42497d7276e703.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "queue",
+					"targetIndexes" : 
+					[
 						6,
 						7
 					]
@@ -138,7 +155,8 @@
 					[
 						1,
 						5,
-						6
+						6,
+						7
 					],
 					"directoryIndexes" : 
 					[
@@ -159,8 +177,8 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						8,
-						9
+						10,
+						11
 					]
 				},
 				{
@@ -227,6 +245,19 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
+						8,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "MY_QUEUE",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
 						6,
 						7
 					]
@@ -275,6 +306,20 @@
 					"jsonFile" : "target-my_linked_list_tests-Debug-bcbcc441d824afc65960.json",
 					"name" : "my_linked_list_tests",
 					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "my_queue_lib::@d63f5f69c5a9088733ed",
+					"jsonFile" : "target-my_queue_lib-Debug-7eb216deab8afca77a74.json",
+					"name" : "my_queue_lib",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "my_queue_tests::@d63f5f69c5a9088733ed",
+					"jsonFile" : "target-my_queue_tests-Debug-9b39ecdc7ea66429bc6f.json",
+					"name" : "my_queue_tests",
+					"projectIndex" : 7
 				},
 				{
 					"directoryIndex" : 6,

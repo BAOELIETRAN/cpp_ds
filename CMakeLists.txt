@@ -24,9 +24,11 @@ enable_testing()
 add_subdirectory(vector)
 add_subdirectory(linked_list)
 add_subdirectory(stack)
+add_subdirectory(queue)
 
 # a few helpful commands:
 # ====================================================================
+# cmake -S . -B build -G "MinGW Makefiles"
 # cmake -B .\build - read your CMakeLists.txt and generate build files in the ./build directory
 # after running cmake -B .\build, here is what happened:
 # cpp_ds/

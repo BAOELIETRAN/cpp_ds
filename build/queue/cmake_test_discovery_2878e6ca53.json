@@ -1,0 +1,57 @@
+{
+  "tests": 9,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "InitializingTest",
+      "tests": 9,
+      "testsuite": [
+        {
+          "name": "ZeroElement",
+          "file": "D:\\LEETCODE\\cpp_ds\\queue\\tests\\test_queue.cpp",
+          "line": 5
+        },
+        {
+          "name": "CopyConstruct",
+          "file": "D:\\LEETCODE\\cpp_ds\\queue\\tests\\test_queue.cpp",
+          "line": 10
+        },
+        {
+          "name": "CopyAssign",
+          "file": "D:\\LEETCODE\\cpp_ds\\queue\\tests\\test_queue.cpp",
+          "line": 19
+        },
+        {
+          "name": "TestFront",
+          "file": "D:\\LEETCODE\\cpp_ds\\queue\\tests\\test_queue.cpp",
+          "line": 35
+        },
+        {
+          "name": "TestBack",
+          "file": "D:\\LEETCODE\\cpp_ds\\queue\\tests\\test_queue.cpp",
+          "line": 43
+        },
+        {
+          "name": "TestPush",
+          "file": "D:\\LEETCODE\\cpp_ds\\queue\\tests\\test_queue.cpp",
+          "line": 51
+        },
+        {
+          "name": "TestPop",
+          "file": "D:\\LEETCODE\\cpp_ds\\queue\\tests\\test_queue.cpp",
+          "line": 59
+        },
+        {
+          "name": "TestEmpty",
+          "file": "D:\\LEETCODE\\cpp_ds\\queue\\tests\\test_queue.cpp",
+          "line": 68
+        },
+        {
+          "name": "TestSize",
+          "file": "D:\\LEETCODE\\cpp_ds\\queue\\tests\\test_queue.cpp",
+          "line": 76
+        }
+      ]
+    }
+  ]
+}
