@@ -25,6 +25,7 @@ add_subdirectory(vector)
 add_subdirectory(linked_list)
 add_subdirectory(stack)
 add_subdirectory(queue)
+add_subdirectory(binary_search_tree)
 
 # a few helpful commands:
 # ====================================================================

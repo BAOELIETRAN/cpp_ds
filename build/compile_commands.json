@@ -70,5 +70,17 @@
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_queue_tests.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\my_queue_tests.dir\\tests\\test_queue.cpp.obj -c D:\\LEETCODE\\cpp_ds\\queue\\tests\\test_queue.cpp",
   "file": "D:/LEETCODE/cpp_ds/queue/tests/test_queue.cpp",
   "output": "queue/CMakeFiles/my_queue_tests.dir/tests/test_queue.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/binary_search_tree",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_bst_lib.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\my_bst_lib.dir\\src\\bst.cpp.obj -c D:\\LEETCODE\\cpp_ds\\binary_search_tree\\src\\bst.cpp",
+  "file": "D:/LEETCODE/cpp_ds/binary_search_tree/src/bst.cpp",
+  "output": "binary_search_tree/CMakeFiles/my_bst_lib.dir/src/bst.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/binary_search_tree",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_bst_tests.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles\\my_bst_tests.dir\\tests\\test_bst.cpp.obj -c D:\\LEETCODE\\cpp_ds\\binary_search_tree\\tests\\test_bst.cpp",
+  "file": "D:/LEETCODE/cpp_ds/binary_search_tree/tests/test_bst.cpp",
+  "output": "binary_search_tree/CMakeFiles/my_bst_tests.dir/tests/test_bst.cpp.obj"
 }
 ]

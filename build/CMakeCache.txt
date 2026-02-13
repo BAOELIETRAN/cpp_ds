@@ -351,6 +351,15 @@ GTEST_HAS_ABSL:BOOL=OFF
 INSTALL_GTEST:BOOL=ON
 
 //Value Computed by CMake
+MY_BST_BINARY_DIR:STATIC=D:/LEETCODE/cpp_ds/build/binary_search_tree
+
+//Value Computed by CMake
+MY_BST_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+MY_BST_SOURCE_DIR:STATIC=D:/LEETCODE/cpp_ds/binary_search_tree
+
+//Value Computed by CMake
 MY_LINKED_LIST_BINARY_DIR:STATIC=D:/LEETCODE/cpp_ds/build/linked_list
 
 //Value Computed by CMake
@@ -571,7 +580,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

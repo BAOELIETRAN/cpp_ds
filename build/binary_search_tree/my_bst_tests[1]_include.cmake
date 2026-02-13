@@ -1,0 +1,5 @@
+if(EXISTS "D:/LEETCODE/cpp_ds/build/binary_search_tree/my_bst_tests[1]_tests.cmake")
+  include("D:/LEETCODE/cpp_ds/build/binary_search_tree/my_bst_tests[1]_tests.cmake")
+else()
+  add_test(my_bst_tests_NOT_BUILT my_bst_tests_NOT_BUILT)
+endif()

@@ -66,3 +66,12 @@ D:/LEETCODE/cpp_ds/build/queue/CMakeFiles/list_install_components.dir
 D:/LEETCODE/cpp_ds/build/queue/CMakeFiles/install.dir
 D:/LEETCODE/cpp_ds/build/queue/CMakeFiles/install/local.dir
 D:/LEETCODE/cpp_ds/build/queue/CMakeFiles/install/strip.dir
+D:/LEETCODE/cpp_ds/build/binary_search_tree/CMakeFiles/my_bst_lib.dir
+D:/LEETCODE/cpp_ds/build/binary_search_tree/CMakeFiles/my_bst_tests.dir
+D:/LEETCODE/cpp_ds/build/binary_search_tree/CMakeFiles/test.dir
+D:/LEETCODE/cpp_ds/build/binary_search_tree/CMakeFiles/edit_cache.dir
+D:/LEETCODE/cpp_ds/build/binary_search_tree/CMakeFiles/rebuild_cache.dir
+D:/LEETCODE/cpp_ds/build/binary_search_tree/CMakeFiles/list_install_components.dir
+D:/LEETCODE/cpp_ds/build/binary_search_tree/CMakeFiles/install.dir
+D:/LEETCODE/cpp_ds/build/binary_search_tree/CMakeFiles/install/local.dir
+D:/LEETCODE/cpp_ds/build/binary_search_tree/CMakeFiles/install/strip.dir
