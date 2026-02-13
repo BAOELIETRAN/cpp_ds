@@ -3,6 +3,7 @@
 
 #include <cstddef>
 #include <stdexcept>
+#include <vector>
 
 namespace sosa{
     class binary_search_tree{
@@ -25,6 +26,10 @@ namespace sosa{
             ~binary_search_tree() = default;
 
             /* member functions */
+            // traversal
+            std::vector<int> pre_order_traversal() const;
+            std::vector<int> in_order_traversal() const;
+            std::vector<int> post_order_traversal() const;
     };
 }
 
