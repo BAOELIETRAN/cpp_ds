@@ -1,6 +1,7 @@
 #ifndef SOSA_BST_H
 #define SOSA_BST_H
 
+#include <iostream>
 #include <cstddef>
 #include <stdexcept>
 #include <vector>
@@ -19,6 +20,8 @@ namespace sosa{
             };
             std::size_t m_size{};
             TreeNode* m_root{};
+            TreeNode* initialize(const TreeNode* other_root);
+            void clean_up(const TreeNode* root);
         public:
             /* constructors */
             binary_search_tree() = default;
@@ -28,12 +31,16 @@ namespace sosa{
 
             /* member functions */
             // traversal
-            std::vector<int> pre_order_traversal() const;
-            std::vector<int> in_order_traversal() const;
-            std::vector<int> post_order_traversal() const;
+            void pre_order_helper(const TreeNode* root) const;
+            void pre_order_print() const;
+            void in_order_helper(const TreeNode* root) const;
+            void in_order_print() const;
+            void post_order_helper(const TreeNode* root) const;
+            void post_order_print() const;
 
             // basic operations
             // insert a node to the tree
+            void insert_helper(TreeNode* root, int val);
             void insert(int val);
             // delete a node from the tree
             void remove(int val);
