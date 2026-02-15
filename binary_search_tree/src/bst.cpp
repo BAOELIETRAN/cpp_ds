@@ -7,8 +7,8 @@ namespace sosa{
             return;
         }
         TreeNode* new_root = new (std::nothrow) TreeNode(other_root->val);
-        new_root->left = initialize(other_root->left);
-        new_root->right = initialize(other_root->right);
+        if (new_root != nullptr) new_root->left = initialize(other_root->left);
+        if (new_root != nullptr) new_root->right = initialize(other_root->right);
         return new_root;
     }
 
@@ -85,16 +85,16 @@ namespace sosa{
     // insert into a tree
     void binary_search_tree::insert_helper(TreeNode* root, int val){
         if (root == nullptr){
-            TreeNode* new_node = new TreeNode(val);
+            TreeNode* new_node = new (std::nothrow) TreeNode(val);
             root = new_node;
-            m_size ++;
+            if (new_node != nullptr) m_size ++;
             return;
         }
         if (val < root->val){
             if (root->left == nullptr){
-                TreeNode* new_node = new TreeNode(val);
+                TreeNode* new_node = new (std::nothrow) TreeNode(val);
                 root->left = new_node;
-                m_size ++;
+                if (new_node != nullptr) m_size ++;
             }
             else{
                 insert_helper(root->left, val);
@@ -102,9 +102,9 @@ namespace sosa{
         }
         else if (val >= root->val){
             if (root->right == nullptr){
-                TreeNode* new_node = new TreeNode(val);
+                TreeNode* new_node = new (std::nothrow) TreeNode(val);
                 root->right = new_node;
-                m_size ++;
+                if (new_node != nullptr) m_size ++;
             }
             else{
                 insert_helper(root->right, val);
@@ -115,4 +115,43 @@ namespace sosa{
     void binary_search_tree::insert(int val){
         insert_helper(m_root, val);
     }
+
+    // contain?
+    bool binary_search_tree::contains_helper(TreeNode* root, int val) const{
+        if (root == nullptr){
+            return false;
+        }
+        if (root->val == val){
+            return true;
+        }
+        return contains_helper(root->left, val) || contains_helper(root->right, val);
+    }
+
+    bool binary_search_tree::contains(int val) const{
+        contains_helper(m_root, val);
+    }
+
+    // find
+    binary_search_tree::TreeNode* binary_search_tree::find_helper(TreeNode* root, int val) const{
+        if (root == nullptr){
+            return nullptr;
+        }
+        if (root->val == val){
+            return root;
+        }
+        else if (val < root->val){
+            find_helper(root->left, val);
+        }
+        else{
+            find_helper(root->right, val);
+        }
+        return nullptr;
+    }
+
+    binary_search_tree::TreeNode* binary_search_tree::find(int val) const{
+        return find_helper(m_root, val);
+    }
+
+    // remove a node from the tree
+    
 }

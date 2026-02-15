@@ -45,9 +45,11 @@ namespace sosa{
             // delete a node from the tree
             void remove(int val);
             // check whether the tree contains a node with value
+            bool contains_helper(TreeNode* root, int val) const;
             bool contains(int val) const;
             // find the first node with value
-            TreeNode* find(int val);
+            TreeNode* find_helper(TreeNode* root, int val) const;
+            TreeNode* find(int val) const;
             // find max value of the tree
             int find_max() const;
             // find min value of the tree
