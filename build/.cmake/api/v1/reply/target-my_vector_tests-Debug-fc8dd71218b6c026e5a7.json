@@ -125,15 +125,15 @@
 	[
 		{
 			"backtrace" : 2,
+			"id" : "my_vector_lib::@95776985c747069fcc28"
+		},
+		{
+			"backtrace" : 2,
 			"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f"
 		},
 		{
 			"backtrace" : 2,
 			"id" : "gtest::@1ea2dfc0605fe3ab2a3f"
-		},
-		{
-			"backtrace" : 2,
-			"id" : "my_vector_lib::@95776985c747069fcc28"
 		}
 	],
 	"id" : "my_vector_tests::@95776985c747069fcc28",
