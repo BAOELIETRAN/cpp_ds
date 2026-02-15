@@ -117,7 +117,7 @@ namespace sosa{
     }
 
     // contain?
-    bool binary_search_tree::contains_helper(TreeNode* root, int val) const{
+    bool binary_search_tree::contains_helper(const TreeNode* root, int val) const{
         if (root == nullptr){
             return false;
         }
@@ -132,26 +132,145 @@ namespace sosa{
     }
 
     // find
-    binary_search_tree::TreeNode* binary_search_tree::find_helper(TreeNode* root, int val) const{
+    std::tuple<binary_search_tree::TreeNode*, binary_search_tree::TreeNode*> binary_search_tree::find_helper(TreeNode* root, int val) const{
+        TreeNode* cur_parent = nullptr;
+        TreeNode* cur_node = nullptr;
+        TreeNode* temp = root;
         if (root == nullptr){
-            return nullptr;
+            std::cerr << "Tree is currently empty!" << '\n';
+            return std::make_tuple(nullptr, nullptr);
         }
-        if (root->val == val){
-            return root;
+        // using iteration
+        while (temp != nullptr){
+            if (val == temp->val){
+                break;
+            }
+            else if (val < temp->val){
+                cur_parent = temp;
+                temp = temp->left;
+            }
+            else if (val > temp->val){
+                cur_parent = temp;
+                temp = temp->right;
+            }
         }
-        else if (val < root->val){
-            find_helper(root->left, val);
+        cur_node = temp;
+        if (cur_node == nullptr){
+            std::cerr << "Can not find node!" << '\n';
         }
-        else{
-            find_helper(root->right, val);
-        }
-        return nullptr;
+        return std::make_tuple(cur_parent, cur_node);
     }
 
     binary_search_tree::TreeNode* binary_search_tree::find(int val) const{
-        return find_helper(m_root, val);
+        auto tree_tuple = find_helper(m_root, val);
+        return std::get<1>(tree_tuple);
+    }
+
+    // find min on a tree
+    binary_search_tree::TreeNode* binary_search_tree::find_min_helper(TreeNode* root) const{
+        if (root == nullptr){
+            return nullptr;
+        }
+        TreeNode* temp = root;
+        while (temp->left != nullptr){
+            temp = temp->left;
+        }
+        return temp;
+    }   
+
+    int binary_search_tree::find_min() const{
+        TreeNode* cur_node = find_min_helper(m_root);
+        return (cur_node == nullptr)? INT_MIN : cur_node->val;
+    }
+
+    // find max on a tree
+    binary_search_tree::TreeNode* binary_search_tree::find_max_helper(TreeNode* root) const{
+        if (root == nullptr){
+            return nullptr;
+        }
+        TreeNode* temp = root;
+        while (temp->right != nullptr){
+            temp = temp->right;
+        }
+        return temp;
+    }
+
+    int binary_search_tree::find_max() const{
+        TreeNode* cur_node = find_max_helper(m_root);
+        return (cur_node == nullptr)? INT_MIN : cur_node->val;
     }
 
     // remove a node from the tree
-    
+    void binary_search_tree::remove_helper(TreeNode* root, int val){
+        if (root == nullptr){
+            std::cerr << "Tree is currently empty!" << '\n';
+            return;
+        }
+        auto tree_tuple = find_helper(root, val);
+        TreeNode* cur_parent = std::get<0>(tree_tuple);
+        TreeNode* cur_node = std::get<1>(tree_tuple);
+        bool is_left = (cur_node->val < cur_parent->val)? true : false;
+        // can not find node
+        if (cur_node == nullptr){
+            return;
+        }
+        // if delete root node
+        if (cur_parent == nullptr && cur_node != nullptr){
+            delete cur_node;
+            cur_node = nullptr;
+            root = nullptr;
+            m_size = 0;
+            return;
+        }
+        // case 1: delete a leaf node
+        if (cur_node->left == nullptr && cur_node->right == nullptr){
+            delete cur_node;
+            cur_node = nullptr;
+            if (is_left) cur_parent->left = nullptr;
+            else cur_parent->right = nullptr;
+        }
+        // case 2: delete a node with 1 child
+        else if (cur_node->left != nullptr && cur_node->right == nullptr){
+            TreeNode* next_node = cur_node->left;
+            delete cur_node;
+            cur_node = nullptr;
+            cur_node = next_node;
+            if (is_left) cur_parent->left = cur_node;
+            else cur_parent->right = cur_node;
+        }
+        else if (cur_node->left == nullptr && cur_node->right != nullptr){
+            TreeNode* next_node = cur_node->right;
+            delete cur_node;
+            cur_node = nullptr;
+            cur_node = next_node;
+            if (is_left) cur_parent->left = cur_node;
+            else cur_parent->right = cur_node;
+        }
+        // case 3: delete a node with 2 children
+        // replace with:
+        // - max on the left tree
+        // OR
+        // - min on the right tree
+        else{
+            // find min on the right tree
+            TreeNode* min_right = find_min_helper(cur_node->right);
+            int min_right_val = min_right->val;
+            cur_node->val = min_right_val;
+            std::tuple<TreeNode*, TreeNode*> min_right_tuple = find_helper(cur_node->right, min_right_val);
+            TreeNode* min_right_parent = std::get<0>(min_right_tuple);
+            delete min_right;
+            min_right = nullptr;
+            if (min_right_parent != cur_node){
+                min_right_parent->left = nullptr;
+            }
+            else{
+                min_right_parent->right = nullptr;
+            }
+        }
+        m_size --;
+    }
+
+    void binary_search_tree::remove(int val){
+        remove_helper(m_root, val);
+    }
 }
