@@ -4,7 +4,7 @@ namespace sosa{
     /* constructor & destructor*/
     binary_search_tree::TreeNode* binary_search_tree::initialize(const TreeNode* other_root){
         if (other_root == nullptr){
-            return;
+            return nullptr;
         }
         TreeNode* new_root = new (std::nothrow) TreeNode(other_root->val);
         if (new_root != nullptr) new_root->left = initialize(other_root->left);
@@ -128,7 +128,7 @@ namespace sosa{
     }
 
     bool binary_search_tree::contains(int val) const{
-        contains_helper(m_root, val);
+        return contains_helper(m_root, val);
     }
 
     // find

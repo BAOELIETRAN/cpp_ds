@@ -124,6 +124,7 @@ linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.obj: 
  C:/msys64/ucrt64/include/c++/15.2.0/bits/basic_string.h \
  C:/msys64/ucrt64/include/c++/15.2.0/string_view \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/string_view.tcc \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/ranges_algobase.h \
  C:/msys64/ucrt64/include/c++/15.2.0/ext/string_conversions.h \
  C:/msys64/ucrt64/include/c++/15.2.0/cstdlib \
  C:/msys64/ucrt64/include/stdlib.h \
@@ -165,10 +166,32 @@ linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.obj: 
  C:/msys64/ucrt64/include/c++/15.2.0/bits/std_mutex.h \
  C:/msys64/ucrt64/include/c++/15.2.0/backward/auto_ptr.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/ranges_uninitialized.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/ranges_algobase.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/out_ptr.h \
  C:/msys64/ucrt64/include/c++/15.2.0/pstl/glue_memory_defs.h \
  C:/msys64/ucrt64/include/c++/15.2.0/pstl/execution_defs.h \
  C:/msys64/ucrt64/include/c++/15.2.0/ostream \
+ C:/msys64/ucrt64/include/c++/15.2.0/format \
+ C:/msys64/ucrt64/include/c++/15.2.0/array \
+ C:/msys64/ucrt64/include/c++/15.2.0/charconv \
+ C:/msys64/ucrt64/include/c++/15.2.0/locale \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_facets_nonio.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/ctime \
+ C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/time_members.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/messages_members.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/codecvt.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_facets_nonio.tcc \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_conv.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/optional \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/enable_special_members.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/span \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/monostate.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/formatfwd.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/unicode.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_algo.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/algorithmfwd.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_heap.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/uniform_int_dist.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/unicode-data.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/15.2.0/set \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_tree.h \
@@ -191,14 +214,6 @@ linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.obj: 
  C:/msys64/ucrt64/include/string.h \
  C:/msys64/ucrt64/include/sec_api/string_s.h \
  C:/msys64/ucrt64/include/c++/15.2.0/iostream \
- C:/msys64/ucrt64/include/c++/15.2.0/locale \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_facets_nonio.h \
- C:/msys64/ucrt64/include/c++/15.2.0/ctime \
- C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/time_members.h \
- C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/messages_members.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/codecvt.h \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_facets_nonio.tcc \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/locale_conv.h \
  C:/msys64/ucrt64/include/sys/stat.h C:/msys64/ucrt64/include/io.h \
  D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h \
  D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h \
@@ -218,10 +233,7 @@ linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.obj: 
  C:/msys64/ucrt64/include/semaphore.h \
  C:/msys64/ucrt64/include/c++/15.2.0/mutex \
  C:/msys64/ucrt64/include/c++/15.2.0/any \
- C:/msys64/ucrt64/include/c++/15.2.0/optional \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/enable_special_members.h \
  C:/msys64/ucrt64/include/c++/15.2.0/variant \
- C:/msys64/ucrt64/include/c++/15.2.0/bits/monostate.h \
  D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/gtest-death-test.h \
  D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-death-test-internal.h \
  D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/gtest-matchers.h \
@@ -231,7 +243,8 @@ linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.obj: 
  C:/msys64/ucrt64/include/c++/15.2.0/bits/unordered_map.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/hashtable.h \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/hashtable_policy.h \
- C:/msys64/ucrt64/include/c++/15.2.0/array \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/move_only_function.h \
+ C:/msys64/ucrt64/include/c++/15.2.0/bits/mofunc_impl.h \
  D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/gtest-printers.h \
  C:/msys64/ucrt64/include/c++/15.2.0/utility \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/stl_relops.h \
@@ -245,7 +258,6 @@ linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.obj: 
  D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
  C:/msys64/ucrt64/include/c++/15.2.0/cxxabi.h \
  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/cxxabi_tweaks.h \
- C:/msys64/ucrt64/include/c++/15.2.0/span \
  D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/internal/custom/gtest-printers.h \
  D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/include/gtest/gtest-param-test.h \
  C:/msys64/ucrt64/include/c++/15.2.0/iterator \
