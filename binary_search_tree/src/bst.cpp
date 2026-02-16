@@ -273,4 +273,27 @@ namespace sosa{
     void binary_search_tree::remove(int val){
         remove_helper(m_root, val);
     }
+
+    // get height 
+    // using lambda (C++ 23)
+    // this (not "this" pointer in class):
+    // - treat this lambda object as a parameter
+    // - auto& - reference to a lambda
+    int binary_search_tree::get_height() const{
+        auto cal_height = [](this auto& self, TreeNode* root) -> int{
+            if (root == nullptr){
+                return 0;
+            }
+            int left_height = self(root->left);
+            int right_height = self(root->right);
+            return std::max(left_height, right_height) + 1;
+        };
+        return cal_height(m_root);
+    }
+
+    // clear the tree
+    void binary_search_tree::clear(){
+        clean_up(m_root);
+        m_size = 0;
+    }
 }

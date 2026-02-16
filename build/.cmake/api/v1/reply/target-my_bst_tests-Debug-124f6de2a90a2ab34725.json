@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "vector/my_vector_tests.exe"
+			"path" : "binary_search_tree/my_bst_tests.exe"
 		},
 		{
-			"path" : "vector/my_vector_tests.pdb"
+			"path" : "binary_search_tree/my_bst_tests.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -20,7 +20,7 @@
 		],
 		"files" : 
 		[
-			"vector/CMakeLists.txt",
+			"binary_search_tree/CMakeLists.txt",
 			"build/_deps/googletest-src/googletest/CMakeLists.txt",
 			"C:/Program Files/CMake/share/cmake-4.2/Modules/GoogleTest.cmake"
 		],
@@ -73,7 +73,7 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "my_vector_lib::@95776985c747069fcc28"
+			"id" : "my_bst_lib::@e218c2cd4b5236fdd68e"
 		},
 		{
 			"backtrace" : 2,
@@ -86,14 +86,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++20"
+					"fragment" : "-g -std=gnu++23"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "D:/LEETCODE/cpp_ds/vector/src"
+					"path" : "D:/LEETCODE/cpp_ds/binary_search_tree/src"
 				},
 				{
 					"backtrace" : 2,
@@ -113,7 +113,7 @@
 				[
 					2
 				],
-				"standard" : "20"
+				"standard" : "23"
 			},
 			"sourceIndexes" : 
 			[
@@ -125,7 +125,7 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "my_vector_lib::@95776985c747069fcc28"
+			"id" : "gtest::@1ea2dfc0605fe3ab2a3f"
 		},
 		{
 			"backtrace" : 2,
@@ -133,10 +133,10 @@
 		},
 		{
 			"backtrace" : 2,
-			"id" : "gtest::@1ea2dfc0605fe3ab2a3f"
+			"id" : "my_bst_lib::@e218c2cd4b5236fdd68e"
 		}
 	],
-	"id" : "my_vector_tests::@95776985c747069fcc28",
+	"id" : "my_bst_tests::@e218c2cd4b5236fdd68e",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -147,7 +147,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "libmy_vector_lib.a",
+				"fragment" : "libmy_bst_lib.a",
 				"role" : "libraries"
 			},
 			{
@@ -171,26 +171,26 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "my_vector_lib::@95776985c747069fcc28"
+			"id" : "my_bst_lib::@e218c2cd4b5236fdd68e"
 		},
 		{
 			"backtrace" : 2,
 			"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f"
 		}
 	],
-	"name" : "my_vector_tests",
-	"nameOnDisk" : "my_vector_tests.exe",
+	"name" : "my_bst_tests",
+	"nameOnDisk" : "my_bst_tests.exe",
 	"orderDependencies" : 
 	[
 		{
 			"backtrace" : 6,
-			"id" : "my_vector_tests::@95776985c747069fcc28"
+			"id" : "my_bst_tests::@e218c2cd4b5236fdd68e"
 		}
 	],
 	"paths" : 
 	{
-		"build" : "vector",
-		"source" : "vector"
+		"build" : "binary_search_tree",
+		"source" : "binary_search_tree"
 	},
 	"sourceGroups" : 
 	[
@@ -207,7 +207,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "vector/tests/test_vector.cpp",
+			"path" : "binary_search_tree/tests/test_bst.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

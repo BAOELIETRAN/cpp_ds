@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "binary_search_tree/libmy_bst_lib.a"
+			"path" : "queue/libmy_queue_lib.a"
 		}
 	],
 	"backtrace" : 1,
@@ -16,7 +16,7 @@
 		],
 		"files" : 
 		[
-			"binary_search_tree/CMakeLists.txt"
+			"queue/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -48,14 +48,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++20"
+					"fragment" : "-g -std=gnu++23"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "D:/LEETCODE/cpp_ds/binary_search_tree/src"
+					"path" : "D:/LEETCODE/cpp_ds/queue/src"
 				}
 			],
 			"language" : "CXX",
@@ -65,7 +65,7 @@
 				[
 					1
 				],
-				"standard" : "20"
+				"standard" : "23"
 			},
 			"sourceIndexes" : 
 			[
@@ -73,13 +73,13 @@
 			]
 		}
 	],
-	"id" : "my_bst_lib::@e218c2cd4b5236fdd68e",
-	"name" : "my_bst_lib",
-	"nameOnDisk" : "libmy_bst_lib.a",
+	"id" : "my_queue_lib::@d63f5f69c5a9088733ed",
+	"name" : "my_queue_lib",
+	"nameOnDisk" : "libmy_queue_lib.a",
 	"paths" : 
 	{
-		"build" : "binary_search_tree",
-		"source" : "binary_search_tree"
+		"build" : "queue",
+		"source" : "queue"
 	},
 	"sourceGroups" : 
 	[
@@ -96,7 +96,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "binary_search_tree/src/bst.cpp",
+			"path" : "queue/src/queue.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

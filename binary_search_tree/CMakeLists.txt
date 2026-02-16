@@ -15,7 +15,7 @@ project(MY_BST LANGUAGES CXX)
 # set the project standard
 # compile everything with C++ 20 (must)
 # if our compiler doesn't support C++ 20 --> fail (instead of CMake silently fallback to C++ 17)
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # turn on CMake's built-in dependency manager

@@ -309,8 +309,8 @@ vector/CMakeFiles/my_vector_lib.dir/clean:
 
 # All Build rule for target.
 vector/CMakeFiles/my_vector_tests.dir/all: vector/CMakeFiles/my_vector_lib.dir/all
-vector/CMakeFiles/my_vector_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 vector/CMakeFiles/my_vector_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+vector/CMakeFiles/my_vector_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_tests.dir\build.make vector/CMakeFiles/my_vector_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_tests.dir\build.make vector/CMakeFiles/my_vector_tests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=27,28 "Built target my_vector_tests"
@@ -503,8 +503,8 @@ linked_list/CMakeFiles/my_linked_list_lib.dir/clean:
 # Target rules for target linked_list/CMakeFiles/my_linked_list_tests.dir
 
 # All Build rule for target.
-linked_list/CMakeFiles/my_linked_list_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 linked_list/CMakeFiles/my_linked_list_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+linked_list/CMakeFiles/my_linked_list_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 linked_list/CMakeFiles/my_linked_list_tests.dir/all: linked_list/CMakeFiles/my_linked_list_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_tests.dir\build.make linked_list/CMakeFiles/my_linked_list_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_tests.dir\build.make linked_list/CMakeFiles/my_linked_list_tests.dir/build
@@ -569,8 +569,8 @@ stack/CMakeFiles/my_stack_lib.dir/clean:
 # Target rules for target stack/CMakeFiles/my_stack_tests.dir
 
 # All Build rule for target.
-stack/CMakeFiles/my_stack_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 stack/CMakeFiles/my_stack_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+stack/CMakeFiles/my_stack_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 stack/CMakeFiles/my_stack_tests.dir/all: stack/CMakeFiles/my_stack_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f stack\CMakeFiles\my_stack_tests.dir\build.make stack/CMakeFiles/my_stack_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f stack\CMakeFiles\my_stack_tests.dir\build.make stack/CMakeFiles/my_stack_tests.dir/build
@@ -635,8 +635,8 @@ queue/CMakeFiles/my_queue_lib.dir/clean:
 # Target rules for target queue/CMakeFiles/my_queue_tests.dir
 
 # All Build rule for target.
-queue/CMakeFiles/my_queue_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 queue/CMakeFiles/my_queue_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+queue/CMakeFiles/my_queue_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 queue/CMakeFiles/my_queue_tests.dir/all: queue/CMakeFiles/my_queue_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f queue\CMakeFiles\my_queue_tests.dir\build.make queue/CMakeFiles/my_queue_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f queue\CMakeFiles\my_queue_tests.dir\build.make queue/CMakeFiles/my_queue_tests.dir/build
@@ -701,8 +701,8 @@ binary_search_tree/CMakeFiles/my_bst_lib.dir/clean:
 # Target rules for target binary_search_tree/CMakeFiles/my_bst_tests.dir
 
 # All Build rule for target.
-binary_search_tree/CMakeFiles/my_bst_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 binary_search_tree/CMakeFiles/my_bst_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+binary_search_tree/CMakeFiles/my_bst_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 binary_search_tree/CMakeFiles/my_bst_tests.dir/all: binary_search_tree/CMakeFiles/my_bst_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f binary_search_tree\CMakeFiles\my_bst_tests.dir\build.make binary_search_tree/CMakeFiles/my_bst_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f binary_search_tree\CMakeFiles\my_bst_tests.dir\build.make binary_search_tree/CMakeFiles/my_bst_tests.dir/build
