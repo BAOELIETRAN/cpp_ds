@@ -1,7 +1,33 @@
 {
-  "tests": 0,
+  "tests": 3,
   "name": "AllTests",
   "testsuites": [
-
+    {
+      "name": "InitializingTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "DefaultConstructor",
+          "file": "D:\\LEETCODE\\cpp_ds\\binary_search_tree\\tests\\test_bst.cpp",
+          "line": 4
+        }
+      ]
+    },
+    {
+      "name": "HelperFunctionTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "InsertTest",
+          "file": "D:\\LEETCODE\\cpp_ds\\binary_search_tree\\tests\\test_bst.cpp",
+          "line": 10
+        },
+        {
+          "name": "RemoveTest",
+          "file": "D:\\LEETCODE\\cpp_ds\\binary_search_tree\\tests\\test_bst.cpp",
+          "line": 29
+        }
+      ]
+    }
   ]
 }

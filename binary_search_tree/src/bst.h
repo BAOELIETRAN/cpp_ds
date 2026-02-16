@@ -21,16 +21,16 @@ namespace sosa{
             };
             std::size_t m_size{};
             TreeNode* m_root{};
-            TreeNode* initialize(const TreeNode* other_root);
-            void clean_up(const TreeNode* root);
             /* helper functions */
+            TreeNode* initialize(TreeNode* other_root);
+            void clean_up(TreeNode*& root);
             void pre_order_helper(const TreeNode* root) const;
             void in_order_helper(const TreeNode* root) const;
             void post_order_helper(const TreeNode* root) const;
-            void insert_helper(TreeNode* root, int val);
+            void insert_helper(TreeNode*& root, int val);
             bool contains_helper(const TreeNode* root, int val) const;
             std::tuple<TreeNode*, TreeNode*> find_helper(TreeNode* root, int val) const;
-            void remove_helper(TreeNode* root, int val);
+            void remove_helper(TreeNode*& root, int val);
             TreeNode* find_min_helper(TreeNode* root) const;
             TreeNode* find_max_helper(TreeNode* root) const;
         public:

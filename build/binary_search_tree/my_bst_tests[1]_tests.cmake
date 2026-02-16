@@ -1,1 +1,7 @@
-set(  my_bst_tests_TESTS)
+add_test([=[InitializingTest.DefaultConstructor]=]  D:/LEETCODE/cpp_ds/build/binary_search_tree/my_bst_tests.exe [==[--gtest_filter=InitializingTest.DefaultConstructor]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[InitializingTest.DefaultConstructor]=]  PROPERTIES DEF_SOURCE_LINE [==[D:\LEETCODE\cpp_ds\binary_search_tree\tests\test_bst.cpp:4]==] WORKING_DIRECTORY D:/LEETCODE/cpp_ds/build/binary_search_tree SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[HelperFunctionTest.InsertTest]=]  D:/LEETCODE/cpp_ds/build/binary_search_tree/my_bst_tests.exe [==[--gtest_filter=HelperFunctionTest.InsertTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[HelperFunctionTest.InsertTest]=]  PROPERTIES DEF_SOURCE_LINE [==[D:\LEETCODE\cpp_ds\binary_search_tree\tests\test_bst.cpp:10]==] WORKING_DIRECTORY D:/LEETCODE/cpp_ds/build/binary_search_tree SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[HelperFunctionTest.RemoveTest]=]  D:/LEETCODE/cpp_ds/build/binary_search_tree/my_bst_tests.exe [==[--gtest_filter=HelperFunctionTest.RemoveTest]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[HelperFunctionTest.RemoveTest]=]  PROPERTIES DEF_SOURCE_LINE [==[D:\LEETCODE\cpp_ds\binary_search_tree\tests\test_bst.cpp:29]==] WORKING_DIRECTORY D:/LEETCODE/cpp_ds/build/binary_search_tree SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  my_bst_tests_TESTS InitializingTest.DefaultConstructor HelperFunctionTest.InsertTest HelperFunctionTest.RemoveTest)

@@ -2,7 +2,7 @@
 
 namespace sosa{
     /* constructor & destructor*/
-    binary_search_tree::TreeNode* binary_search_tree::initialize(const TreeNode* other_root){
+    binary_search_tree::TreeNode* binary_search_tree::initialize(TreeNode* other_root){
         if (other_root == nullptr){
             return nullptr;
         }
@@ -19,7 +19,7 @@ namespace sosa{
     }
 
     // clean up the whole tree
-    void binary_search_tree::clean_up(const TreeNode* root){
+    void binary_search_tree::clean_up(TreeNode*& root){
         if (root == nullptr){
             return;
         }
@@ -83,7 +83,9 @@ namespace sosa{
     }
 
     // insert into a tree
-    void binary_search_tree::insert_helper(TreeNode* root, int val){
+    // need to pass by pointer reference because pointer is just a variable that holds address
+    //  if we just change the value of the param (pointer) --> does not mean anything
+    void binary_search_tree::insert_helper(TreeNode*& root, int val){
         if (root == nullptr){
             TreeNode* new_node = new (std::nothrow) TreeNode(val);
             root = new_node;
@@ -201,7 +203,7 @@ namespace sosa{
     }
 
     // remove a node from the tree
-    void binary_search_tree::remove_helper(TreeNode* root, int val){
+    void binary_search_tree::remove_helper(TreeNode*& root, int val){
         if (root == nullptr){
             std::cerr << "Tree is currently empty!" << '\n';
             return;
@@ -209,25 +211,24 @@ namespace sosa{
         auto tree_tuple = find_helper(root, val);
         TreeNode* cur_parent = std::get<0>(tree_tuple);
         TreeNode* cur_node = std::get<1>(tree_tuple);
-        bool is_left = (cur_node->val < cur_parent->val)? true : false;
         // can not find node
         if (cur_node == nullptr){
             return;
         }
+        bool is_left = (cur_parent != nullptr && cur_node->val < cur_parent->val)? true : false;
+        bool is_root = false;
         // if delete root node
         if (cur_parent == nullptr && cur_node != nullptr){
-            delete cur_node;
-            cur_node = nullptr;
-            root = nullptr;
-            m_size = 0;
-            return;
+            is_root = true;
         }
         // case 1: delete a leaf node
         if (cur_node->left == nullptr && cur_node->right == nullptr){
             delete cur_node;
             cur_node = nullptr;
-            if (is_left) cur_parent->left = nullptr;
-            else cur_parent->right = nullptr;
+            if (is_root == false){
+                if (is_left) cur_parent->left = nullptr;
+                else cur_parent->right = nullptr;
+            }
         }
         // case 2: delete a node with 1 child
         else if (cur_node->left != nullptr && cur_node->right == nullptr){
@@ -235,39 +236,57 @@ namespace sosa{
             delete cur_node;
             cur_node = nullptr;
             cur_node = next_node;
-            if (is_left) cur_parent->left = cur_node;
-            else cur_parent->right = cur_node;
+            if (is_root == false){
+                if (is_left) cur_parent->left = cur_node;
+                else cur_parent->right = cur_node;
+            }
         }
         else if (cur_node->left == nullptr && cur_node->right != nullptr){
             TreeNode* next_node = cur_node->right;
             delete cur_node;
             cur_node = nullptr;
             cur_node = next_node;
-            if (is_left) cur_parent->left = cur_node;
-            else cur_parent->right = cur_node;
+            if (is_root == false){
+                if (is_left) cur_parent->left = cur_node;
+                else cur_parent->right = cur_node;
+            }
         }
         // case 3: delete a node with 2 children
         // replace with:
         // - max on the left tree
         // OR
         // - min on the right tree
+        // case 3: delete a node with 2 children
         else{
             // find min on the right tree
             TreeNode* min_right = find_min_helper(cur_node->right);
             int min_right_val = min_right->val;
-            cur_node->val = min_right_val;
             std::tuple<TreeNode*, TreeNode*> min_right_tuple = find_helper(cur_node->right, min_right_val);
-            TreeNode* min_right_parent = std::get<0>(min_right_tuple);
-            delete min_right;
-            min_right = nullptr;
-            if (min_right_parent != cur_node){
-                min_right_parent->left = nullptr;
+            TreeNode* min_right_parent_temp = std::get<0>(min_right_tuple);
+            TreeNode* min_right_found = std::get<1>(min_right_tuple);
+            cur_node->val = min_right_val;
+            TreeNode* min_right_parent = (min_right_parent_temp == nullptr) ? cur_node : min_right_parent_temp;
+            // can not go any further left, but what if right is not null?
+            if (min_right->right != nullptr){
+                if (min_right_parent == cur_node){
+                    cur_node->right = min_right->right;
+                }
+                else{
+                    min_right_parent->left = min_right->right;
+                }
             }
             else{
-                min_right_parent->right = nullptr;
+                if (min_right_parent == cur_node){
+                    min_right_parent->right = nullptr;
+                }
+                else{
+                    min_right_parent->left = nullptr;
+                }
             }
+            delete min_right;
+            min_right = nullptr;
         }
-        m_size --;
+        m_size--;
     }
 
     void binary_search_tree::remove(int val){
