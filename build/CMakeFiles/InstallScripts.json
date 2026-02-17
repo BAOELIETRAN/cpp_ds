@@ -9,7 +9,8 @@
 		"D:/LEETCODE/cpp_ds/build/linked_list/cmake_install.cmake",
 		"D:/LEETCODE/cpp_ds/build/stack/cmake_install.cmake",
 		"D:/LEETCODE/cpp_ds/build/queue/cmake_install.cmake",
-		"D:/LEETCODE/cpp_ds/build/binary_search_tree/cmake_install.cmake"
+		"D:/LEETCODE/cpp_ds/build/binary_search_tree/cmake_install.cmake",
+		"D:/LEETCODE/cpp_ds/build/priority_queue/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

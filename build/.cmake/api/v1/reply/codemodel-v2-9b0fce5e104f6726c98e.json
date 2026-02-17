@@ -13,7 +13,8 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
@@ -162,6 +163,17 @@
 						4,
 						5
 					]
+				},
+				{
+					"build" : "priority_queue",
+					"jsonFile" : "directory-priority_queue-Debug-846e2af68165edf1ff0e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "priority_queue"
 				}
 			],
 			"name" : "Debug",
@@ -178,7 +190,8 @@
 					],
 					"directoryIndexes" : 
 					[
-						0
+						0,
+						9
 					],
 					"name" : "CPP_DS"
 				},

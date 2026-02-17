@@ -67,6 +67,7 @@ all: linked_list/all
 all: stack/all
 all: queue/all
 all: binary_search_tree/all
+all: priority_queue/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -75,6 +76,7 @@ codegen: linked_list/codegen
 codegen: stack/codegen
 codegen: queue/codegen
 codegen: binary_search_tree/codegen
+codegen: priority_queue/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -83,6 +85,7 @@ preinstall: linked_list/preinstall
 preinstall: stack/preinstall
 preinstall: queue/preinstall
 preinstall: binary_search_tree/preinstall
+preinstall: priority_queue/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -91,6 +94,7 @@ clean: linked_list/clean
 clean: stack/clean
 clean: queue/clean
 clean: binary_search_tree/clean
+clean: priority_queue/clean
 .PHONY : clean
 
 #=============================================================================
@@ -202,6 +206,25 @@ linked_list/preinstall:
 linked_list/clean: linked_list/CMakeFiles/my_linked_list_lib.dir/clean
 linked_list/clean: linked_list/CMakeFiles/my_linked_list_tests.dir/clean
 .PHONY : linked_list/clean
+
+#=============================================================================
+# Directory level rules for directory priority_queue
+
+# Recursive "all" directory target.
+priority_queue/all:
+.PHONY : priority_queue/all
+
+# Recursive "codegen" directory target.
+priority_queue/codegen:
+.PHONY : priority_queue/codegen
+
+# Recursive "preinstall" directory target.
+priority_queue/preinstall:
+.PHONY : priority_queue/preinstall
+
+# Recursive "clean" directory target.
+priority_queue/clean:
+.PHONY : priority_queue/clean
 
 #=============================================================================
 # Directory level rules for directory queue

@@ -26,6 +26,7 @@ add_subdirectory(linked_list)
 add_subdirectory(stack)
 add_subdirectory(queue)
 add_subdirectory(binary_search_tree)
+add_subdirectory(priority_queue)
 
 # a few helpful commands:
 # ====================================================================

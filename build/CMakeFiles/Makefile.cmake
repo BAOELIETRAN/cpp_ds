@@ -64,6 +64,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "_deps/googletest-src/googletest/cmake/gtest_main.pc.in"
   "_deps/googletest-src/googletest/cmake/internal_utils.cmake"
   "D:/LEETCODE/cpp_ds/linked_list/CMakeLists.txt"
+  "D:/LEETCODE/cpp_ds/priority_queue/CMakeLists.txt"
   "D:/LEETCODE/cpp_ds/queue/CMakeLists.txt"
   "D:/LEETCODE/cpp_ds/stack/CMakeLists.txt"
   "D:/LEETCODE/cpp_ds/vector/CMakeLists.txt"
@@ -93,6 +94,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "stack/CMakeFiles/CMakeDirectoryInformation.cmake"
   "queue/CMakeFiles/CMakeDirectoryInformation.cmake"
   "binary_search_tree/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "priority_queue/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
