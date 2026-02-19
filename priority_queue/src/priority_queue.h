@@ -15,6 +15,8 @@ namespace gio{
                     return a < b;
                 }
             };
+            // initialize a comparator object
+            comparator m_comp{};
             std::vector<int> m_container{};
             std::size_t m_size{};
             // constructor must have a comparator as an input
@@ -24,9 +26,9 @@ namespace gio{
             // move a node down to ensure heap priority
             void heapify_down(int index);
             // return parent index of current node at index
-            int get_parent(int index);
+            int get_parent(int index) const;
             // return left child of current node at index
-            int get_left_child(int index);
+            int get_left_child(int index) const;
             // return right child of current node at index
         public:
             /* constructors & destructors */
