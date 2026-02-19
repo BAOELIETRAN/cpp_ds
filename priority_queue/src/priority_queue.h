@@ -6,6 +6,7 @@
 #include <cstddef>
 #include <stdexcept>
 
+// add on: use move semantics (constructors + assignment) and smart pointer in this ds
 namespace gio{
     class priority_queue{
         private:
