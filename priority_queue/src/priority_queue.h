@@ -9,9 +9,14 @@
 namespace gio{
     class priority_queue{
         private:
+            struct comparator{
+                bool operator()(const int& a, const int& b) const{
+                    // sort in ascending order
+                    return a < b;
+                }
+            };
             std::vector<int> m_container{};
             std::size_t m_size{};
-            // TODO: have a comparator
             // constructor must have a comparator as an input
             /* helper methods */
             // move a node up to ensure heap priority
@@ -31,8 +36,6 @@ namespace gio{
             ~priority_queue() = default;
 
             /* member functions */
-            // TODO: have an iterator
-
             // return the top element --- O(1)
             int top() const;
             // check if the queue is empty --- O(1)
