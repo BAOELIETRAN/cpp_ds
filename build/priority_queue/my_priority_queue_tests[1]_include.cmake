@@ -1,0 +1,5 @@
+if(EXISTS "D:/LEETCODE/cpp_ds/build/priority_queue/my_priority_queue_tests[1]_tests.cmake")
+  include("D:/LEETCODE/cpp_ds/build/priority_queue/my_priority_queue_tests[1]_tests.cmake")
+else()
+  add_test(my_priority_queue_tests_NOT_BUILT my_priority_queue_tests_NOT_BUILT)
+endif()

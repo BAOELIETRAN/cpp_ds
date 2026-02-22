@@ -1,39 +1,57 @@
-Start testing: Feb 15 22:34 Eastern Standard Time
+Start testing: Feb 21 21:43 Eastern Standard Time
 ----------------------------------------------------------
-42/42 Testing: HelperFunctionTest.RemoveTest
-42/42 Test: HelperFunctionTest.RemoveTest
-Command: "D:/LEETCODE/cpp_ds/build/binary_search_tree/my_bst_tests.exe" "--gtest_filter=HelperFunctionTest.RemoveTest" "--gtest_also_run_disabled_tests"
-Directory: D:/LEETCODE/cpp_ds/build/binary_search_tree
-"HelperFunctionTest.RemoveTest" start time: Feb 15 22:34 Eastern Standard Time
+44/45 Testing: MemberTest.PushElement
+44/45 Test: MemberTest.PushElement
+Command: "D:/LEETCODE/cpp_ds/build/priority_queue/my_priority_queue_tests.exe" "--gtest_filter=MemberTest.PushElement" "--gtest_also_run_disabled_tests"
+Directory: D:/LEETCODE/cpp_ds/build/priority_queue
+"MemberTest.PushElement" start time: Feb 21 21:43 Eastern Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\LEETCODE\cpp_ds\build\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = HelperFunctionTest.RemoveTest
+Note: Google Test filter = MemberTest.PushElement
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from HelperFunctionTest
-[ RUN      ] HelperFunctionTest.RemoveTest
-Can not find node!
-After removing 3: 
-6 7 7 8 9 
-After removing 9: 
-6 7 7 8 
-After removing 8: 
-6 7 7 
-After removing 7: 
-6 7 
-[       OK ] HelperFunctionTest.RemoveTest (0 ms)
-[----------] 1 test from HelperFunctionTest (0 ms total)
+[----------] 1 test from MemberTest
+[ RUN      ] MemberTest.PushElement
+[       OK ] MemberTest.PushElement (0 ms)
+[----------] 1 test from MemberTest (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.08 sec
+Test time =   0.11 sec
 ----------------------------------------------------------
 Test Passed.
-"HelperFunctionTest.RemoveTest" end time: Feb 15 22:34 Eastern Standard Time
-"HelperFunctionTest.RemoveTest" time elapsed: 00:00:00
+"MemberTest.PushElement" end time: Feb 21 21:43 Eastern Standard Time
+"MemberTest.PushElement" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Feb 15 22:34 Eastern Standard Time
+45/45 Testing: MemberTest.PopElement
+45/45 Test: MemberTest.PopElement
+Command: "D:/LEETCODE/cpp_ds/build/priority_queue/my_priority_queue_tests.exe" "--gtest_filter=MemberTest.PopElement" "--gtest_also_run_disabled_tests"
+Directory: D:/LEETCODE/cpp_ds/build/priority_queue
+"MemberTest.PopElement" start time: Feb 21 21:43 Eastern Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\LEETCODE\cpp_ds\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = MemberTest.PopElement
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MemberTest
+[ RUN      ] MemberTest.PopElement
+[       OK ] MemberTest.PopElement (0 ms)
+[----------] 1 test from MemberTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"MemberTest.PopElement" end time: Feb 21 21:43 Eastern Standard Time
+"MemberTest.PopElement" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 21 21:43 Eastern Standard Time

@@ -369,6 +369,15 @@ MY_LINKED_LIST_IS_TOP_LEVEL:STATIC=OFF
 MY_LINKED_LIST_SOURCE_DIR:STATIC=D:/LEETCODE/cpp_ds/linked_list
 
 //Value Computed by CMake
+MY_PRIORITY_QUEUE_BINARY_DIR:STATIC=D:/LEETCODE/cpp_ds/build/priority_queue
+
+//Value Computed by CMake
+MY_PRIORITY_QUEUE_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+MY_PRIORITY_QUEUE_SOURCE_DIR:STATIC=D:/LEETCODE/cpp_ds/priority_queue
+
+//Value Computed by CMake
 MY_QUEUE_BINARY_DIR:STATIC=D:/LEETCODE/cpp_ds/build/queue
 
 //Value Computed by CMake
@@ -394,6 +403,15 @@ MY_VECTOR_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 MY_VECTOR_SOURCE_DIR:STATIC=D:/LEETCODE/cpp_ds/vector
+
+//Value Computed by CMake
+MY_priority_queue_BINARY_DIR:STATIC=D:/LEETCODE/cpp_ds/build/priority_queue
+
+//Value Computed by CMake
+MY_priority_queue_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+MY_priority_queue_SOURCE_DIR:STATIC=D:/LEETCODE/cpp_ds/priority_queue
 
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=D:/LEETCODE/cpp_ds/build/_deps/googletest-build/googlemock

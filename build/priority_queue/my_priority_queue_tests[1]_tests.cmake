@@ -1,0 +1,7 @@
+add_test([=[InitializingTest.ZeroElement]=]  D:/LEETCODE/cpp_ds/build/priority_queue/my_priority_queue_tests.exe [==[--gtest_filter=InitializingTest.ZeroElement]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[InitializingTest.ZeroElement]=]  PROPERTIES DEF_SOURCE_LINE [==[D:\LEETCODE\cpp_ds\priority_queue\tests\test_priority_queue.cpp:4]==] WORKING_DIRECTORY D:/LEETCODE/cpp_ds/build/priority_queue SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[MemberTest.PushElement]=]  D:/LEETCODE/cpp_ds/build/priority_queue/my_priority_queue_tests.exe [==[--gtest_filter=MemberTest.PushElement]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[MemberTest.PushElement]=]  PROPERTIES DEF_SOURCE_LINE [==[D:\LEETCODE\cpp_ds\priority_queue\tests\test_priority_queue.cpp:10]==] WORKING_DIRECTORY D:/LEETCODE/cpp_ds/build/priority_queue SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[MemberTest.PopElement]=]  D:/LEETCODE/cpp_ds/build/priority_queue/my_priority_queue_tests.exe [==[--gtest_filter=MemberTest.PopElement]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[MemberTest.PopElement]=]  PROPERTIES DEF_SOURCE_LINE [==[D:\LEETCODE\cpp_ds\priority_queue\tests\test_priority_queue.cpp:20]==] WORKING_DIRECTORY D:/LEETCODE/cpp_ds/build/priority_queue SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  my_priority_queue_tests_TESTS InitializingTest.ZeroElement MemberTest.PushElement MemberTest.PopElement)

@@ -7,17 +7,19 @@ namespace gio{
             // program will terminate since no catch block is found in call stack
             throw std::out_of_range("The index is invalid!");
         }
-        return (index == 0)? 0 : (index - 1)/2;
+        return (index - 1)/2;
     }
 
     // O(logN)
     void priority_queue::heapify_up(int index){
-        int parent_index = get_parent(index);
-        while (parent_index >= 0){
+        while (index > 0){
+            int parent_index = get_parent(index);
             if (m_comp(m_container[parent_index], m_container[index]) == false){
                 std::swap(m_container[parent_index], m_container[index]);
                 index = parent_index;
-                get_parent(index);
+            }
+            else{
+                break;
             }
         }
     }
@@ -42,45 +44,47 @@ namespace gio{
 
     // O(logN)
     void priority_queue::heapify_down(int index){
-        int left_index = get_left_child(index);
-        while (left_index != -1){
-            int cur_num = m_container[index];
-            int cur_left = m_container[left_index];
+        while (0 <= index && index < m_size){
+            int left_index = get_left_child(index);
             int right_index = get_right_child(index);
+            if (left_index == -1 && right_index == -1){
+                break;
+            }
             if (right_index != -1){
-                int cur_right = m_container[right_index];
                 // violate both
-                if (m_comp(cur_num, cur_left) == false && m_comp(cur_num, cur_right) == false){
-                    if (cur_left < cur_right){
-                        std::swap(cur_num, cur_left);
-                        index = left_index;
-                        left_index = get_left_child(index);                        
+                if (m_comp(m_container[index], m_container[left_index]) == false && m_comp(m_container[index], m_container[right_index]) == false){
+                    if (m_comp(m_container[left_index], m_container[right_index]) == true){
+                        std::swap(m_container[index], m_container[left_index]);
+                        index = left_index;                     
                     }
                     else{
-                        std::swap(cur_num, cur_right);
-                        index = right_index;
-                        left_index = get_left_child(index);                        
+                        std::swap(m_container[index], m_container[right_index]);
+                        index = right_index;                      
                     }
                 }
                 // violate only left
-                else if (m_comp(cur_num, cur_left) == false && m_comp(cur_num, cur_right) == true){
-                    std::swap(cur_num, cur_left);
+                else if (m_comp(m_container[index], m_container[left_index]) == false && m_comp(m_container[index], m_container[right_index]) == true){
+                    std::swap(m_container[index], m_container[left_index]);
                     index = left_index;
-                    left_index = get_left_child(index);
                 }
                 // violate only right
-                else if (m_comp(cur_num, cur_left) == true && m_comp(cur_num, cur_right) == false){
-                    std::swap(cur_num, cur_right);
+                else if (m_comp(m_container[index], m_container[left_index]) == true && m_comp(m_container[index], m_container[right_index]) == false){
+                    std::swap(m_container[index], m_container[right_index]);
                     index = right_index;
-                    left_index = get_left_child(index);
+                }
+                // does not violate anything
+                else{
+                    break;
                 }
             }  
             else{
                 // can not find any right child
-                if (m_comp(cur_num, cur_left) == false){
-                    std::swap(cur_num, cur_left);
+                if (m_comp(m_container[index], m_container[left_index]) == false){
+                    std::swap(m_container[index], m_container[left_index]);
                     index = left_index;
-                    left_index = get_left_child(index);
+                }
+                else{
+                    break;
                 }
             }
         }
@@ -116,8 +120,15 @@ namespace gio{
             return;
         }
         // TODO: implement heapify down
-        heapify_down(0);
+        /**
+         * process:
+         * - swap root with the last node
+         * - delete the last node
+         * - heapify down the tree from root
+         */
+        std::swap(m_container.front(), m_container.back());
         m_container.pop_back();
         m_size --;
+        if (empty() == false) heapify_down(0);
     }
 }

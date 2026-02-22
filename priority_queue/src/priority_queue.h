@@ -6,7 +6,7 @@
 #include <cstddef>
 #include <stdexcept>
 
-// add on: use move semantics (constructors + assignment) and smart pointer in this ds
+// add on: function pointer for comparator?
 namespace gio{
     class priority_queue{
         private:
@@ -35,8 +35,14 @@ namespace gio{
         public:
             /* constructors & destructors */
             priority_queue() = default;
+            // default copy constructor
             priority_queue(const priority_queue& other_queue) = default;
+            // default move constructor
+            priority_queue(priority_queue&& other_queue) = default;
+            // default copy assignment
             priority_queue& operator=(const priority_queue& other_queue) = default;
+            // default move assignment
+            priority_queue& operator=(priority_queue&& other_queue) = default;
             ~priority_queue() = default;
 
             /* member functions */

@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libmy_priority_queue_lib.a CMakeFiles/my_priority_queue_lib.dir/src/priority_queue.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libmy_priority_queue_lib.a

@@ -1,0 +1,33 @@
+{
+  "tests": 3,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "InitializingTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "ZeroElement",
+          "file": "D:\\LEETCODE\\cpp_ds\\priority_queue\\tests\\test_priority_queue.cpp",
+          "line": 4
+        }
+      ]
+    },
+    {
+      "name": "MemberTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "PushElement",
+          "file": "D:\\LEETCODE\\cpp_ds\\priority_queue\\tests\\test_priority_queue.cpp",
+          "line": 10
+        },
+        {
+          "name": "PopElement",
+          "file": "D:\\LEETCODE\\cpp_ds\\priority_queue\\tests\\test_priority_queue.cpp",
+          "line": 20
+        }
+      ]
+    }
+  ]
+}

@@ -170,6 +170,82 @@ depend:
 	cd /d D:\LEETCODE\cpp_ds\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+priority_queue/CMakeFiles/my_priority_queue_lib.dir/rule:
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 priority_queue/CMakeFiles/my_priority_queue_lib.dir/rule
+.PHONY : priority_queue/CMakeFiles/my_priority_queue_lib.dir/rule
+
+# Convenience name for target.
+my_priority_queue_lib: priority_queue/CMakeFiles/my_priority_queue_lib.dir/rule
+.PHONY : my_priority_queue_lib
+
+# fast build rule for target.
+my_priority_queue_lib/fast:
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f priority_queue\CMakeFiles\my_priority_queue_lib.dir\build.make priority_queue/CMakeFiles/my_priority_queue_lib.dir/build
+.PHONY : my_priority_queue_lib/fast
+
+# Convenience name for target.
+priority_queue/CMakeFiles/my_priority_queue_tests.dir/rule:
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 priority_queue/CMakeFiles/my_priority_queue_tests.dir/rule
+.PHONY : priority_queue/CMakeFiles/my_priority_queue_tests.dir/rule
+
+# Convenience name for target.
+my_priority_queue_tests: priority_queue/CMakeFiles/my_priority_queue_tests.dir/rule
+.PHONY : my_priority_queue_tests
+
+# fast build rule for target.
+my_priority_queue_tests/fast:
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f priority_queue\CMakeFiles\my_priority_queue_tests.dir\build.make priority_queue/CMakeFiles/my_priority_queue_tests.dir/build
+.PHONY : my_priority_queue_tests/fast
+
+src/priority_queue.obj: src/priority_queue.cpp.obj
+.PHONY : src/priority_queue.obj
+
+# target to build an object file
+src/priority_queue.cpp.obj:
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f priority_queue\CMakeFiles\my_priority_queue_lib.dir\build.make priority_queue/CMakeFiles/my_priority_queue_lib.dir/src/priority_queue.cpp.obj
+.PHONY : src/priority_queue.cpp.obj
+
+src/priority_queue.i: src/priority_queue.cpp.i
+.PHONY : src/priority_queue.i
+
+# target to preprocess a source file
+src/priority_queue.cpp.i:
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f priority_queue\CMakeFiles\my_priority_queue_lib.dir\build.make priority_queue/CMakeFiles/my_priority_queue_lib.dir/src/priority_queue.cpp.i
+.PHONY : src/priority_queue.cpp.i
+
+src/priority_queue.s: src/priority_queue.cpp.s
+.PHONY : src/priority_queue.s
+
+# target to generate assembly for a file
+src/priority_queue.cpp.s:
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f priority_queue\CMakeFiles\my_priority_queue_lib.dir\build.make priority_queue/CMakeFiles/my_priority_queue_lib.dir/src/priority_queue.cpp.s
+.PHONY : src/priority_queue.cpp.s
+
+tests/test_priority_queue.obj: tests/test_priority_queue.cpp.obj
+.PHONY : tests/test_priority_queue.obj
+
+# target to build an object file
+tests/test_priority_queue.cpp.obj:
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f priority_queue\CMakeFiles\my_priority_queue_tests.dir\build.make priority_queue/CMakeFiles/my_priority_queue_tests.dir/tests/test_priority_queue.cpp.obj
+.PHONY : tests/test_priority_queue.cpp.obj
+
+tests/test_priority_queue.i: tests/test_priority_queue.cpp.i
+.PHONY : tests/test_priority_queue.i
+
+# target to preprocess a source file
+tests/test_priority_queue.cpp.i:
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f priority_queue\CMakeFiles\my_priority_queue_tests.dir\build.make priority_queue/CMakeFiles/my_priority_queue_tests.dir/tests/test_priority_queue.cpp.i
+.PHONY : tests/test_priority_queue.cpp.i
+
+tests/test_priority_queue.s: tests/test_priority_queue.cpp.s
+.PHONY : tests/test_priority_queue.s
+
+# target to generate assembly for a file
+tests/test_priority_queue.cpp.s:
+	cd /d D:\LEETCODE\cpp_ds\build && $(MAKE) $(MAKESILENT) -f priority_queue\CMakeFiles\my_priority_queue_tests.dir\build.make priority_queue/CMakeFiles/my_priority_queue_tests.dir/tests/test_priority_queue.cpp.s
+.PHONY : tests/test_priority_queue.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -183,6 +259,14 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... test
+	@echo ... my_priority_queue_lib
+	@echo ... my_priority_queue_tests
+	@echo ... src/priority_queue.obj
+	@echo ... src/priority_queue.i
+	@echo ... src/priority_queue.s
+	@echo ... tests/test_priority_queue.obj
+	@echo ... tests/test_priority_queue.i
+	@echo ... tests/test_priority_queue.s
 .PHONY : help
 
 

@@ -352,6 +352,32 @@ my_bst_tests/fast:
 	$(MAKE) $(MAKESILENT) -f binary_search_tree\CMakeFiles\my_bst_tests.dir\build.make binary_search_tree/CMakeFiles/my_bst_tests.dir/build
 .PHONY : my_bst_tests/fast
 
+#=============================================================================
+# Target rules for targets named my_priority_queue_lib
+
+# Build rule for target.
+my_priority_queue_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 my_priority_queue_lib
+.PHONY : my_priority_queue_lib
+
+# fast build rule for target.
+my_priority_queue_lib/fast:
+	$(MAKE) $(MAKESILENT) -f priority_queue\CMakeFiles\my_priority_queue_lib.dir\build.make priority_queue/CMakeFiles/my_priority_queue_lib.dir/build
+.PHONY : my_priority_queue_lib/fast
+
+#=============================================================================
+# Target rules for targets named my_priority_queue_tests
+
+# Build rule for target.
+my_priority_queue_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 my_priority_queue_tests
+.PHONY : my_priority_queue_tests
+
+# fast build rule for target.
+my_priority_queue_tests/fast:
+	$(MAKE) $(MAKESILENT) -f priority_queue\CMakeFiles\my_priority_queue_tests.dir\build.make priority_queue/CMakeFiles/my_priority_queue_tests.dir/build
+.PHONY : my_priority_queue_tests/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -373,6 +399,8 @@ help:
 	@echo ... my_bst_tests
 	@echo ... my_linked_list_lib
 	@echo ... my_linked_list_tests
+	@echo ... my_priority_queue_lib
+	@echo ... my_priority_queue_tests
 	@echo ... my_queue_lib
 	@echo ... my_queue_tests
 	@echo ... my_stack_lib

@@ -82,5 +82,17 @@
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_bst_tests.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_bst_tests.dir\\tests\\test_bst.cpp.obj -c D:\\LEETCODE\\cpp_ds\\binary_search_tree\\tests\\test_bst.cpp",
   "file": "D:/LEETCODE/cpp_ds/binary_search_tree/tests/test_bst.cpp",
   "output": "binary_search_tree/CMakeFiles/my_bst_tests.dir/tests/test_bst.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/priority_queue",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_priority_queue_lib.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_priority_queue_lib.dir\\src\\priority_queue.cpp.obj -c D:\\LEETCODE\\cpp_ds\\priority_queue\\src\\priority_queue.cpp",
+  "file": "D:/LEETCODE/cpp_ds/priority_queue/src/priority_queue.cpp",
+  "output": "priority_queue/CMakeFiles/my_priority_queue_lib.dir/src/priority_queue.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/priority_queue",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_priority_queue_tests.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_priority_queue_tests.dir\\tests\\test_priority_queue.cpp.obj -c D:\\LEETCODE\\cpp_ds\\priority_queue\\tests\\test_priority_queue.cpp",
+  "file": "D:/LEETCODE/cpp_ds/priority_queue/tests/test_priority_queue.cpp",
+  "output": "priority_queue/CMakeFiles/my_priority_queue_tests.dir/tests/test_priority_queue.cpp.obj"
 }
 ]

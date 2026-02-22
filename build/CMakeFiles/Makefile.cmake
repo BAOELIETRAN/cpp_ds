@@ -113,4 +113,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "queue/CMakeFiles/my_queue_tests.dir/DependInfo.cmake"
   "binary_search_tree/CMakeFiles/my_bst_lib.dir/DependInfo.cmake"
   "binary_search_tree/CMakeFiles/my_bst_tests.dir/DependInfo.cmake"
+  "priority_queue/CMakeFiles/my_priority_queue_lib.dir/DependInfo.cmake"
+  "priority_queue/CMakeFiles/my_priority_queue_tests.dir/DependInfo.cmake"
   )

@@ -42,8 +42,8 @@
 					"source" : "vector",
 					"targetIndexes" : 
 					[
-						12,
-						13
+						14,
+						15
 					]
 				},
 				{
@@ -128,8 +128,8 @@
 					"source" : "stack",
 					"targetIndexes" : 
 					[
-						10,
-						11
+						12,
+						13
 					]
 				},
 				{
@@ -144,8 +144,8 @@
 					"source" : "queue",
 					"targetIndexes" : 
 					[
-						8,
-						9
+						10,
+						11
 					]
 				},
 				{
@@ -172,8 +172,13 @@
 						"string" : "3.14"
 					},
 					"parentIndex" : 0,
-					"projectIndex" : 0,
-					"source" : "priority_queue"
+					"projectIndex" : 9,
+					"source" : "priority_queue",
+					"targetIndexes" : 
+					[
+						8,
+						9
+					]
 				}
 			],
 			"name" : "Debug",
@@ -186,12 +191,12 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9
 					],
 					"directoryIndexes" : 
 					[
-						0,
-						9
+						0
 					],
 					"name" : "CPP_DS"
 				},
@@ -208,8 +213,8 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						12,
-						13
+						14,
+						15
 					]
 				},
 				{
@@ -276,8 +281,8 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						10,
-						11
+						12,
+						13
 					]
 				},
 				{
@@ -289,8 +294,8 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						8,
-						9
+						10,
+						11
 					]
 				},
 				{
@@ -304,6 +309,19 @@
 					[
 						4,
 						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "MY_PRIORITY_QUEUE",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						9
 					]
 				}
 			],
@@ -347,7 +365,7 @@
 				{
 					"directoryIndex" : 8,
 					"id" : "my_bst_tests::@e218c2cd4b5236fdd68e",
-					"jsonFile" : "target-my_bst_tests-Debug-27cf8679fabc887ffa7b.json",
+					"jsonFile" : "target-my_bst_tests-Debug-124f6de2a90a2ab34725.json",
 					"name" : "my_bst_tests",
 					"projectIndex" : 8
 				},
@@ -361,9 +379,23 @@
 				{
 					"directoryIndex" : 5,
 					"id" : "my_linked_list_tests::@52f4e78c28c861d9067e",
-					"jsonFile" : "target-my_linked_list_tests-Debug-b14d7dd745586f42c61d.json",
+					"jsonFile" : "target-my_linked_list_tests-Debug-416e09ec1034a2b0f250.json",
 					"name" : "my_linked_list_tests",
 					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "my_priority_queue_lib::@21f9f231e6871b1be224",
+					"jsonFile" : "target-my_priority_queue_lib-Debug-994f76c31b3fc9616c33.json",
+					"name" : "my_priority_queue_lib",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "my_priority_queue_tests::@21f9f231e6871b1be224",
+					"jsonFile" : "target-my_priority_queue_tests-Debug-6f4ff9713e85ac3ab19e.json",
+					"name" : "my_priority_queue_tests",
+					"projectIndex" : 9
 				},
 				{
 					"directoryIndex" : 7,
@@ -375,7 +407,7 @@
 				{
 					"directoryIndex" : 7,
 					"id" : "my_queue_tests::@d63f5f69c5a9088733ed",
-					"jsonFile" : "target-my_queue_tests-Debug-3573aed2911619afe5ce.json",
+					"jsonFile" : "target-my_queue_tests-Debug-c714c4d556cc48951529.json",
 					"name" : "my_queue_tests",
 					"projectIndex" : 7
 				},
@@ -389,7 +421,7 @@
 				{
 					"directoryIndex" : 6,
 					"id" : "my_stack_tests::@b5371760465ddb38638a",
-					"jsonFile" : "target-my_stack_tests-Debug-bf267f95656407809b42.json",
+					"jsonFile" : "target-my_stack_tests-Debug-dc89648128243fc2f9f5.json",
 					"name" : "my_stack_tests",
 					"projectIndex" : 6
 				},
@@ -403,7 +435,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "my_vector_tests::@95776985c747069fcc28",
-					"jsonFile" : "target-my_vector_tests-Debug-afdaf475c98df2d5ed8f.json",
+					"jsonFile" : "target-my_vector_tests-Debug-fcb245c42a70d9634b14.json",
 					"name" : "my_vector_tests",
 					"projectIndex" : 1
 				}
