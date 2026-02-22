@@ -40,6 +40,7 @@ namespace gio{
             /* constructors & destructors */
             priority_queue() = default;
             // constructor with comp initialization
+            // direct initialization
             priority_queue(comparator comp) : m_comp{comp}{};
             // default copy constructor
             priority_queue(const priority_queue& other_queue) = default;
