@@ -64,6 +64,15 @@ InitializingTest.DefaultConstructor 1 1.48425
 InitializingTest.ZeroElement 1 1.2241
 InitializingTest.CopyConstruct 1 0.0613206
 InitializingTest.CopyAssign 1 0.0959373
-MemberTest.PushElement 1 0.10979
-MemberTest.PopElement 1 0.0958512
+MemberTest.PushElement 8 0.012869
+MemberTest.PopElement 8 0.0130061
+MemberTest.Greater 1 0.107658
+MemberTest.GreaterInt 2 0.0670123
+MemberTest.GreaterString 2 0.0544293
+MemberTest.GreaterStructInt 3 0.0365369
+MemberTest.GreaterStructString 3 0.037715
+MemberTest.GreaterFuncInt 3 0.0428607
+MemberTest.GreaterFuncString 3 0.0359437
+MemberTest.GreaterLambdaInt 1 0.110362
+MemberTest.GreaterLambdaString 1 0.135715
 ---

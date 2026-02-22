@@ -1,10 +1,10 @@
-Start testing: Feb 21 21:43 Eastern Standard Time
+Start testing: Feb 21 23:18 Eastern Standard Time
 ----------------------------------------------------------
-44/45 Testing: MemberTest.PushElement
-44/45 Test: MemberTest.PushElement
+44/51 Testing: MemberTest.PushElement
+44/51 Test: MemberTest.PushElement
 Command: "D:/LEETCODE/cpp_ds/build/priority_queue/my_priority_queue_tests.exe" "--gtest_filter=MemberTest.PushElement" "--gtest_also_run_disabled_tests"
 Directory: D:/LEETCODE/cpp_ds/build/priority_queue
-"MemberTest.PushElement" start time: Feb 21 21:43 Eastern Standard Time
+"MemberTest.PushElement" start time: Feb 21 23:18 Eastern Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\LEETCODE\cpp_ds\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -20,18 +20,18 @@ Note: Google Test filter = MemberTest.PushElement
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.11 sec
+Test time =   0.10 sec
 ----------------------------------------------------------
 Test Passed.
-"MemberTest.PushElement" end time: Feb 21 21:43 Eastern Standard Time
+"MemberTest.PushElement" end time: Feb 21 23:18 Eastern Standard Time
 "MemberTest.PushElement" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-45/45 Testing: MemberTest.PopElement
-45/45 Test: MemberTest.PopElement
+45/51 Testing: MemberTest.PopElement
+45/51 Test: MemberTest.PopElement
 Command: "D:/LEETCODE/cpp_ds/build/priority_queue/my_priority_queue_tests.exe" "--gtest_filter=MemberTest.PopElement" "--gtest_also_run_disabled_tests"
 Directory: D:/LEETCODE/cpp_ds/build/priority_queue
-"MemberTest.PopElement" start time: Feb 21 21:43 Eastern Standard Time
+"MemberTest.PopElement" start time: Feb 21 23:18 Eastern Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from D:\LEETCODE\cpp_ds\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -50,8 +50,170 @@ Note: Google Test filter = MemberTest.PopElement
 Test time =   0.10 sec
 ----------------------------------------------------------
 Test Passed.
-"MemberTest.PopElement" end time: Feb 21 21:43 Eastern Standard Time
+"MemberTest.PopElement" end time: Feb 21 23:18 Eastern Standard Time
 "MemberTest.PopElement" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Feb 21 21:43 Eastern Standard Time
+46/51 Testing: MemberTest.GreaterStructInt
+46/51 Test: MemberTest.GreaterStructInt
+Command: "D:/LEETCODE/cpp_ds/build/priority_queue/my_priority_queue_tests.exe" "--gtest_filter=MemberTest.GreaterStructInt" "--gtest_also_run_disabled_tests"
+Directory: D:/LEETCODE/cpp_ds/build/priority_queue
+"MemberTest.GreaterStructInt" start time: Feb 21 23:18 Eastern Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\LEETCODE\cpp_ds\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = MemberTest.GreaterStructInt
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MemberTest
+[ RUN      ] MemberTest.GreaterStructInt
+[       OK ] MemberTest.GreaterStructInt (0 ms)
+[----------] 1 test from MemberTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"MemberTest.GreaterStructInt" end time: Feb 21 23:18 Eastern Standard Time
+"MemberTest.GreaterStructInt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/51 Testing: MemberTest.GreaterStructString
+47/51 Test: MemberTest.GreaterStructString
+Command: "D:/LEETCODE/cpp_ds/build/priority_queue/my_priority_queue_tests.exe" "--gtest_filter=MemberTest.GreaterStructString" "--gtest_also_run_disabled_tests"
+Directory: D:/LEETCODE/cpp_ds/build/priority_queue
+"MemberTest.GreaterStructString" start time: Feb 21 23:18 Eastern Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\LEETCODE\cpp_ds\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = MemberTest.GreaterStructString
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MemberTest
+[ RUN      ] MemberTest.GreaterStructString
+[       OK ] MemberTest.GreaterStructString (0 ms)
+[----------] 1 test from MemberTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"MemberTest.GreaterStructString" end time: Feb 21 23:18 Eastern Standard Time
+"MemberTest.GreaterStructString" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/51 Testing: MemberTest.GreaterFuncInt
+48/51 Test: MemberTest.GreaterFuncInt
+Command: "D:/LEETCODE/cpp_ds/build/priority_queue/my_priority_queue_tests.exe" "--gtest_filter=MemberTest.GreaterFuncInt" "--gtest_also_run_disabled_tests"
+Directory: D:/LEETCODE/cpp_ds/build/priority_queue
+"MemberTest.GreaterFuncInt" start time: Feb 21 23:18 Eastern Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\LEETCODE\cpp_ds\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = MemberTest.GreaterFuncInt
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MemberTest
+[ RUN      ] MemberTest.GreaterFuncInt
+[       OK ] MemberTest.GreaterFuncInt (0 ms)
+[----------] 1 test from MemberTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"MemberTest.GreaterFuncInt" end time: Feb 21 23:18 Eastern Standard Time
+"MemberTest.GreaterFuncInt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/51 Testing: MemberTest.GreaterFuncString
+49/51 Test: MemberTest.GreaterFuncString
+Command: "D:/LEETCODE/cpp_ds/build/priority_queue/my_priority_queue_tests.exe" "--gtest_filter=MemberTest.GreaterFuncString" "--gtest_also_run_disabled_tests"
+Directory: D:/LEETCODE/cpp_ds/build/priority_queue
+"MemberTest.GreaterFuncString" start time: Feb 21 23:18 Eastern Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\LEETCODE\cpp_ds\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = MemberTest.GreaterFuncString
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MemberTest
+[ RUN      ] MemberTest.GreaterFuncString
+[       OK ] MemberTest.GreaterFuncString (0 ms)
+[----------] 1 test from MemberTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"MemberTest.GreaterFuncString" end time: Feb 21 23:18 Eastern Standard Time
+"MemberTest.GreaterFuncString" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/51 Testing: MemberTest.GreaterLambdaInt
+50/51 Test: MemberTest.GreaterLambdaInt
+Command: "D:/LEETCODE/cpp_ds/build/priority_queue/my_priority_queue_tests.exe" "--gtest_filter=MemberTest.GreaterLambdaInt" "--gtest_also_run_disabled_tests"
+Directory: D:/LEETCODE/cpp_ds/build/priority_queue
+"MemberTest.GreaterLambdaInt" start time: Feb 21 23:18 Eastern Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\LEETCODE\cpp_ds\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = MemberTest.GreaterLambdaInt
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MemberTest
+[ RUN      ] MemberTest.GreaterLambdaInt
+[       OK ] MemberTest.GreaterLambdaInt (0 ms)
+[----------] 1 test from MemberTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"MemberTest.GreaterLambdaInt" end time: Feb 21 23:18 Eastern Standard Time
+"MemberTest.GreaterLambdaInt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/51 Testing: MemberTest.GreaterLambdaString
+51/51 Test: MemberTest.GreaterLambdaString
+Command: "D:/LEETCODE/cpp_ds/build/priority_queue/my_priority_queue_tests.exe" "--gtest_filter=MemberTest.GreaterLambdaString" "--gtest_also_run_disabled_tests"
+Directory: D:/LEETCODE/cpp_ds/build/priority_queue
+"MemberTest.GreaterLambdaString" start time: Feb 21 23:18 Eastern Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\LEETCODE\cpp_ds\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = MemberTest.GreaterLambdaString
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MemberTest
+[ RUN      ] MemberTest.GreaterLambdaString
+[       OK ] MemberTest.GreaterLambdaString (0 ms)
+[----------] 1 test from MemberTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Passed.
+"MemberTest.GreaterLambdaString" end time: Feb 21 23:18 Eastern Standard Time
+"MemberTest.GreaterLambdaString" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 21 23:18 Eastern Standard Time

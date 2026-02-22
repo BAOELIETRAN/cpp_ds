@@ -1,5 +1,5 @@
 {
-  "tests": 3,
+  "tests": 9,
   "name": "AllTests",
   "testsuites": [
     {
@@ -9,23 +9,53 @@
         {
           "name": "ZeroElement",
           "file": "D:\\LEETCODE\\cpp_ds\\priority_queue\\tests\\test_priority_queue.cpp",
-          "line": 4
+          "line": 24
         }
       ]
     },
     {
       "name": "MemberTest",
-      "tests": 2,
+      "tests": 8,
       "testsuite": [
         {
           "name": "PushElement",
           "file": "D:\\LEETCODE\\cpp_ds\\priority_queue\\tests\\test_priority_queue.cpp",
-          "line": 10
+          "line": 30
         },
         {
           "name": "PopElement",
           "file": "D:\\LEETCODE\\cpp_ds\\priority_queue\\tests\\test_priority_queue.cpp",
-          "line": 20
+          "line": 40
+        },
+        {
+          "name": "GreaterStructInt",
+          "file": "D:\\LEETCODE\\cpp_ds\\priority_queue\\tests\\test_priority_queue.cpp",
+          "line": 53
+        },
+        {
+          "name": "GreaterStructString",
+          "file": "D:\\LEETCODE\\cpp_ds\\priority_queue\\tests\\test_priority_queue.cpp",
+          "line": 66
+        },
+        {
+          "name": "GreaterFuncInt",
+          "file": "D:\\LEETCODE\\cpp_ds\\priority_queue\\tests\\test_priority_queue.cpp",
+          "line": 77
+        },
+        {
+          "name": "GreaterFuncString",
+          "file": "D:\\LEETCODE\\cpp_ds\\priority_queue\\tests\\test_priority_queue.cpp",
+          "line": 105
+        },
+        {
+          "name": "GreaterLambdaInt",
+          "file": "D:\\LEETCODE\\cpp_ds\\priority_queue\\tests\\test_priority_queue.cpp",
+          "line": 129
+        },
+        {
+          "name": "GreaterLambdaString",
+          "file": "D:\\LEETCODE\\cpp_ds\\priority_queue\\tests\\test_priority_queue.cpp",
+          "line": 142
         }
       ]
     }
