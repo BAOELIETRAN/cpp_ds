@@ -7,11 +7,23 @@
 #include <memory>
 
 /*
-    for this linked list, we use "smart" unique_ptr to delete the whole list
+    For this linked list, we use "smart" unique_ptr to delete the whole list
     gracefully (like a domino) when our class goes out of bound.
-    if we want to access node --> use raw pointer.
-    to get raw address of a block of memory that is owned by an unique_ptr ptr, 
+
+    If we want to access node --> use raw pointer.
+
+    To get raw address of a block of memory that is owned by an unique_ptr ptr, 
     use ptr.get().
+
+    If an unique pointer owns another memory block, current memory block will
+    be immediately deleted.
+
+    Smart pointer has a raw pointer inside --> can only manage heap memory.
+    --> can not use stack memory for smart pointer.
+
+    Smart pointer only manages lifetime & ownership of a heap memory object
+    --> it does not manage data of that object
+    --> we can freely modify the object's data (ex: using another raw pointer)
 */
 namespace ccmk{
     class doubly_linked_list{
