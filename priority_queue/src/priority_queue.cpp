@@ -7,10 +7,7 @@ namespace gio{
             // program will terminate since no catch block is found in call stack
             throw std::out_of_range("The index is invalid!");
         }
-        if (index == 0){
-            return 0;
-        }
-        return (index - 1)/2;
+        return (index == 0)? 0 : (index - 1)/2;
     }
 
     // O(logN)
@@ -21,6 +18,24 @@ namespace gio{
         }
     }
     
+    // O(1)
+    int priority_queue::get_left_child(int index) const{
+        if (index < 0 || index >= m_size){
+            throw std::out_of_range("The index is invalid!");
+        }
+        int left_child_index = 2 * index + 1;
+        return (left_child_index >= m_size)? -1 : left_child_index;
+    }
+
+    // O(1)
+    int priority_queue::get_right_child(int index) const{
+        if (index < 0 || index >= m_size){
+            throw std::out_of_range("The index is invalid!");
+        }
+        int right_child_index = 2 * index + 2;
+        return (right_child_index >= m_size)? -1 : right_child_index;
+    }
+
     // O(logN)
     void priority_queue::heapify_down(int index){
 

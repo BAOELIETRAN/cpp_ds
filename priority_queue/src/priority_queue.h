@@ -28,9 +28,10 @@ namespace gio{
             void heapify_down(int index);
             // return parent index of current node at index
             int get_parent(int index) const;
-            // return left child of current node at index
+            // return index of left child of current node at index
             int get_left_child(int index) const;
-            // return right child of current node at index
+            // return index of right child of current node at index
+            int get_right_child(int index) const;
         public:
             /* constructors & destructors */
             priority_queue() = default;
