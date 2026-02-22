@@ -12,9 +12,13 @@ namespace gio{
 
     // O(logN)
     void priority_queue::heapify_up(int index){
-        while (get_parent(index) >= 0 && m_comp(m_container[get_parent(index)], m_container[index]) == false){
-            std::swap(m_container[get_parent(index)], m_container[index]);
-            index = get_parent(index);
+        int parent_index = get_parent(index);
+        while (parent_index >= 0){
+            if (m_comp(m_container[parent_index], m_container[index]) == false){
+                std::swap(m_container[parent_index], m_container[index]);
+                index = parent_index;
+                get_parent(index);
+            }
         }
     }
     
@@ -38,7 +42,48 @@ namespace gio{
 
     // O(logN)
     void priority_queue::heapify_down(int index){
-
+        int left_index = get_left_child(index);
+        while (left_index != -1){
+            int cur_num = m_container[index];
+            int cur_left = m_container[left_index];
+            int right_index = get_right_child(index);
+            if (right_index != -1){
+                int cur_right = m_container[right_index];
+                // violate both
+                if (m_comp(cur_num, cur_left) == false && m_comp(cur_num, cur_right) == false){
+                    if (cur_left < cur_right){
+                        std::swap(cur_num, cur_left);
+                        index = left_index;
+                        left_index = get_left_child(index);                        
+                    }
+                    else{
+                        std::swap(cur_num, cur_right);
+                        index = right_index;
+                        left_index = get_left_child(index);                        
+                    }
+                }
+                // violate only left
+                else if (m_comp(cur_num, cur_left) == false && m_comp(cur_num, cur_right) == true){
+                    std::swap(cur_num, cur_left);
+                    index = left_index;
+                    left_index = get_left_child(index);
+                }
+                // violate only right
+                else if (m_comp(cur_num, cur_left) == true && m_comp(cur_num, cur_right) == false){
+                    std::swap(cur_num, cur_right);
+                    index = right_index;
+                    left_index = get_left_child(index);
+                }
+            }  
+            else{
+                // can not find any right child
+                if (m_comp(cur_num, cur_left) == false){
+                    std::swap(cur_num, cur_left);
+                    index = left_index;
+                    left_index = get_left_child(index);
+                }
+            }
+        }
     }
 
     // O(1)
