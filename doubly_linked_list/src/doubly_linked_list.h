@@ -5,6 +5,7 @@
 #include <cstddef>
 #include <stdexcept>
 #include <memory>
+#include <iterator>
 
 /*
     For this linked list, we use "smart" unique_ptr to delete the whole list
@@ -70,6 +71,26 @@ namespace ccmk{
 
             /* member functions*/
             // TODO: iterator
+            class iterator{
+                private:
+                    // declare properties of iterator
+                    using iterator_category = std::bidirectional_iterator_tag;
+                    using difference_type = std::ptrdiff_t;
+                    using value_type = int;
+                    using pointer = int*;
+                    using reference = int&;
+
+                    // private member
+                    pointer m_ptr{};
+                public:
+                    // constructor
+                    iterator(pointer ptr) : m_ptr{ptr}{};
+                    // using default destructor as custom destructor will delete data when iterator dies --> not good
+
+                    // member functions
+                    pointer operator->(){ return m_ptr; };
+                    reference operator*() { return *m_ptr; };
+            };
 
             // get value of a node at index
             int get(std::size_t index) const;

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "stack/my_stack_tests.exe"
+			"path" : "priority_queue/my_priority_queue_tests.exe"
 		},
 		{
-			"path" : "stack/my_stack_tests.pdb"
+			"path" : "priority_queue/my_priority_queue_tests.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -20,7 +20,7 @@
 		],
 		"files" : 
 		[
-			"stack/CMakeLists.txt",
+			"priority_queue/CMakeLists.txt",
 			"build/_deps/googletest-src/googletest/CMakeLists.txt",
 			"C:/Program Files/CMake/share/cmake-4.2/Modules/GoogleTest.cmake"
 		],
@@ -73,7 +73,7 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "my_stack_lib::@b5371760465ddb38638a"
+			"id" : "my_priority_queue_lib::@21f9f231e6871b1be224"
 		},
 		{
 			"backtrace" : 2,
@@ -93,7 +93,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "D:/LEETCODE/cpp_ds/stack/src"
+					"path" : "D:/LEETCODE/cpp_ds/priority_queue/src"
 				},
 				{
 					"backtrace" : 2,
@@ -125,18 +125,18 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f"
-		},
-		{
-			"backtrace" : 2,
 			"id" : "gtest::@1ea2dfc0605fe3ab2a3f"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "my_stack_lib::@b5371760465ddb38638a"
+			"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "my_priority_queue_lib::@21f9f231e6871b1be224"
 		}
 	],
-	"id" : "my_stack_tests::@b5371760465ddb38638a",
+	"id" : "my_priority_queue_tests::@21f9f231e6871b1be224",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -147,7 +147,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "libmy_stack_lib.a",
+				"fragment" : "libmy_priority_queue_lib.a",
 				"role" : "libraries"
 			},
 			{
@@ -171,26 +171,26 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "my_stack_lib::@b5371760465ddb38638a"
+			"id" : "my_priority_queue_lib::@21f9f231e6871b1be224"
 		},
 		{
 			"backtrace" : 2,
 			"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f"
 		}
 	],
-	"name" : "my_stack_tests",
-	"nameOnDisk" : "my_stack_tests.exe",
+	"name" : "my_priority_queue_tests",
+	"nameOnDisk" : "my_priority_queue_tests.exe",
 	"orderDependencies" : 
 	[
 		{
 			"backtrace" : 6,
-			"id" : "my_stack_tests::@b5371760465ddb38638a"
+			"id" : "my_priority_queue_tests::@21f9f231e6871b1be224"
 		}
 	],
 	"paths" : 
 	{
-		"build" : "stack",
-		"source" : "stack"
+		"build" : "priority_queue",
+		"source" : "priority_queue"
 	},
 	"sourceGroups" : 
 	[
@@ -207,7 +207,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "stack/tests/test_stack.cpp",
+			"path" : "priority_queue/tests/test_priority_queue.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
