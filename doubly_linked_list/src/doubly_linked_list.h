@@ -76,8 +76,8 @@ namespace ccmk{
                     // declare properties of iterator
                     using iterator_category = std::bidirectional_iterator_tag;
                     using difference_type = std::ptrdiff_t;
-                    using value_type = int;
-                    using pointer = int*;
+                    using value_type = Node;
+                    using pointer = Node*;
                     using reference = int&;
 
                     // private member
@@ -88,8 +88,52 @@ namespace ccmk{
                     // using default destructor as custom destructor will delete data when iterator dies --> not good
 
                     // member functions
-                    pointer operator->(){ return m_ptr; };
-                    reference operator*() { return *m_ptr; };
+                    pointer operator->() { return m_ptr; };
+                    reference operator*() { return m_ptr->val; };
+
+                    // increment
+                    // prefix increment
+                    iterator& operator++(){
+                        // TODO
+                        // the iterator up and return the current spot
+                        m_ptr += sizeof(value_type);
+                        return *this;
+                    }
+                    // postfix increment
+                    iterator operator++(int){
+                        // TODO
+                        // make a copy, move the iterator up, and return the copy
+                        auto temp = *this;
+                        m_ptr += sizeof(value_type);
+                        return temp;
+                    }
+                    // decrement
+                    // prefix decrement
+                    iterator& operator--(){
+                        // TODO
+                        m_ptr -= sizeof(value_type);
+                        return *this;
+                    }
+                    // postfix decrement
+                    iterator operator--(int){
+                        // TODO
+                        auto temp = *this;
+                        m_ptr -= sizeof(value_type);
+                        return temp;
+                    }
+                    // compare iterators
+                    bool operator==(const iterator& other_iter){ 
+                        if (m_ptr == other_iter.m_ptr){
+                            return true;
+                        }
+                        return false;
+                    }
+                    bool operator!=(const iterator& other_iter){
+                        if (m_ptr != other_iter.m_ptr){
+                            return true;
+                        }
+                        return true;
+                    }
             };
 
             // get value of a node at index
