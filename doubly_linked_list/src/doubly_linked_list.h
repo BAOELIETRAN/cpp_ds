@@ -76,8 +76,7 @@ namespace ccmk{
                     // declare properties of iterator
                     using iterator_category = std::bidirectional_iterator_tag;
                     using difference_type = std::ptrdiff_t;
-                    using value_type = Node;
-                    using pointer = Node*;
+                    using pointer = doubly_linked_list::Node*;
                     using reference = int&;
 
                     // private member
@@ -96,7 +95,7 @@ namespace ccmk{
                     iterator& operator++(){
                         // TODO
                         // the iterator up and return the current spot
-                        m_ptr += sizeof(value_type);
+                        m_ptr = m_ptr->next.get();
                         return *this;
                     }
                     // postfix increment
@@ -104,21 +103,21 @@ namespace ccmk{
                         // TODO
                         // make a copy, move the iterator up, and return the copy
                         auto temp = *this;
-                        m_ptr += sizeof(value_type);
+                        m_ptr = m_ptr->next.get();
                         return temp;
                     }
                     // decrement
                     // prefix decrement
                     iterator& operator--(){
                         // TODO
-                        m_ptr -= sizeof(value_type);
+                        m_ptr = m_ptr->prev;
                         return *this;
                     }
                     // postfix decrement
                     iterator operator--(int){
                         // TODO
                         auto temp = *this;
-                        m_ptr -= sizeof(value_type);
+                        m_ptr = m_ptr->prev;
                         return temp;
                     }
                     // compare iterators
@@ -132,10 +131,22 @@ namespace ccmk{
                         if (m_ptr != other_iter.m_ptr){
                             return true;
                         }
-                        return true;
+                        return false;
                     }
             };
-
+            // get iterators and begin() and end()
+            iterator begin() const{
+                if (dummy_head == nullptr){
+                    throw std::out_of_range("Can not iterate through an empty list!");
+                }
+                iterator begin_iter((dummy_head->next).get());
+                return begin_iter;
+            }
+            // end() should be one past the last element
+            iterator end() const{
+                iterator end_iter(dummy_tail);
+                return end_iter;
+            }
             // get value of a node at index
             int get(std::size_t index) const;
             // get a node at index
