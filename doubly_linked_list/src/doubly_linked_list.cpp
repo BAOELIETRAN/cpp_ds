@@ -207,4 +207,36 @@ namespace ccmk{
         dummy_head->next = std::move(dummy_head->next->next);
         m_size --;
     }
+
+    // delete the last node
+    void doubly_linked_list::delete_at_tail(){
+        if (m_size == 0){
+            throw std::out_of_range("The list is empty!");
+        }
+        Node* raw_prev_node = dummy_tail->prev->prev;
+        dummy_tail->prev = raw_prev_node;
+        raw_prev_node->next = std::move(raw_prev_node->next->next);
+        m_size --;
+    }
+
+    // delete node at index
+    void doubly_linked_list::delete_at_index(std::size_t index){
+        if (index >= m_size){
+            throw std::out_of_range("The list is out of bound!");
+        }
+        else if (index == 0){
+            delete_at_head();
+        }
+        else if (index == m_size - 1){
+            delete_at_tail();
+        }
+        else{
+            Node* raw_cur_node = get_node(index);
+            Node* raw_prev_node = raw_cur_node->prev;
+            Node* raw_next_node = raw_cur_node->next.get();
+            raw_next_node->prev = raw_prev_node;
+            raw_prev_node->next = std::move(raw_cur_node->next);
+            m_size --;
+        }
+    }
 }
