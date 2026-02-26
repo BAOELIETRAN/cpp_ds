@@ -1,6 +1,7 @@
 #include "doubly_linked_list.h"
 
 namespace ccmk{
+    /* constructors & assignments*/
     // default constructor
     doubly_linked_list::doubly_linked_list(){
         // should use std::make_unique --> safer & cleaner
@@ -102,5 +103,48 @@ namespace ccmk{
         other_list.dummy_tail->prev = other_list.dummy_head.get();
         other_list.m_size = 0;
         return *this;
+    }
+
+    /* member functions */
+    // get value of node at index
+    int doubly_linked_list::get(std::size_t index) const{
+        // std::size_t is unsigned --> don't need to check < 0
+        if (index >= m_size){
+            throw std::out_of_range("The index is out of bound!");
+        }
+        Node* temp = dummy_head->next.get();
+        for (int i = 0; i < index; i ++){
+            temp = temp->next.get();
+        }
+        return temp->val;
+    }
+
+    // get Node at index
+    doubly_linked_list::Node* doubly_linked_list::get_node(std::size_t index) const{
+        // std::size_t is unsigned --> don't need to check < 0
+        if (index >= m_size){
+            throw std::out_of_range("The index is out of bound!");
+        }
+        Node* temp = dummy_head->next.get();
+        for (int i = 0; i < index; i ++){
+            temp = temp->next.get();
+        }
+        return temp;
+    }
+
+    // get value of the first element
+    int doubly_linked_list::front() const{
+        if (m_size == 0){
+            throw std::out_of_range("The list is empty!");
+        }   
+        return dummy_head->next->val;
+    }
+
+    // get value of the last element
+    int doubly_linked_list::back() const{
+        if (m_size == 0){
+            throw std::out_of_range("The list is empty!");
+        }
+        return dummy_tail->prev->val;
     }
 }
