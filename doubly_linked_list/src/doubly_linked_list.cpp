@@ -113,7 +113,7 @@ namespace ccmk{
             throw std::out_of_range("The index is out of bound!");
         }
         Node* temp = dummy_head->next.get();
-        for (int i = 0; i < index; i ++){
+        for (std::size_t i = 0; i < index; i ++){
             temp = temp->next.get();
         }
         return temp->val;
@@ -126,7 +126,7 @@ namespace ccmk{
             throw std::out_of_range("The index is out of bound!");
         }
         Node* temp = dummy_head->next.get();
-        for (int i = 0; i < index; i ++){
+        for (std::size_t i = 0; i < index; i ++){
             temp = temp->next.get();
         }
         return temp;
@@ -222,7 +222,7 @@ namespace ccmk{
     // delete node at index
     void doubly_linked_list::delete_at_index(std::size_t index){
         if (index >= m_size){
-            throw std::out_of_range("The list is out of bound!");
+            throw std::out_of_range("The index is out of bound!");
         }
         else if (index == 0){
             delete_at_head();
@@ -237,6 +237,16 @@ namespace ccmk{
             raw_next_node->prev = raw_prev_node;
             raw_prev_node->next = std::move(raw_cur_node->next);
             m_size --;
+        }
+    }
+
+    // clear the doubly linked list
+    void doubly_linked_list::clear(){
+        if (m_size != 0){
+            Node* raw_last_node = dummy_tail->prev;
+            dummy_tail->prev = dummy_head.get();
+            dummy_head->next = std::move(raw_last_node->next);
+            m_size = 0;
         }
     }
 }
