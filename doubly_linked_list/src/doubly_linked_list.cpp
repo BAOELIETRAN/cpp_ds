@@ -147,4 +147,30 @@ namespace ccmk{
         }
         return dummy_tail->prev->val;
     }
+
+    // add a node at head
+    void doubly_linked_list::add_at_head(int val){
+        // move the ownership of the rest of the list
+        // TODO
+        auto temp_owner = std::move(dummy_head->next);
+        dummy_head->next = std::make_unique<Node>(val);
+        Node* temp_next = dummy_head->next.get();
+        temp_next->prev = dummy_head.get();
+        Node* raw_temp_owner = temp_owner.get();
+        raw_temp_owner->prev = temp_next;
+        temp_next->next = std::move(temp_owner);
+        m_size ++;
+    }
+
+    // add a node at tail
+    void doubly_linked_list::add_at_tail(int val){
+        // move the last node from owning dummy tail to owning new node
+        auto new_node_ptr = std::make_unique<Node>(val);
+        Node* raw_last_node = dummy_tail->prev;
+        new_node_ptr->prev = raw_last_node;
+        dummy_tail->prev = new_node_ptr.get();
+        new_node_ptr->next = std::move(raw_last_node->next);
+        raw_last_node->next = std::move(new_node_ptr);
+        m_size ++;
+    }
 }
