@@ -66,10 +66,14 @@ namespace ccmk{
             doubly_linked_list(const doubly_linked_list& other_list);
             // copy assignment -- deep copy
             doubly_linked_list& operator=(const doubly_linked_list& other_list);
+            /*
+                for move functions, since std::make_unique may throw exception
+                --> can not be noexcept
+            */
             // move constructor 
-            doubly_linked_list(doubly_linked_list&& other_list) noexcept;
+            doubly_linked_list(doubly_linked_list&& other_list);
             // move assignment
-            doubly_linked_list& operator=(doubly_linked_list&& other_list) noexcept;
+            doubly_linked_list& operator=(doubly_linked_list&& other_list);
             // destructor
             ~doubly_linked_list() = default;
 
@@ -111,7 +115,7 @@ namespace ccmk{
                         // make a copy, move the iterator up, and return the copy
                         auto temp = *this;
                         // use prefix increment on current iterator
-                        ++(*this);
+                        (*this).operator++();
                         return temp;
                     }
                     // decrement
@@ -126,7 +130,7 @@ namespace ccmk{
                         // TODO
                         auto temp = *this;
                         // use prefix decrement on current iterator
-                        --(*this);
+                        (*this).operator--();
                         return temp;
                     }
                     // compare iterators

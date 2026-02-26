@@ -64,4 +64,43 @@ namespace ccmk{
         m_size = other_list.m_size;
         return *this;
     }
+
+    // move constructor
+    // when we move other_list to current list --> resource will not be deleted
+    // --> dummy head in other list will be nullptr (not holding anything), but other data stays the same
+    doubly_linked_list::doubly_linked_list(doubly_linked_list&& other_list) 
+    : dummy_head{std::move(other_list.dummy_head)}, dummy_tail{other_list.dummy_tail}, m_size{other_list.m_size}{
+        // after done moving, we need to set other list back to valid state (as others still assume other list is valid)
+        // valid state: dummy_head <--> dummy_tail
+        other_list.dummy_head = std::make_unique<Node>();
+        other_list.dummy_head->next = std::make_unique<Node>();
+        other_list.dummy_tail = other_list.dummy_head->next.get();
+        other_list.dummy_tail->prev = other_list.dummy_head.get();
+        other_list.m_size = 0;
+    }
+
+    // move assignment
+    doubly_linked_list& doubly_linked_list::operator=(doubly_linked_list&& other_list){
+        // self assignment check
+        if (this == &other_list){
+            return *this;
+        }
+        // clean up old data
+        dummy_head->next = std::make_unique<Node>();
+        dummy_tail = dummy_head->next.get();
+        dummy_tail->prev = dummy_head.get();
+        m_size = 0;
+        // do the move
+        // after the move, dummy_head == nullptr
+        dummy_head = std::move(other_list.dummy_head);
+        dummy_tail = other_list.dummy_tail;
+        m_size = other_list.m_size;
+        // convert other_list back to valid state: dummy_head <--> dummy_tail
+        other_list.dummy_head = std::make_unique<Node>();
+        other_list.dummy_head->next = std::make_unique<Node>();
+        other_list.dummy_tail = other_list.dummy_head->next.get();
+        other_list.dummy_tail->prev = other_list.dummy_head.get();
+        other_list.m_size = 0;
+        return *this;
+    }
 }
