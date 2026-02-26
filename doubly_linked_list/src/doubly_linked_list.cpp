@@ -173,4 +173,38 @@ namespace ccmk{
         raw_last_node->next = std::move(new_node_ptr);
         m_size ++;
     }
+
+    // add a node at index
+    void doubly_linked_list::add_at_index(std::size_t index, int val){
+        if (index > m_size){
+            throw std::out_of_range("The index is out of bound!");
+        }
+        else if (index == m_size){
+            add_at_tail(val);
+        }
+        else if (index == 0){
+            add_at_head(val);
+        }
+        else{
+            Node* raw_next_node = get_node(index);
+            Node* raw_prev_node = raw_next_node->prev;
+            auto new_node = std::make_unique<Node>(val);
+            new_node->prev = raw_prev_node;
+            raw_next_node->prev = new_node.get();
+            new_node->next = std::move(raw_prev_node->next);
+            raw_prev_node->next = std::move(new_node);
+            m_size ++;
+        }
+    }
+
+    // delete the first node
+    void doubly_linked_list::delete_at_head(){
+        if (m_size == 0){
+            throw std::out_of_range("The list is empty!");
+        }
+        Node* raw_next_node = dummy_head->next->next.get();
+        raw_next_node->prev = dummy_head.get();
+        dummy_head->next = std::move(dummy_head->next->next);
+        m_size --;
+    }
 }

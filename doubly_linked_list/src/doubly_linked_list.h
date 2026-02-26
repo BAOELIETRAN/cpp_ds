@@ -171,8 +171,6 @@ namespace ccmk{
             void add_at_tail(int val);
             // add at index
             void add_at_index(std::size_t index, int val);
-            // delete a specific node
-            void delete_node(Node* node);
             // delete a node at head
             void delete_at_head();
             // delete a node at tail
