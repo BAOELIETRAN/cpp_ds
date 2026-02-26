@@ -77,22 +77,25 @@ namespace ccmk{
             // TODO: iterator
             class iterator{
                 private:
-                    // declare properties of iterator
+                    // private member
+                    Node* m_ptr{};
+                public:
+                    // declare properties of iterator -- C++ expects this --> make them public
                     using iterator_category = std::bidirectional_iterator_tag;
                     using difference_type = std::ptrdiff_t;
-                    using pointer = Node*;
+                    using value_type = int;
+                    using pointer = int*;
                     using reference = int&;
 
-                    // private member
-                    pointer m_ptr{};
-                public:
                     // constructor
-                    iterator(pointer ptr) : m_ptr{ptr}{};
+                    iterator() = default;
+                    explicit iterator(Node* ptr) : m_ptr{ptr}{};
                     // using default destructor as custom destructor will delete data when iterator dies --> not good
 
                     // member functions
-                    pointer operator->() { return m_ptr; };
-                    reference operator*() { return m_ptr->val; };
+                    // should not expose Node pointer --> others can modify the list
+                    pointer operator->() const { return &(m_ptr->val); };
+                    reference operator*() const { return m_ptr->val; };
 
                     // increment
                     // prefix increment
@@ -107,7 +110,8 @@ namespace ccmk{
                         // TODO
                         // make a copy, move the iterator up, and return the copy
                         auto temp = *this;
-                        m_ptr = m_ptr->next.get();
+                        // use prefix increment on current iterator
+                        ++(*this);
                         return temp;
                     }
                     // decrement
@@ -121,17 +125,18 @@ namespace ccmk{
                     iterator operator--(int){
                         // TODO
                         auto temp = *this;
-                        m_ptr = m_ptr->prev;
+                        // use prefix decrement on current iterator
+                        --(*this);
                         return temp;
                     }
                     // compare iterators
-                    bool operator==(const iterator& other_iter){ 
+                    bool operator==(const iterator& other_iter) const{ 
                         if (m_ptr == other_iter.m_ptr){
                             return true;
                         }
                         return false;
                     }
-                    bool operator!=(const iterator& other_iter){
+                    bool operator!=(const iterator& other_iter) const{
                         if (m_ptr != other_iter.m_ptr){
                             return true;
                         }
@@ -139,15 +144,12 @@ namespace ccmk{
                     }
             };
             // get iterators and begin() and end()
-            iterator begin() const{
-                if (dummy_head == nullptr){
-                    throw std::out_of_range("Can not iterate through an empty list!");
-                }
+            iterator begin(){
                 iterator begin_iter((dummy_head->next).get());
                 return begin_iter;
             }
             // end() should be one past the last element
-            iterator end() const{
+            iterator end(){
                 iterator end_iter(dummy_tail);
                 return end_iter;
             }
