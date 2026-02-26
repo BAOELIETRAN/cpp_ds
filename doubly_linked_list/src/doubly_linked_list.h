@@ -28,6 +28,10 @@
 */
 namespace ccmk{
     class doubly_linked_list{
+        /*
+            just declare stuff in private sector,
+            any real work (assigning, creating, ...) --> do them in constructors
+        */
         private:
             struct Node{
                 int val{};
@@ -57,7 +61,7 @@ namespace ccmk{
         public:
             /* constructors & destructors*/
             // default constructor of doubly linked list
-            doubly_linked_list() = default;
+            doubly_linked_list();
             // copy constructor -- deep copy
             doubly_linked_list(const doubly_linked_list& other_list);
             // copy assignment -- deep copy
@@ -76,7 +80,7 @@ namespace ccmk{
                     // declare properties of iterator
                     using iterator_category = std::bidirectional_iterator_tag;
                     using difference_type = std::ptrdiff_t;
-                    using pointer = doubly_linked_list::Node*;
+                    using pointer = Node*;
                     using reference = int&;
 
                     // private member
