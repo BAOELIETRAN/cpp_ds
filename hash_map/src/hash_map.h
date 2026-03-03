@@ -5,7 +5,7 @@
 #include <cstddef>
 #include <stdexcept>
 #include <iterator>
-#include <array>
+#include <vector>
 #include <list>
 
 // initialization order: base class --> data member (in declaring order) --> constructor body
@@ -16,7 +16,7 @@ namespace anh_phan{
             static constexpr float default_load_factor = 0.75f;
             // bucket == doubly linked list --> std::list
             // linked list of <key, value>
-            std::array<std::list<std::pair<int, int>>, default_capacity>* hash_table{};
+            std::vector<std::list<std::pair<int, int>>> hash_table{};
             // number of buckets -- size of hash table
             std::size_t m_capacity{};
             // load factor = # of stored items / # of available buckets
@@ -35,12 +35,52 @@ namespace anh_phan{
             // move assignment
             hash_map& operator=(hash_map&& other_map);
             // destructor
-            ~hash_map();
+            ~hash_map() = default;
 
             // iterator
             class iterator{
-
+                using bucket = std::list<std::pair<int, int>>;
+                using table = std::vector<bucket>;
+                private:
+                    // hash map 
+                    hash_map* m_map_it{};
+                    std::size_t m_bucket_index{};
+                    bucket::iterator m_bucket_it{};
+                    void skip_empty(){
+                        while (m_bucket_index < m_map_it->hash_table.size()){
+                            if (m_map_it->hash_table[m_bucket_index].empty()){
+                                m_bucket_index ++;
+                            }
+                            else{
+                                m_bucket_it = m_map_it->hash_table[m_bucket_index].begin();
+                                break;
+                            }
+                        }
+                    }
+                public:
+                    // default constructor
+                    iterator() = default;
+                    // direct constructor
+                    explicit iterator(hash_map* map_ptr, std::size_t index) : m_map_it{map_ptr}, m_bucket_index{index}{
+                        if (m_bucket_index < map_ptr->m_capacity){   
+                            m_bucket_it = map_ptr->hash_table[m_bucket_index].begin();
+                        }
+                        skip_empty();
+                    };
+                    // copy constructor
+                    iterator(const iterator& other_it) = default;
+                    // copy assignment
+                    iterator& operator=(const iterator& other_it) = default;
             };
+            iterator begin(){
+                // this -- pointer to the current object (class hash_map)
+                iterator begin_it{this, 0};
+                return begin_it;
+            }
+            iterator end(){
+                iterator end_it{this, m_capacity};
+                return end_it;
+            }
     };
 }
 
