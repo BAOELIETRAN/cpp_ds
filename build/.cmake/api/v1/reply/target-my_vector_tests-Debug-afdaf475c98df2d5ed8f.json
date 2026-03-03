@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "priority_queue/my_priority_queue_tests.exe"
+			"path" : "vector/my_vector_tests.exe"
 		},
 		{
-			"path" : "priority_queue/my_priority_queue_tests.pdb"
+			"path" : "vector/my_vector_tests.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -20,7 +20,7 @@
 		],
 		"files" : 
 		[
-			"priority_queue/CMakeLists.txt",
+			"vector/CMakeLists.txt",
 			"build/_deps/googletest-src/googletest/CMakeLists.txt",
 			"C:/Program Files/CMake/share/cmake-4.2/Modules/GoogleTest.cmake"
 		],
@@ -73,7 +73,7 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "my_priority_queue_lib::@21f9f231e6871b1be224"
+			"id" : "my_vector_lib::@95776985c747069fcc28"
 		},
 		{
 			"backtrace" : 2,
@@ -93,7 +93,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "D:/LEETCODE/cpp_ds/priority_queue/src"
+					"path" : "D:/LEETCODE/cpp_ds/vector/src"
 				},
 				{
 					"backtrace" : 2,
@@ -125,7 +125,7 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "gtest::@1ea2dfc0605fe3ab2a3f"
+			"id" : "my_vector_lib::@95776985c747069fcc28"
 		},
 		{
 			"backtrace" : 2,
@@ -133,10 +133,10 @@
 		},
 		{
 			"backtrace" : 2,
-			"id" : "my_priority_queue_lib::@21f9f231e6871b1be224"
+			"id" : "gtest::@1ea2dfc0605fe3ab2a3f"
 		}
 	],
-	"id" : "my_priority_queue_tests::@21f9f231e6871b1be224",
+	"id" : "my_vector_tests::@95776985c747069fcc28",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -147,7 +147,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "libmy_priority_queue_lib.a",
+				"fragment" : "libmy_vector_lib.a",
 				"role" : "libraries"
 			},
 			{
@@ -171,26 +171,26 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "my_priority_queue_lib::@21f9f231e6871b1be224"
+			"id" : "my_vector_lib::@95776985c747069fcc28"
 		},
 		{
 			"backtrace" : 2,
 			"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f"
 		}
 	],
-	"name" : "my_priority_queue_tests",
-	"nameOnDisk" : "my_priority_queue_tests.exe",
+	"name" : "my_vector_tests",
+	"nameOnDisk" : "my_vector_tests.exe",
 	"orderDependencies" : 
 	[
 		{
 			"backtrace" : 6,
-			"id" : "my_priority_queue_tests::@21f9f231e6871b1be224"
+			"id" : "my_vector_tests::@95776985c747069fcc28"
 		}
 	],
 	"paths" : 
 	{
-		"build" : "priority_queue",
-		"source" : "priority_queue"
+		"build" : "vector",
+		"source" : "vector"
 	},
 	"sourceGroups" : 
 	[
@@ -207,7 +207,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "priority_queue/tests/test_priority_queue.cpp",
+			"path" : "vector/tests/test_vector.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
