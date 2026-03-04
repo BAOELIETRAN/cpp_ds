@@ -23,17 +23,25 @@ namespace anh_phan{
             float m_load_factor{};
             // max number of elements
             std::size_t m_threshold{};
+            // current number of elements
+            std::size_t m_size{};
+            // resize the hash map if the threshold is exceeded
+            void resize();
         public:
             // default constructor
             hash_map();
+            // direct constructor
+            hash_map(std::size_t capacity, float load_factor) : m_capacity{capacity}, m_load_factor{load_factor}, m_threshold{capacity * load_factor}{
+                hash_table.resize(m_capacity);
+            }
             // copy constructor
             hash_map(const hash_map& other_map);
             // copy assignment
             hash_map& operator=(const hash_map& other_map);
             // move constructor
-            hash_map(hash_map&& other_map);
+            hash_map(hash_map&& other_map) noexcept;
             // move assignment
-            hash_map& operator=(hash_map&& other_map);
+            hash_map& operator=(hash_map&& other_map) noexcept; 
             // destructor
             ~hash_map() = default;
 
@@ -145,14 +153,35 @@ namespace anh_phan{
                         return !((*this).operator==(other_it));
                     }
             };
+
+            // return the begin iterator of the hash map
             iterator begin(){
                 iterator begin_it(this, 0);
                 return begin_it;
             }
+            // return the end iterator of the hash map
             iterator end(){
                 iterator end_it(this, hash_table.size());
                 return end_it;
             }
+            // check whether the hash map is empty
+            bool empty() const { return m_size == 0; }
+            // return the current capacity (# of buckets) of hash map
+            std::size_t size() const { return m_size; }
+            // empty out the hash map
+            void clear();
+            // insert into the hash map
+            void insert(int key, int value);
+            // get the value of the key + modify the value of the key
+            // access to the value of the key --> int&
+            int& operator[](int key);
+            // erase an element <key, val> out of the hash map
+            void erase(int key);
+            // whether the hash map contains key or not
+            bool contains(int key) const;
+            // find an element with key in the hash map
+            // return an iterator to that element
+            iterator find(int key);
     };
 }
 
