@@ -6,17 +6,21 @@
 #include <stdexcept>
 #include <iterator>
 #include <vector>
+#include <utility>
+#include <functional>
 #include <list>
 
 // initialization order: base class --> data member (in declaring order) --> constructor body
 namespace anh_phan{
     class hash_map{
+        using bucket = std::list<std::pair<int, int>>;
+        using element = std::pair<int, int>;
         private:
             static constexpr std::size_t default_capacity = 11;
             static constexpr float default_load_factor = 0.75f;
             // bucket == doubly linked list --> std::list
             // linked list of <key, value>
-            std::vector<std::list<std::pair<int, int>>> hash_table{};
+            std::vector<bucket> hash_table{};
             // number of buckets -- size of hash table
             std::size_t m_capacity{};
             // load factor = # of stored items / # of available buckets
@@ -27,13 +31,15 @@ namespace anh_phan{
             std::size_t m_size{};
             // resize the hash map if the threshold is exceeded
             void resize();
+            // reset the other_map after being moved
+            void reset_after_move(hash_map& other_map);
+            // get the hash value
+            std::size_t get_hash_value(int key) const;
         public:
             // default constructor
             hash_map();
             // direct constructor
-            hash_map(std::size_t capacity, float load_factor) : m_capacity{capacity}, m_load_factor{load_factor}, m_threshold{capacity * load_factor}{
-                hash_table.resize(m_capacity);
-            }
+            hash_map(std::size_t capacity, float load_factor);
             // copy constructor
             hash_map(const hash_map& other_map);
             // copy assignment
@@ -49,7 +55,6 @@ namespace anh_phan{
             // although it is hash map iterator, its core is the bucket iterator
             // hash map iterator is actually bucket iterator
             class iterator{
-                using bucket = std::list<std::pair<int, int>>;
                 private:
                     hash_map* m_map_ptr{};
                     std::size_t m_bucket_index{};
