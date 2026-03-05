@@ -34,7 +34,7 @@ namespace anh_phan{
             // reset the other_map after being moved
             void reset_after_move(hash_map& other_map);
             // get the hash value
-            std::size_t get_hash_value(int key) const;
+            std::size_t get_hash_value(int key, std::size_t capacity) const;
         public:
             // default constructor
             hash_map();
@@ -175,15 +175,13 @@ namespace anh_phan{
             std::size_t size() const { return m_size; }
             // empty out the hash map
             void clear();
-            // insert into the hash map
-            void insert(int key, int value);
             // get the value of the key + modify the value of the key
             // access to the value of the key --> int&
             int& operator[](int key);
             // erase an element <key, val> out of the hash map
             void erase(int key);
             // whether the hash map contains key or not
-            bool contains(int key) const;
+            bool contains(int key);
             // find an element with key in the hash map
             // return an iterator to that element
             iterator find(int key);
