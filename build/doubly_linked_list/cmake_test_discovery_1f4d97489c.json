@@ -1,0 +1,79 @@
+{
+  "tests": 11,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "InitializingTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "DefaultConstructor",
+          "file": "D:\\LEETCODE\\cpp_ds\\doubly_linked_list\\tests\\test_doubly_linked_list.cpp",
+          "line": 4
+        },
+        {
+          "name": "CopyConstructor",
+          "file": "D:\\LEETCODE\\cpp_ds\\doubly_linked_list\\tests\\test_doubly_linked_list.cpp",
+          "line": 9
+        },
+        {
+          "name": "CopyAssignment",
+          "file": "D:\\LEETCODE\\cpp_ds\\doubly_linked_list\\tests\\test_doubly_linked_list.cpp",
+          "line": 20
+        },
+        {
+          "name": "MoveConstructor",
+          "file": "D:\\LEETCODE\\cpp_ds\\doubly_linked_list\\tests\\test_doubly_linked_list.cpp",
+          "line": 36
+        },
+        {
+          "name": "MoveAssignment",
+          "file": "D:\\LEETCODE\\cpp_ds\\doubly_linked_list\\tests\\test_doubly_linked_list.cpp",
+          "line": 47
+        }
+      ]
+    },
+    {
+      "name": "IteratingTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "Iterator",
+          "file": "D:\\LEETCODE\\cpp_ds\\doubly_linked_list\\tests\\test_doubly_linked_list.cpp",
+          "line": 63
+        }
+      ]
+    },
+    {
+      "name": "MemberFunctionTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "AddHead",
+          "file": "D:\\LEETCODE\\cpp_ds\\doubly_linked_list\\tests\\test_doubly_linked_list.cpp",
+          "line": 76
+        },
+        {
+          "name": "AddIndex",
+          "file": "D:\\LEETCODE\\cpp_ds\\doubly_linked_list\\tests\\test_doubly_linked_list.cpp",
+          "line": 86
+        },
+        {
+          "name": "DeleteHead",
+          "file": "D:\\LEETCODE\\cpp_ds\\doubly_linked_list\\tests\\test_doubly_linked_list.cpp",
+          "line": 97
+        },
+        {
+          "name": "DeleteTail",
+          "file": "D:\\LEETCODE\\cpp_ds\\doubly_linked_list\\tests\\test_doubly_linked_list.cpp",
+          "line": 107
+        },
+        {
+          "name": "DeleteAtIndex",
+          "file": "D:\\LEETCODE\\cpp_ds\\doubly_linked_list\\tests\\test_doubly_linked_list.cpp",
+          "line": 117
+        }
+      ]
+    }
+  ]
+}

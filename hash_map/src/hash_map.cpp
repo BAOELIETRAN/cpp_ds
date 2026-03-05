@@ -5,14 +5,14 @@ namespace anh_phan{
     hash_map::hash_map(){
         m_capacity = default_capacity;
         m_load_factor = default_load_factor;
-        m_threshold = m_capacity * m_load_factor;
+        m_threshold = static_cast<std::size_t>(m_capacity * m_load_factor);
         hash_table.resize(m_capacity);
         m_size = 0;
     }
 
     // direct constructor
     hash_map::hash_map(std::size_t capacity, float load_factor) 
-    : m_capacity{capacity}, m_load_factor{load_factor}, m_threshold{capacity * load_factor}{
+    : m_capacity{capacity}, m_load_factor{load_factor}, m_threshold{static_cast<std::size_t>(capacity * load_factor)}{
         // it is ok to throw an exception inside constructor body
         if (m_capacity == 0 || m_load_factor == 0.0f || m_threshold == 0){
             throw std::logic_error("The hash map can not be empty!");
@@ -62,9 +62,6 @@ namespace anh_phan{
     : m_capacity{std::move(other_map.m_capacity)}, m_load_factor{std::move(other_map.m_load_factor)},
         m_threshold{std::move(other_map.m_threshold)}, m_size{std::move(other_map.m_size)},
         hash_table{std::move(other_map.hash_table)}{
-            if (m_capacity == 0 || m_load_factor == 0.0f || m_threshold == 0){
-                throw std::logic_error("The hash map can not be empty!");
-            }
             // reset other_map after being moved
             reset_after_move(other_map);
         }
@@ -74,9 +71,6 @@ namespace anh_phan{
         // check self assignment
         if (this == &other_map){
             return *this;
-        }
-        if (other_map.m_capacity == 0 || other_map.m_load_factor == 0.0f || other_map.m_threshold == 0){
-            throw std::logic_error("The hash map can not be empty!");
         }
         // move data
         hash_table = std::move(other_map.hash_table);
@@ -134,7 +128,7 @@ namespace anh_phan{
 
     // check whether the hash map contains the key
     // look up needs to be O(1)
-    bool hash_map::contains(int key){
+    bool hash_map::contains(int key) const{
         if (m_capacity == 0){
             throw std::logic_error("The hash map can not be empty!");
         }

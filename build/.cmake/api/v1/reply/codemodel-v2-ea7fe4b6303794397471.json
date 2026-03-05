@@ -14,7 +14,9 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10,
+						11
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
@@ -42,8 +44,8 @@
 					"source" : "vector",
 					"targetIndexes" : 
 					[
-						14,
-						15
+						18,
+						19
 					]
 				},
 				{
@@ -112,8 +114,8 @@
 					"source" : "linked_list",
 					"targetIndexes" : 
 					[
-						6,
-						7
+						10,
+						11
 					]
 				},
 				{
@@ -128,8 +130,8 @@
 					"source" : "stack",
 					"targetIndexes" : 
 					[
-						12,
-						13
+						16,
+						17
 					]
 				},
 				{
@@ -144,8 +146,8 @@
 					"source" : "queue",
 					"targetIndexes" : 
 					[
-						10,
-						11
+						14,
+						15
 					]
 				},
 				{
@@ -176,6 +178,38 @@
 					"source" : "priority_queue",
 					"targetIndexes" : 
 					[
+						12,
+						13
+					]
+				},
+				{
+					"build" : "doubly_linked_list",
+					"jsonFile" : "directory-doubly_linked_list-Debug-3415322c433e372302b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "doubly_linked_list",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "hash_map",
+					"jsonFile" : "directory-hash_map-Debug-304413103d365ebbb4e4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "hash_map",
+					"targetIndexes" : 
+					[
 						8,
 						9
 					]
@@ -192,7 +226,9 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						10,
+						11
 					],
 					"directoryIndexes" : 
 					[
@@ -213,8 +249,8 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						14,
-						15
+						18,
+						19
 					]
 				},
 				{
@@ -268,8 +304,8 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						6,
-						7
+						10,
+						11
 					]
 				},
 				{
@@ -281,8 +317,8 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						12,
-						13
+						16,
+						17
 					]
 				},
 				{
@@ -294,8 +330,8 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						10,
-						11
+						14,
+						15
 					]
 				},
 				{
@@ -317,6 +353,32 @@
 						9
 					],
 					"name" : "MY_PRIORITY_QUEUE",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "MY_DOUBLY_LINKED_LIST",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "MY_HASH_MAP",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
@@ -368,6 +430,34 @@
 					"jsonFile" : "target-my_bst_tests-Debug-124f6de2a90a2ab34725.json",
 					"name" : "my_bst_tests",
 					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "my_doubly_linked_list_lib::@22bbad0bfd2e394ca498",
+					"jsonFile" : "target-my_doubly_linked_list_lib-Debug-da8c5d3cd64c3c5b70e4.json",
+					"name" : "my_doubly_linked_list_lib",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "my_doubly_linked_list_tests::@22bbad0bfd2e394ca498",
+					"jsonFile" : "target-my_doubly_linked_list_tests-Debug-e4dbfbdd1cfb176a8e86.json",
+					"name" : "my_doubly_linked_list_tests",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "my_hash_map_lib::@19ab27f18e07a60891ee",
+					"jsonFile" : "target-my_hash_map_lib-Debug-0603b6bb902652be1de5.json",
+					"name" : "my_hash_map_lib",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "my_hash_map_tests::@19ab27f18e07a60891ee",
+					"jsonFile" : "target-my_hash_map_tests-Debug-166b1a833950ab7a8d86.json",
+					"name" : "my_hash_map_tests",
+					"projectIndex" : 11
 				},
 				{
 					"directoryIndex" : 5,

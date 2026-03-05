@@ -67,6 +67,16 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("D:/LEETCODE/cpp_ds/build/priority_queue/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/LEETCODE/cpp_ds/build/doubly_linked_list/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/LEETCODE/cpp_ds/build/hash_map/cmake_install.cmake")
+endif()
+
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)

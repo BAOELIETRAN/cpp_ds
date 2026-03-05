@@ -63,6 +63,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "_deps/googletest-src/googletest/cmake/gtest.pc.in"
   "_deps/googletest-src/googletest/cmake/gtest_main.pc.in"
   "_deps/googletest-src/googletest/cmake/internal_utils.cmake"
+  "D:/LEETCODE/cpp_ds/doubly_linked_list/CMakeLists.txt"
+  "D:/LEETCODE/cpp_ds/hash_map/CMakeLists.txt"
   "D:/LEETCODE/cpp_ds/linked_list/CMakeLists.txt"
   "D:/LEETCODE/cpp_ds/priority_queue/CMakeLists.txt"
   "D:/LEETCODE/cpp_ds/queue/CMakeLists.txt"
@@ -95,6 +97,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "queue/CMakeFiles/CMakeDirectoryInformation.cmake"
   "binary_search_tree/CMakeFiles/CMakeDirectoryInformation.cmake"
   "priority_queue/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "doubly_linked_list/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "hash_map/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -115,4 +119,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "binary_search_tree/CMakeFiles/my_bst_tests.dir/DependInfo.cmake"
   "priority_queue/CMakeFiles/my_priority_queue_lib.dir/DependInfo.cmake"
   "priority_queue/CMakeFiles/my_priority_queue_tests.dir/DependInfo.cmake"
+  "doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/DependInfo.cmake"
+  "doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/DependInfo.cmake"
+  "hash_map/CMakeFiles/my_hash_map_lib.dir/DependInfo.cmake"
+  "hash_map/CMakeFiles/my_hash_map_tests.dir/DependInfo.cmake"
   )

@@ -378,6 +378,58 @@ my_priority_queue_tests/fast:
 	$(MAKE) $(MAKESILENT) -f priority_queue\CMakeFiles\my_priority_queue_tests.dir\build.make priority_queue/CMakeFiles/my_priority_queue_tests.dir/build
 .PHONY : my_priority_queue_tests/fast
 
+#=============================================================================
+# Target rules for targets named my_doubly_linked_list_lib
+
+# Build rule for target.
+my_doubly_linked_list_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 my_doubly_linked_list_lib
+.PHONY : my_doubly_linked_list_lib
+
+# fast build rule for target.
+my_doubly_linked_list_lib/fast:
+	$(MAKE) $(MAKESILENT) -f doubly_linked_list\CMakeFiles\my_doubly_linked_list_lib.dir\build.make doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/build
+.PHONY : my_doubly_linked_list_lib/fast
+
+#=============================================================================
+# Target rules for targets named my_doubly_linked_list_tests
+
+# Build rule for target.
+my_doubly_linked_list_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 my_doubly_linked_list_tests
+.PHONY : my_doubly_linked_list_tests
+
+# fast build rule for target.
+my_doubly_linked_list_tests/fast:
+	$(MAKE) $(MAKESILENT) -f doubly_linked_list\CMakeFiles\my_doubly_linked_list_tests.dir\build.make doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/build
+.PHONY : my_doubly_linked_list_tests/fast
+
+#=============================================================================
+# Target rules for targets named my_hash_map_lib
+
+# Build rule for target.
+my_hash_map_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 my_hash_map_lib
+.PHONY : my_hash_map_lib
+
+# fast build rule for target.
+my_hash_map_lib/fast:
+	$(MAKE) $(MAKESILENT) -f hash_map\CMakeFiles\my_hash_map_lib.dir\build.make hash_map/CMakeFiles/my_hash_map_lib.dir/build
+.PHONY : my_hash_map_lib/fast
+
+#=============================================================================
+# Target rules for targets named my_hash_map_tests
+
+# Build rule for target.
+my_hash_map_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 my_hash_map_tests
+.PHONY : my_hash_map_tests
+
+# fast build rule for target.
+my_hash_map_tests/fast:
+	$(MAKE) $(MAKESILENT) -f hash_map\CMakeFiles\my_hash_map_tests.dir\build.make hash_map/CMakeFiles/my_hash_map_tests.dir/build
+.PHONY : my_hash_map_tests/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -397,6 +449,10 @@ help:
 	@echo ... gtest_main
 	@echo ... my_bst_lib
 	@echo ... my_bst_tests
+	@echo ... my_doubly_linked_list_lib
+	@echo ... my_doubly_linked_list_tests
+	@echo ... my_hash_map_lib
+	@echo ... my_hash_map_tests
 	@echo ... my_linked_list_lib
 	@echo ... my_linked_list_tests
 	@echo ... my_priority_queue_lib

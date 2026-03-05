@@ -181,7 +181,7 @@ namespace anh_phan{
             // erase an element <key, val> out of the hash map
             void erase(int key);
             // whether the hash map contains key or not
-            bool contains(int key);
+            bool contains(int key) const;
             // find an element with key in the hash map
             // return an iterator to that element
             iterator find(int key);

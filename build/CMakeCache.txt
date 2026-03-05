@@ -360,6 +360,24 @@ MY_BST_IS_TOP_LEVEL:STATIC=OFF
 MY_BST_SOURCE_DIR:STATIC=D:/LEETCODE/cpp_ds/binary_search_tree
 
 //Value Computed by CMake
+MY_DOUBLY_LINKED_LIST_BINARY_DIR:STATIC=D:/LEETCODE/cpp_ds/build/doubly_linked_list
+
+//Value Computed by CMake
+MY_DOUBLY_LINKED_LIST_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+MY_DOUBLY_LINKED_LIST_SOURCE_DIR:STATIC=D:/LEETCODE/cpp_ds/doubly_linked_list
+
+//Value Computed by CMake
+MY_HASH_MAP_BINARY_DIR:STATIC=D:/LEETCODE/cpp_ds/build/hash_map
+
+//Value Computed by CMake
+MY_HASH_MAP_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+MY_HASH_MAP_SOURCE_DIR:STATIC=D:/LEETCODE/cpp_ds/hash_map
+
+//Value Computed by CMake
 MY_LINKED_LIST_BINARY_DIR:STATIC=D:/LEETCODE/cpp_ds/build/linked_list
 
 //Value Computed by CMake
@@ -598,7 +616,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

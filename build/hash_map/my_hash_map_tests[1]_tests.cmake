@@ -1,0 +1,5 @@
+add_test([=[InitializingTest.DefaultConstructor]=]  D:/LEETCODE/cpp_ds/build/hash_map/my_hash_map_tests.exe [==[--gtest_filter=InitializingTest.DefaultConstructor]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[InitializingTest.DefaultConstructor]=]  PROPERTIES DEF_SOURCE_LINE [==[D:\LEETCODE\cpp_ds\hash_map\tests\test_hash_map.cpp:4]==] WORKING_DIRECTORY D:/LEETCODE/cpp_ds/build/hash_map SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[InitializingTest.OtherMembers]=]  D:/LEETCODE/cpp_ds/build/hash_map/my_hash_map_tests.exe [==[--gtest_filter=InitializingTest.OtherMembers]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[InitializingTest.OtherMembers]=]  PROPERTIES DEF_SOURCE_LINE [==[D:\LEETCODE\cpp_ds\hash_map\tests\test_hash_map.cpp:10]==] WORKING_DIRECTORY D:/LEETCODE/cpp_ds/build/hash_map SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  my_hash_map_tests_TESTS InitializingTest.DefaultConstructor InitializingTest.OtherMembers)

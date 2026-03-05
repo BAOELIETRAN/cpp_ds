@@ -68,6 +68,8 @@ all: stack/all
 all: queue/all
 all: binary_search_tree/all
 all: priority_queue/all
+all: doubly_linked_list/all
+all: hash_map/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -77,6 +79,8 @@ codegen: stack/codegen
 codegen: queue/codegen
 codegen: binary_search_tree/codegen
 codegen: priority_queue/codegen
+codegen: doubly_linked_list/codegen
+codegen: hash_map/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -86,6 +90,8 @@ preinstall: stack/preinstall
 preinstall: queue/preinstall
 preinstall: binary_search_tree/preinstall
 preinstall: priority_queue/preinstall
+preinstall: doubly_linked_list/preinstall
+preinstall: hash_map/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -95,6 +101,8 @@ clean: stack/clean
 clean: queue/clean
 clean: binary_search_tree/clean
 clean: priority_queue/clean
+clean: doubly_linked_list/clean
+clean: hash_map/clean
 .PHONY : clean
 
 #=============================================================================
@@ -184,6 +192,50 @@ binary_search_tree/preinstall:
 binary_search_tree/clean: binary_search_tree/CMakeFiles/my_bst_lib.dir/clean
 binary_search_tree/clean: binary_search_tree/CMakeFiles/my_bst_tests.dir/clean
 .PHONY : binary_search_tree/clean
+
+#=============================================================================
+# Directory level rules for directory doubly_linked_list
+
+# Recursive "all" directory target.
+doubly_linked_list/all: doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/all
+doubly_linked_list/all: doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/all
+.PHONY : doubly_linked_list/all
+
+# Recursive "codegen" directory target.
+doubly_linked_list/codegen: doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/codegen
+doubly_linked_list/codegen: doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/codegen
+.PHONY : doubly_linked_list/codegen
+
+# Recursive "preinstall" directory target.
+doubly_linked_list/preinstall:
+.PHONY : doubly_linked_list/preinstall
+
+# Recursive "clean" directory target.
+doubly_linked_list/clean: doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/clean
+doubly_linked_list/clean: doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/clean
+.PHONY : doubly_linked_list/clean
+
+#=============================================================================
+# Directory level rules for directory hash_map
+
+# Recursive "all" directory target.
+hash_map/all: hash_map/CMakeFiles/my_hash_map_lib.dir/all
+hash_map/all: hash_map/CMakeFiles/my_hash_map_tests.dir/all
+.PHONY : hash_map/all
+
+# Recursive "codegen" directory target.
+hash_map/codegen: hash_map/CMakeFiles/my_hash_map_lib.dir/codegen
+hash_map/codegen: hash_map/CMakeFiles/my_hash_map_tests.dir/codegen
+.PHONY : hash_map/codegen
+
+# Recursive "preinstall" directory target.
+hash_map/preinstall:
+.PHONY : hash_map/preinstall
+
+# Recursive "clean" directory target.
+hash_map/clean: hash_map/CMakeFiles/my_hash_map_lib.dir/clean
+hash_map/clean: hash_map/CMakeFiles/my_hash_map_tests.dir/clean
+.PHONY : hash_map/clean
 
 #=============================================================================
 # Directory level rules for directory linked_list
@@ -305,7 +357,7 @@ vector/clean: _deps/googletest-build/clean
 vector/CMakeFiles/my_vector_lib.dir/all:
 	$(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_lib.dir\build.make vector/CMakeFiles/my_vector_lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_lib.dir\build.make vector/CMakeFiles/my_vector_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=29,30 "Built target my_vector_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=37,38 "Built target my_vector_lib"
 .PHONY : vector/CMakeFiles/my_vector_lib.dir/all
 
 # Build rule for subdir invocation for target.
@@ -322,7 +374,7 @@ my_vector_lib: vector/CMakeFiles/my_vector_lib.dir/rule
 # codegen rule for target.
 vector/CMakeFiles/my_vector_lib.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_lib.dir\build.make vector/CMakeFiles/my_vector_lib.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=29,30 "Finished codegen for target my_vector_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=37,38 "Finished codegen for target my_vector_lib"
 .PHONY : vector/CMakeFiles/my_vector_lib.dir/codegen
 
 # clean rule for target.
@@ -339,7 +391,7 @@ vector/CMakeFiles/my_vector_tests.dir/all: _deps/googletest-build/googletest/CMa
 vector/CMakeFiles/my_vector_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_tests.dir\build.make vector/CMakeFiles/my_vector_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_tests.dir\build.make vector/CMakeFiles/my_vector_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=31,32 "Built target my_vector_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=39,40 "Built target my_vector_tests"
 .PHONY : vector/CMakeFiles/my_vector_tests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -356,7 +408,7 @@ my_vector_tests: vector/CMakeFiles/my_vector_tests.dir/rule
 # codegen rule for target.
 vector/CMakeFiles/my_vector_tests.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_tests.dir\build.make vector/CMakeFiles/my_vector_tests.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=31,32 "Finished codegen for target my_vector_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=39,40 "Finished codegen for target my_vector_tests"
 .PHONY : vector/CMakeFiles/my_vector_tests.dir/codegen
 
 # clean rule for target.
@@ -500,7 +552,7 @@ _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/clean:
 linked_list/CMakeFiles/my_linked_list_lib.dir/all:
 	$(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_lib.dir\build.make linked_list/CMakeFiles/my_linked_list_lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_lib.dir\build.make linked_list/CMakeFiles/my_linked_list_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=13,14 "Built target my_linked_list_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=21,22 "Built target my_linked_list_lib"
 .PHONY : linked_list/CMakeFiles/my_linked_list_lib.dir/all
 
 # Build rule for subdir invocation for target.
@@ -517,7 +569,7 @@ my_linked_list_lib: linked_list/CMakeFiles/my_linked_list_lib.dir/rule
 # codegen rule for target.
 linked_list/CMakeFiles/my_linked_list_lib.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_lib.dir\build.make linked_list/CMakeFiles/my_linked_list_lib.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=13,14 "Finished codegen for target my_linked_list_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=21,22 "Finished codegen for target my_linked_list_lib"
 .PHONY : linked_list/CMakeFiles/my_linked_list_lib.dir/codegen
 
 # clean rule for target.
@@ -534,7 +586,7 @@ linked_list/CMakeFiles/my_linked_list_tests.dir/all: _deps/googletest-build/goog
 linked_list/CMakeFiles/my_linked_list_tests.dir/all: linked_list/CMakeFiles/my_linked_list_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_tests.dir\build.make linked_list/CMakeFiles/my_linked_list_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_tests.dir\build.make linked_list/CMakeFiles/my_linked_list_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=15,16 "Built target my_linked_list_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=23,24 "Built target my_linked_list_tests"
 .PHONY : linked_list/CMakeFiles/my_linked_list_tests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -551,7 +603,7 @@ my_linked_list_tests: linked_list/CMakeFiles/my_linked_list_tests.dir/rule
 # codegen rule for target.
 linked_list/CMakeFiles/my_linked_list_tests.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_tests.dir\build.make linked_list/CMakeFiles/my_linked_list_tests.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=15,16 "Finished codegen for target my_linked_list_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=23,24 "Finished codegen for target my_linked_list_tests"
 .PHONY : linked_list/CMakeFiles/my_linked_list_tests.dir/codegen
 
 # clean rule for target.
@@ -566,7 +618,7 @@ linked_list/CMakeFiles/my_linked_list_tests.dir/clean:
 stack/CMakeFiles/my_stack_lib.dir/all:
 	$(MAKE) $(MAKESILENT) -f stack\CMakeFiles\my_stack_lib.dir\build.make stack/CMakeFiles/my_stack_lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f stack\CMakeFiles\my_stack_lib.dir\build.make stack/CMakeFiles/my_stack_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=25,26 "Built target my_stack_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=33,34 "Built target my_stack_lib"
 .PHONY : stack/CMakeFiles/my_stack_lib.dir/all
 
 # Build rule for subdir invocation for target.
@@ -583,7 +635,7 @@ my_stack_lib: stack/CMakeFiles/my_stack_lib.dir/rule
 # codegen rule for target.
 stack/CMakeFiles/my_stack_lib.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f stack\CMakeFiles\my_stack_lib.dir\build.make stack/CMakeFiles/my_stack_lib.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=25,26 "Finished codegen for target my_stack_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=33,34 "Finished codegen for target my_stack_lib"
 .PHONY : stack/CMakeFiles/my_stack_lib.dir/codegen
 
 # clean rule for target.
@@ -600,7 +652,7 @@ stack/CMakeFiles/my_stack_tests.dir/all: _deps/googletest-build/googletest/CMake
 stack/CMakeFiles/my_stack_tests.dir/all: stack/CMakeFiles/my_stack_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f stack\CMakeFiles\my_stack_tests.dir\build.make stack/CMakeFiles/my_stack_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f stack\CMakeFiles\my_stack_tests.dir\build.make stack/CMakeFiles/my_stack_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=27,28 "Built target my_stack_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=35,36 "Built target my_stack_tests"
 .PHONY : stack/CMakeFiles/my_stack_tests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -617,7 +669,7 @@ my_stack_tests: stack/CMakeFiles/my_stack_tests.dir/rule
 # codegen rule for target.
 stack/CMakeFiles/my_stack_tests.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f stack\CMakeFiles\my_stack_tests.dir\build.make stack/CMakeFiles/my_stack_tests.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=27,28 "Finished codegen for target my_stack_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=35,36 "Finished codegen for target my_stack_tests"
 .PHONY : stack/CMakeFiles/my_stack_tests.dir/codegen
 
 # clean rule for target.
@@ -632,7 +684,7 @@ stack/CMakeFiles/my_stack_tests.dir/clean:
 queue/CMakeFiles/my_queue_lib.dir/all:
 	$(MAKE) $(MAKESILENT) -f queue\CMakeFiles\my_queue_lib.dir\build.make queue/CMakeFiles/my_queue_lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f queue\CMakeFiles\my_queue_lib.dir\build.make queue/CMakeFiles/my_queue_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=21,22 "Built target my_queue_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=29,30 "Built target my_queue_lib"
 .PHONY : queue/CMakeFiles/my_queue_lib.dir/all
 
 # Build rule for subdir invocation for target.
@@ -649,7 +701,7 @@ my_queue_lib: queue/CMakeFiles/my_queue_lib.dir/rule
 # codegen rule for target.
 queue/CMakeFiles/my_queue_lib.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f queue\CMakeFiles\my_queue_lib.dir\build.make queue/CMakeFiles/my_queue_lib.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=21,22 "Finished codegen for target my_queue_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=29,30 "Finished codegen for target my_queue_lib"
 .PHONY : queue/CMakeFiles/my_queue_lib.dir/codegen
 
 # clean rule for target.
@@ -666,7 +718,7 @@ queue/CMakeFiles/my_queue_tests.dir/all: _deps/googletest-build/googletest/CMake
 queue/CMakeFiles/my_queue_tests.dir/all: queue/CMakeFiles/my_queue_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f queue\CMakeFiles\my_queue_tests.dir\build.make queue/CMakeFiles/my_queue_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f queue\CMakeFiles\my_queue_tests.dir\build.make queue/CMakeFiles/my_queue_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=23,24 "Built target my_queue_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=31,32 "Built target my_queue_tests"
 .PHONY : queue/CMakeFiles/my_queue_tests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -683,7 +735,7 @@ my_queue_tests: queue/CMakeFiles/my_queue_tests.dir/rule
 # codegen rule for target.
 queue/CMakeFiles/my_queue_tests.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f queue\CMakeFiles\my_queue_tests.dir\build.make queue/CMakeFiles/my_queue_tests.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=23,24 "Finished codegen for target my_queue_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=31,32 "Finished codegen for target my_queue_tests"
 .PHONY : queue/CMakeFiles/my_queue_tests.dir/codegen
 
 # clean rule for target.
@@ -764,7 +816,7 @@ binary_search_tree/CMakeFiles/my_bst_tests.dir/clean:
 priority_queue/CMakeFiles/my_priority_queue_lib.dir/all:
 	$(MAKE) $(MAKESILENT) -f priority_queue\CMakeFiles\my_priority_queue_lib.dir\build.make priority_queue/CMakeFiles/my_priority_queue_lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f priority_queue\CMakeFiles\my_priority_queue_lib.dir\build.make priority_queue/CMakeFiles/my_priority_queue_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=17,18 "Built target my_priority_queue_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=25,26 "Built target my_priority_queue_lib"
 .PHONY : priority_queue/CMakeFiles/my_priority_queue_lib.dir/all
 
 # Build rule for subdir invocation for target.
@@ -781,7 +833,7 @@ my_priority_queue_lib: priority_queue/CMakeFiles/my_priority_queue_lib.dir/rule
 # codegen rule for target.
 priority_queue/CMakeFiles/my_priority_queue_lib.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f priority_queue\CMakeFiles\my_priority_queue_lib.dir\build.make priority_queue/CMakeFiles/my_priority_queue_lib.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=17,18 "Finished codegen for target my_priority_queue_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=25,26 "Finished codegen for target my_priority_queue_lib"
 .PHONY : priority_queue/CMakeFiles/my_priority_queue_lib.dir/codegen
 
 # clean rule for target.
@@ -798,7 +850,7 @@ priority_queue/CMakeFiles/my_priority_queue_tests.dir/all: _deps/googletest-buil
 priority_queue/CMakeFiles/my_priority_queue_tests.dir/all: priority_queue/CMakeFiles/my_priority_queue_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f priority_queue\CMakeFiles\my_priority_queue_tests.dir\build.make priority_queue/CMakeFiles/my_priority_queue_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f priority_queue\CMakeFiles\my_priority_queue_tests.dir\build.make priority_queue/CMakeFiles/my_priority_queue_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=19,20 "Built target my_priority_queue_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=27,28 "Built target my_priority_queue_tests"
 .PHONY : priority_queue/CMakeFiles/my_priority_queue_tests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -815,13 +867,145 @@ my_priority_queue_tests: priority_queue/CMakeFiles/my_priority_queue_tests.dir/r
 # codegen rule for target.
 priority_queue/CMakeFiles/my_priority_queue_tests.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f priority_queue\CMakeFiles\my_priority_queue_tests.dir\build.make priority_queue/CMakeFiles/my_priority_queue_tests.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=19,20 "Finished codegen for target my_priority_queue_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=27,28 "Finished codegen for target my_priority_queue_tests"
 .PHONY : priority_queue/CMakeFiles/my_priority_queue_tests.dir/codegen
 
 # clean rule for target.
 priority_queue/CMakeFiles/my_priority_queue_tests.dir/clean:
 	$(MAKE) $(MAKESILENT) -f priority_queue\CMakeFiles\my_priority_queue_tests.dir\build.make priority_queue/CMakeFiles/my_priority_queue_tests.dir/clean
 .PHONY : priority_queue/CMakeFiles/my_priority_queue_tests.dir/clean
+
+#=============================================================================
+# Target rules for target doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir
+
+# All Build rule for target.
+doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/all:
+	$(MAKE) $(MAKESILENT) -f doubly_linked_list\CMakeFiles\my_doubly_linked_list_lib.dir\build.make doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/depend
+	$(MAKE) $(MAKESILENT) -f doubly_linked_list\CMakeFiles\my_doubly_linked_list_lib.dir\build.make doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=13,14 "Built target my_doubly_linked_list_lib"
+.PHONY : doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/all
+
+# Build rule for subdir invocation for target.
+doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\LEETCODE\cpp_ds\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\LEETCODE\cpp_ds\build\CMakeFiles 0
+.PHONY : doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/rule
+
+# Convenience name for target.
+my_doubly_linked_list_lib: doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/rule
+.PHONY : my_doubly_linked_list_lib
+
+# codegen rule for target.
+doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f doubly_linked_list\CMakeFiles\my_doubly_linked_list_lib.dir\build.make doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=13,14 "Finished codegen for target my_doubly_linked_list_lib"
+.PHONY : doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/codegen
+
+# clean rule for target.
+doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f doubly_linked_list\CMakeFiles\my_doubly_linked_list_lib.dir\build.make doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/clean
+.PHONY : doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/clean
+
+#=============================================================================
+# Target rules for target doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir
+
+# All Build rule for target.
+doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/all: doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/all
+	$(MAKE) $(MAKESILENT) -f doubly_linked_list\CMakeFiles\my_doubly_linked_list_tests.dir\build.make doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/depend
+	$(MAKE) $(MAKESILENT) -f doubly_linked_list\CMakeFiles\my_doubly_linked_list_tests.dir\build.make doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=15,16 "Built target my_doubly_linked_list_tests"
+.PHONY : doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/all
+
+# Build rule for subdir invocation for target.
+doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\LEETCODE\cpp_ds\build\CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\LEETCODE\cpp_ds\build\CMakeFiles 0
+.PHONY : doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/rule
+
+# Convenience name for target.
+my_doubly_linked_list_tests: doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/rule
+.PHONY : my_doubly_linked_list_tests
+
+# codegen rule for target.
+doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f doubly_linked_list\CMakeFiles\my_doubly_linked_list_tests.dir\build.make doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=15,16 "Finished codegen for target my_doubly_linked_list_tests"
+.PHONY : doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/codegen
+
+# clean rule for target.
+doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/clean:
+	$(MAKE) $(MAKESILENT) -f doubly_linked_list\CMakeFiles\my_doubly_linked_list_tests.dir\build.make doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/clean
+.PHONY : doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/clean
+
+#=============================================================================
+# Target rules for target hash_map/CMakeFiles/my_hash_map_lib.dir
+
+# All Build rule for target.
+hash_map/CMakeFiles/my_hash_map_lib.dir/all:
+	$(MAKE) $(MAKESILENT) -f hash_map\CMakeFiles\my_hash_map_lib.dir\build.make hash_map/CMakeFiles/my_hash_map_lib.dir/depend
+	$(MAKE) $(MAKESILENT) -f hash_map\CMakeFiles\my_hash_map_lib.dir\build.make hash_map/CMakeFiles/my_hash_map_lib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=17,18 "Built target my_hash_map_lib"
+.PHONY : hash_map/CMakeFiles/my_hash_map_lib.dir/all
+
+# Build rule for subdir invocation for target.
+hash_map/CMakeFiles/my_hash_map_lib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\LEETCODE\cpp_ds\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 hash_map/CMakeFiles/my_hash_map_lib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\LEETCODE\cpp_ds\build\CMakeFiles 0
+.PHONY : hash_map/CMakeFiles/my_hash_map_lib.dir/rule
+
+# Convenience name for target.
+my_hash_map_lib: hash_map/CMakeFiles/my_hash_map_lib.dir/rule
+.PHONY : my_hash_map_lib
+
+# codegen rule for target.
+hash_map/CMakeFiles/my_hash_map_lib.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f hash_map\CMakeFiles\my_hash_map_lib.dir\build.make hash_map/CMakeFiles/my_hash_map_lib.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=17,18 "Finished codegen for target my_hash_map_lib"
+.PHONY : hash_map/CMakeFiles/my_hash_map_lib.dir/codegen
+
+# clean rule for target.
+hash_map/CMakeFiles/my_hash_map_lib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f hash_map\CMakeFiles\my_hash_map_lib.dir\build.make hash_map/CMakeFiles/my_hash_map_lib.dir/clean
+.PHONY : hash_map/CMakeFiles/my_hash_map_lib.dir/clean
+
+#=============================================================================
+# Target rules for target hash_map/CMakeFiles/my_hash_map_tests.dir
+
+# All Build rule for target.
+hash_map/CMakeFiles/my_hash_map_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+hash_map/CMakeFiles/my_hash_map_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+hash_map/CMakeFiles/my_hash_map_tests.dir/all: hash_map/CMakeFiles/my_hash_map_lib.dir/all
+	$(MAKE) $(MAKESILENT) -f hash_map\CMakeFiles\my_hash_map_tests.dir\build.make hash_map/CMakeFiles/my_hash_map_tests.dir/depend
+	$(MAKE) $(MAKESILENT) -f hash_map\CMakeFiles\my_hash_map_tests.dir\build.make hash_map/CMakeFiles/my_hash_map_tests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=19,20 "Built target my_hash_map_tests"
+.PHONY : hash_map/CMakeFiles/my_hash_map_tests.dir/all
+
+# Build rule for subdir invocation for target.
+hash_map/CMakeFiles/my_hash_map_tests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\LEETCODE\cpp_ds\build\CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 hash_map/CMakeFiles/my_hash_map_tests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\LEETCODE\cpp_ds\build\CMakeFiles 0
+.PHONY : hash_map/CMakeFiles/my_hash_map_tests.dir/rule
+
+# Convenience name for target.
+my_hash_map_tests: hash_map/CMakeFiles/my_hash_map_tests.dir/rule
+.PHONY : my_hash_map_tests
+
+# codegen rule for target.
+hash_map/CMakeFiles/my_hash_map_tests.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f hash_map\CMakeFiles\my_hash_map_tests.dir\build.make hash_map/CMakeFiles/my_hash_map_tests.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=19,20 "Finished codegen for target my_hash_map_tests"
+.PHONY : hash_map/CMakeFiles/my_hash_map_tests.dir/codegen
+
+# clean rule for target.
+hash_map/CMakeFiles/my_hash_map_tests.dir/clean:
+	$(MAKE) $(MAKESILENT) -f hash_map\CMakeFiles\my_hash_map_tests.dir\build.make hash_map/CMakeFiles/my_hash_map_tests.dir/clean
+.PHONY : hash_map/CMakeFiles/my_hash_map_tests.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

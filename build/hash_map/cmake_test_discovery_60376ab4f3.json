@@ -1,0 +1,22 @@
+{
+  "tests": 2,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "InitializingTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "DefaultConstructor",
+          "file": "D:\\LEETCODE\\cpp_ds\\hash_map\\tests\\test_hash_map.cpp",
+          "line": 4
+        },
+        {
+          "name": "OtherMembers",
+          "file": "D:\\LEETCODE\\cpp_ds\\hash_map\\tests\\test_hash_map.cpp",
+          "line": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1091,7 +1091,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "10"
+			"value" : "12"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1816,6 +1816,78 @@
 			],
 			"type" : "STATIC",
 			"value" : "D:/LEETCODE/cpp_ds/binary_search_tree"
+		},
+		{
+			"name" : "MY_DOUBLY_LINKED_LIST_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/LEETCODE/cpp_ds/build/doubly_linked_list"
+		},
+		{
+			"name" : "MY_DOUBLY_LINKED_LIST_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "MY_DOUBLY_LINKED_LIST_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/LEETCODE/cpp_ds/doubly_linked_list"
+		},
+		{
+			"name" : "MY_HASH_MAP_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/LEETCODE/cpp_ds/build/hash_map"
+		},
+		{
+			"name" : "MY_HASH_MAP_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "MY_HASH_MAP_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/LEETCODE/cpp_ds/hash_map"
 		},
 		{
 			"name" : "MY_LINKED_LIST_BINARY_DIR",
