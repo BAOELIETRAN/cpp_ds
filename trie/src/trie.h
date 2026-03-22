@@ -12,14 +12,21 @@
 namespace obito{
     // everything is public
     // in a trie, each node represents for a prefix
-    struct Trie{
+    struct List_Trie{
         struct Node{
             int id{};
-            int children[ALL_CHARS];
-            // how many strings end exactly at this Node
+            int children[ALL_CHARS]{};
+            // number of strings end exactly at this node
             int end{};
-            // how many strings have prefix ends exactly at this Node
+            // number of strings have prefix represented by this node
             int prefix{};
+
+            Node() : id{0}, end{0}, prefix{0}{
+                // re-assign value of children
+                for (int i = 0; i < ALL_CHARS; i ++){
+                    children[i] = -1;
+                }
+            } 
         };
 
         // an array of nodes -- each id represents each node
@@ -28,82 +35,103 @@ namespace obito{
         int num_nodes{};
 
         // constructor
-        Trie() : num_nodes{0}{
-            // reset the all_nodes array
-            for (int i = 0; i < MAX_NODES; i ++){
-                all_nodes[i] = Node();
-                Node& root = all_nodes[i];
-                for (int i = 0; i < ALL_CHARS; i ++){
-                    root.children[i] = -1;
-                }
-                root.end = 0;
-                root.prefix = 0;
-            }
-            // first node is root node 0
-            // set root node id to 0
-            all_nodes[0].id = num_nodes;
-            num_nodes ++;
+        List_Trie() : num_nodes{1}{
+            all_nodes[0].id = 0;
         }
 
-        // add new node to trie
-        void add_node(Node& cur_node, char c){
-            Node& new_node = all_nodes[num_nodes];
-            new_node.id = num_nodes;
-            // 1 string ends exactly at new node
-            new_node.end = 1;
-            // 1 prefix string ends exactly at new node
-            new_node.prefix = 1;
-            int neigh_pos = c - 'a';
-            cur_node.children[neigh_pos] = new_node.id;
+        // creata a new node
+        int create_node(){
+            if (num_nodes >= MAX_NODES){
+                throw std::runtime_error("Trie is full");
+            }
+            all_nodes[num_nodes] = Node();
+            all_nodes[num_nodes].id = num_nodes;
+            int new_node_id = num_nodes;
             num_nodes ++;
+            return new_node_id;
         }
 
         // add a new string to the trie
         void add_string(const std::string& new_str){
             int cur_node_id = 0;
-            int len = new_str.length();
-            int cur_index = 0;
-            while (cur_index < len){
-                Node& cur_node = all_nodes[cur_node_id];
-                char cur_char = new_str[cur_index];
-                // next node
-                cur_node_id = cur_node.children[cur_char - 'a'];
-                // already has this character
-                if (cur_node_id != -1){
-                    all_nodes[cur_node_id].prefix ++;
+            for (char c : new_str){
+                int next_node_id = all_nodes[cur_node_id].children[c - 'a'];
+                // the char does not exist
+                if (next_node_id == -1){
+                    // create a new node
+                    next_node_id = create_node();
+                    // add it as a child of the current node
+                    all_nodes[cur_node_id].children[c - 'a'] = next_node_id;
                 }
-                // does not have this character
-                else{
-                    add_node(cur_node, cur_char);
-                }
-                cur_index ++;
+                all_nodes[next_node_id].prefix ++;
+                cur_node_id = next_node_id;
             }
-            // end at cur_node --> raise cur_node.end
+            // if we add an empty string
+            if (cur_node_id == 0) all_nodes[cur_node_id].prefix ++;
+            // a new string ends at cur_node_id --> raise end
             all_nodes[cur_node_id].end ++;
         }
 
-        // check whether the trie contain the str or not
-        bool contain(const std::string& str){
+        // check whether the trie contain the string "word" or not
+        bool contain_word(const std::string& word) const{
             int cur_node_id = 0;
-            int len = str.length();
-            int cur_index = 0;
-            while (cur_index < len){
-                Node& cur_node = all_nodes[cur_node_id];
-                char cur_char = str[cur_index];
-                cur_node_id = cur_node.children[cur_char - 'a'];
-                // does not have this character
-                if (cur_node_id == -1){
+            for (char c : word){
+                int next_node_id = all_nodes[cur_node_id].children[c - 'a'];
+                if (next_node_id == -1){
                     return false;
                 }
-                cur_index ++;
-            }  
-            return true; 
+                cur_node_id = next_node_id;
+            }
+            if (all_nodes[cur_node_id].end == 0) return false;
+            return true;
         }
 
-        // remove a string from the trie
+        // check whether the trie contain the prefix "prefix" or not
+        bool contain_prefix(const std::string& prefix) const{
+            int cur_node_id = 0;
+            for (char c : prefix){
+                int next_node_id = all_nodes[cur_node_id].children[c - 'a'];
+                if (next_node_id == -1){
+                    return false;
+                }
+                cur_node_id = next_node_id;
+            }
+            return true;
+        }
+
+        // remove the string "str" from the trie
         void remove_string(const std::string& str){
-            if (!contain(str)) return;
-            
+            if (!contain_word(str)) return;
+            int path_nodes[MAX_NODES];
+            int path_chars[MAX_NODES];
+            int cur_node_id = 0;
+            int depth = 0;
+            for (char c : str){
+                path_nodes[depth] = cur_node_id;
+                path_chars[depth] = c - 'a';
+                int next_node_id = all_nodes[cur_node_id].children[c - 'a'];
+                all_nodes[next_node_id].prefix --;
+                cur_node_id = next_node_id;
+                depth ++;
+            }
+            // if str is an empty string
+            if (cur_node_id == 0) all_nodes[cur_node_id].prefix --;
+            all_nodes[cur_node_id].end --;
+            // clean up
+            for (int i = depth - 1; i >= 0; i --){
+                int parent_node_id = path_nodes[i];
+                int cur_char = path_chars[i];
+                int child_node_id = all_nodes[parent_node_id].children[cur_char];
+                // current node is not needed anymore --> reset child node's id to -1
+                if (all_nodes[child_node_id].prefix == 0 && all_nodes[child_node_id].end == 0){
+                    all_nodes[parent_node_id].children[cur_char] = -1;
+                }
+                // the rest nodes are needed
+                else{
+                    break;
+                }
+            }
+
         }
     };
 } 
