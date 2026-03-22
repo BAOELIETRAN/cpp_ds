@@ -1,0 +1,5 @@
+if(EXISTS "D:/LEETCODE/cpp_ds/build/trie/my_trie_tests[1]_tests.cmake")
+  include("D:/LEETCODE/cpp_ds/build/trie/my_trie_tests[1]_tests.cmake")
+else()
+  add_test(my_trie_tests_NOT_BUILT my_trie_tests_NOT_BUILT)
+endif()

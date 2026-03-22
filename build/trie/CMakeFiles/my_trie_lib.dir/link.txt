@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libmy_trie_lib.a CMakeFiles/my_trie_lib.dir/src/trie.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libmy_trie_lib.a

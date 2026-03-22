@@ -70,6 +70,7 @@ all: binary_search_tree/all
 all: priority_queue/all
 all: doubly_linked_list/all
 all: hash_map/all
+all: trie/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -81,6 +82,7 @@ codegen: binary_search_tree/codegen
 codegen: priority_queue/codegen
 codegen: doubly_linked_list/codegen
 codegen: hash_map/codegen
+codegen: trie/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -92,6 +94,7 @@ preinstall: binary_search_tree/preinstall
 preinstall: priority_queue/preinstall
 preinstall: doubly_linked_list/preinstall
 preinstall: hash_map/preinstall
+preinstall: trie/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -103,6 +106,7 @@ clean: binary_search_tree/clean
 clean: priority_queue/clean
 clean: doubly_linked_list/clean
 clean: hash_map/clean
+clean: trie/clean
 .PHONY : clean
 
 #=============================================================================
@@ -326,6 +330,28 @@ stack/clean: stack/CMakeFiles/my_stack_tests.dir/clean
 .PHONY : stack/clean
 
 #=============================================================================
+# Directory level rules for directory trie
+
+# Recursive "all" directory target.
+trie/all: trie/CMakeFiles/my_trie_lib.dir/all
+trie/all: trie/CMakeFiles/my_trie_tests.dir/all
+.PHONY : trie/all
+
+# Recursive "codegen" directory target.
+trie/codegen: trie/CMakeFiles/my_trie_lib.dir/codegen
+trie/codegen: trie/CMakeFiles/my_trie_tests.dir/codegen
+.PHONY : trie/codegen
+
+# Recursive "preinstall" directory target.
+trie/preinstall:
+.PHONY : trie/preinstall
+
+# Recursive "clean" directory target.
+trie/clean: trie/CMakeFiles/my_trie_lib.dir/clean
+trie/clean: trie/CMakeFiles/my_trie_tests.dir/clean
+.PHONY : trie/clean
+
+#=============================================================================
 # Directory level rules for directory vector
 
 # Recursive "all" directory target.
@@ -357,7 +383,7 @@ vector/clean: _deps/googletest-build/clean
 vector/CMakeFiles/my_vector_lib.dir/all:
 	$(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_lib.dir\build.make vector/CMakeFiles/my_vector_lib.dir/depend
 	$(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_lib.dir\build.make vector/CMakeFiles/my_vector_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=37,38 "Built target my_vector_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=41,42 "Built target my_vector_lib"
 .PHONY : vector/CMakeFiles/my_vector_lib.dir/all
 
 # Build rule for subdir invocation for target.
@@ -374,7 +400,7 @@ my_vector_lib: vector/CMakeFiles/my_vector_lib.dir/rule
 # codegen rule for target.
 vector/CMakeFiles/my_vector_lib.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_lib.dir\build.make vector/CMakeFiles/my_vector_lib.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=37,38 "Finished codegen for target my_vector_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=41,42 "Finished codegen for target my_vector_lib"
 .PHONY : vector/CMakeFiles/my_vector_lib.dir/codegen
 
 # clean rule for target.
@@ -391,7 +417,7 @@ vector/CMakeFiles/my_vector_tests.dir/all: _deps/googletest-build/googletest/CMa
 vector/CMakeFiles/my_vector_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_tests.dir\build.make vector/CMakeFiles/my_vector_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_tests.dir\build.make vector/CMakeFiles/my_vector_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=39,40 "Built target my_vector_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=43,44 "Built target my_vector_tests"
 .PHONY : vector/CMakeFiles/my_vector_tests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -408,7 +434,7 @@ my_vector_tests: vector/CMakeFiles/my_vector_tests.dir/rule
 # codegen rule for target.
 vector/CMakeFiles/my_vector_tests.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_tests.dir\build.make vector/CMakeFiles/my_vector_tests.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=39,40 "Finished codegen for target my_vector_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=43,44 "Finished codegen for target my_vector_tests"
 .PHONY : vector/CMakeFiles/my_vector_tests.dir/codegen
 
 # clean rule for target.
@@ -1006,6 +1032,72 @@ hash_map/CMakeFiles/my_hash_map_tests.dir/codegen:
 hash_map/CMakeFiles/my_hash_map_tests.dir/clean:
 	$(MAKE) $(MAKESILENT) -f hash_map\CMakeFiles\my_hash_map_tests.dir\build.make hash_map/CMakeFiles/my_hash_map_tests.dir/clean
 .PHONY : hash_map/CMakeFiles/my_hash_map_tests.dir/clean
+
+#=============================================================================
+# Target rules for target trie/CMakeFiles/my_trie_lib.dir
+
+# All Build rule for target.
+trie/CMakeFiles/my_trie_lib.dir/all:
+	$(MAKE) $(MAKESILENT) -f trie\CMakeFiles\my_trie_lib.dir\build.make trie/CMakeFiles/my_trie_lib.dir/depend
+	$(MAKE) $(MAKESILENT) -f trie\CMakeFiles\my_trie_lib.dir\build.make trie/CMakeFiles/my_trie_lib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=37,38 "Built target my_trie_lib"
+.PHONY : trie/CMakeFiles/my_trie_lib.dir/all
+
+# Build rule for subdir invocation for target.
+trie/CMakeFiles/my_trie_lib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\LEETCODE\cpp_ds\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 trie/CMakeFiles/my_trie_lib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\LEETCODE\cpp_ds\build\CMakeFiles 0
+.PHONY : trie/CMakeFiles/my_trie_lib.dir/rule
+
+# Convenience name for target.
+my_trie_lib: trie/CMakeFiles/my_trie_lib.dir/rule
+.PHONY : my_trie_lib
+
+# codegen rule for target.
+trie/CMakeFiles/my_trie_lib.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f trie\CMakeFiles\my_trie_lib.dir\build.make trie/CMakeFiles/my_trie_lib.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=37,38 "Finished codegen for target my_trie_lib"
+.PHONY : trie/CMakeFiles/my_trie_lib.dir/codegen
+
+# clean rule for target.
+trie/CMakeFiles/my_trie_lib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f trie\CMakeFiles\my_trie_lib.dir\build.make trie/CMakeFiles/my_trie_lib.dir/clean
+.PHONY : trie/CMakeFiles/my_trie_lib.dir/clean
+
+#=============================================================================
+# Target rules for target trie/CMakeFiles/my_trie_tests.dir
+
+# All Build rule for target.
+trie/CMakeFiles/my_trie_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+trie/CMakeFiles/my_trie_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+trie/CMakeFiles/my_trie_tests.dir/all: trie/CMakeFiles/my_trie_lib.dir/all
+	$(MAKE) $(MAKESILENT) -f trie\CMakeFiles\my_trie_tests.dir\build.make trie/CMakeFiles/my_trie_tests.dir/depend
+	$(MAKE) $(MAKESILENT) -f trie\CMakeFiles\my_trie_tests.dir\build.make trie/CMakeFiles/my_trie_tests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=39,40 "Built target my_trie_tests"
+.PHONY : trie/CMakeFiles/my_trie_tests.dir/all
+
+# Build rule for subdir invocation for target.
+trie/CMakeFiles/my_trie_tests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\LEETCODE\cpp_ds\build\CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 trie/CMakeFiles/my_trie_tests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\LEETCODE\cpp_ds\build\CMakeFiles 0
+.PHONY : trie/CMakeFiles/my_trie_tests.dir/rule
+
+# Convenience name for target.
+my_trie_tests: trie/CMakeFiles/my_trie_tests.dir/rule
+.PHONY : my_trie_tests
+
+# codegen rule for target.
+trie/CMakeFiles/my_trie_tests.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f trie\CMakeFiles\my_trie_tests.dir\build.make trie/CMakeFiles/my_trie_tests.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=39,40 "Finished codegen for target my_trie_tests"
+.PHONY : trie/CMakeFiles/my_trie_tests.dir/codegen
+
+# clean rule for target.
+trie/CMakeFiles/my_trie_tests.dir/clean:
+	$(MAKE) $(MAKESILENT) -f trie\CMakeFiles\my_trie_tests.dir\build.make trie/CMakeFiles/my_trie_tests.dir/clean
+.PHONY : trie/CMakeFiles/my_trie_tests.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

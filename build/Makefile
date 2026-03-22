@@ -430,6 +430,32 @@ my_hash_map_tests/fast:
 	$(MAKE) $(MAKESILENT) -f hash_map\CMakeFiles\my_hash_map_tests.dir\build.make hash_map/CMakeFiles/my_hash_map_tests.dir/build
 .PHONY : my_hash_map_tests/fast
 
+#=============================================================================
+# Target rules for targets named my_trie_lib
+
+# Build rule for target.
+my_trie_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 my_trie_lib
+.PHONY : my_trie_lib
+
+# fast build rule for target.
+my_trie_lib/fast:
+	$(MAKE) $(MAKESILENT) -f trie\CMakeFiles\my_trie_lib.dir\build.make trie/CMakeFiles/my_trie_lib.dir/build
+.PHONY : my_trie_lib/fast
+
+#=============================================================================
+# Target rules for targets named my_trie_tests
+
+# Build rule for target.
+my_trie_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 my_trie_tests
+.PHONY : my_trie_tests
+
+# fast build rule for target.
+my_trie_tests/fast:
+	$(MAKE) $(MAKESILENT) -f trie\CMakeFiles\my_trie_tests.dir\build.make trie/CMakeFiles/my_trie_tests.dir/build
+.PHONY : my_trie_tests/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -461,6 +487,8 @@ help:
 	@echo ... my_queue_tests
 	@echo ... my_stack_lib
 	@echo ... my_stack_tests
+	@echo ... my_trie_lib
+	@echo ... my_trie_tests
 	@echo ... my_vector_lib
 	@echo ... my_vector_tests
 .PHONY : help

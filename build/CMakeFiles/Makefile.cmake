@@ -69,6 +69,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/LEETCODE/cpp_ds/priority_queue/CMakeLists.txt"
   "D:/LEETCODE/cpp_ds/queue/CMakeLists.txt"
   "D:/LEETCODE/cpp_ds/stack/CMakeLists.txt"
+  "D:/LEETCODE/cpp_ds/trie/CMakeLists.txt"
   "D:/LEETCODE/cpp_ds/vector/CMakeLists.txt"
   )
 
@@ -99,6 +100,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "priority_queue/CMakeFiles/CMakeDirectoryInformation.cmake"
   "doubly_linked_list/CMakeFiles/CMakeDirectoryInformation.cmake"
   "hash_map/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "trie/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -123,4 +125,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/DependInfo.cmake"
   "hash_map/CMakeFiles/my_hash_map_lib.dir/DependInfo.cmake"
   "hash_map/CMakeFiles/my_hash_map_tests.dir/DependInfo.cmake"
+  "trie/CMakeFiles/my_trie_lib.dir/DependInfo.cmake"
+  "trie/CMakeFiles/my_trie_tests.dir/DependInfo.cmake"
   )
