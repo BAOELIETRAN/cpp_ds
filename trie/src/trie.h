@@ -5,6 +5,7 @@
 #include <vector>
 #include <string>
 #include <utility>
+#include <memory>
 
 #define MAX_NODES 1000
 #define ALL_CHARS 26
@@ -12,6 +13,7 @@
 namespace obito{
     // everything is public
     // in a trie, each node represents for a prefix
+    // Trie using array
     struct List_Trie{
         struct Node{
             int id{};
@@ -36,7 +38,7 @@ namespace obito{
 
         // constructor
         List_Trie() : num_nodes{1}{
-            all_nodes[0].id = 0;
+            all_nodes[0] = Node();
         }
 
         // creata a new node
@@ -131,7 +133,84 @@ namespace obito{
                     break;
                 }
             }
+        }
+    };
 
+    // Trie using pointer
+    struct Pointer_Trie{
+        struct Node{
+            // list of pointers to children
+            std::unique_ptr<Node> children[ALL_CHARS]{};
+            int prefix{};
+            int end{};
+            Node() : prefix{0}, end{0}{}
+        };
+
+        // number of nodes in trie 
+        int num_nodes{};
+        // initialize root
+        std::unique_ptr<Node> root{new Node()};
+        Pointer_Trie() : num_nodes{1}{}
+
+        // add a new string to the trie
+        void add_string(const std::string& word){
+            // create a viewer
+            Node* cur_node = root.get();
+            for (char c : word){
+                int child_index = c - 'a';
+                // the char does not exist
+                if (!cur_node->children[child_index]){
+                    std::unique_ptr<Node> new_child{new Node()};
+                    num_nodes ++;
+                    cur_node->children[child_index] = std::move(new_child);
+                } 
+                cur_node->children[child_index]->prefix ++;
+                cur_node = cur_node->children[child_index].get();
+            }
+            cur_node->end ++;
+        }
+        
+        // check whether the trie contain the string "word" or not
+        bool contain_word(const std::string& word) const{
+            // create a viewer
+            Node* cur_node = root.get();
+            for (char c : word){        
+                int child_index = c - 'a';
+                if (!cur_node->children[child_index]){
+                    return false;
+                }
+                cur_node = cur_node->children[child_index].get();
+            }
+            if (cur_node->end == 0) return false;
+            return true;
+        }
+
+        // remove string "word" from the trie
+        void remove_string(const std::string& word){
+            if (!contain_word(word)) return;
+            Node* cur_node = root.get();
+            std::vector<int> path_chars{};
+            std::vector<Node*> path_nodes{};
+            int depth = 0;
+            for (char c : word){
+                int child_index = c - 'a';
+                cur_node->children[child_index]->prefix --;
+                path_chars.push_back(child_index);
+                path_nodes.push_back(cur_node);
+                cur_node = cur_node->children[child_index].get();
+                depth ++;
+            }
+            cur_node->end --;
+            for (int i = depth - 1; i >= 0; i --){
+                int cur_char = path_chars[i];
+                Node* parent_node = path_nodes[i];   
+                if (parent_node->children[cur_char]->end == 0 && parent_node->children[cur_char]->prefix == 0){
+                    parent_node->children[cur_char].reset();
+                }
+                else{
+                    break;
+                }
+            }
         }
     };
 } 

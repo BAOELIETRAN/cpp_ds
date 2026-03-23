@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "stack/my_stack_tests.exe"
+			"path" : "binary_search_tree/my_bst_tests.exe"
 		},
 		{
-			"path" : "stack/my_stack_tests.pdb"
+			"path" : "binary_search_tree/my_bst_tests.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -20,7 +20,7 @@
 		],
 		"files" : 
 		[
-			"stack/CMakeLists.txt",
+			"binary_search_tree/CMakeLists.txt",
 			"build/_deps/googletest-src/googletest/CMakeLists.txt",
 			"C:/Program Files/CMake/share/cmake-4.2/Modules/GoogleTest.cmake"
 		],
@@ -73,7 +73,7 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "my_stack_lib::@b5371760465ddb38638a"
+			"id" : "my_bst_lib::@e218c2cd4b5236fdd68e"
 		},
 		{
 			"backtrace" : 2,
@@ -93,7 +93,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "D:/LEETCODE/cpp_ds/stack/src"
+					"path" : "D:/LEETCODE/cpp_ds/binary_search_tree/src"
 				},
 				{
 					"backtrace" : 2,
@@ -125,18 +125,18 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "gtest::@1ea2dfc0605fe3ab2a3f"
-		},
-		{
-			"backtrace" : 2,
 			"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "my_stack_lib::@b5371760465ddb38638a"
+			"id" : "gtest::@1ea2dfc0605fe3ab2a3f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "my_bst_lib::@e218c2cd4b5236fdd68e"
 		}
 	],
-	"id" : "my_stack_tests::@b5371760465ddb38638a",
+	"id" : "my_bst_tests::@e218c2cd4b5236fdd68e",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -147,7 +147,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "libmy_stack_lib.a",
+				"fragment" : "libmy_bst_lib.a",
 				"role" : "libraries"
 			},
 			{
@@ -171,26 +171,26 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "my_stack_lib::@b5371760465ddb38638a"
+			"id" : "my_bst_lib::@e218c2cd4b5236fdd68e"
 		},
 		{
 			"backtrace" : 2,
 			"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f"
 		}
 	],
-	"name" : "my_stack_tests",
-	"nameOnDisk" : "my_stack_tests.exe",
+	"name" : "my_bst_tests",
+	"nameOnDisk" : "my_bst_tests.exe",
 	"orderDependencies" : 
 	[
 		{
 			"backtrace" : 6,
-			"id" : "my_stack_tests::@b5371760465ddb38638a"
+			"id" : "my_bst_tests::@e218c2cd4b5236fdd68e"
 		}
 	],
 	"paths" : 
 	{
-		"build" : "stack",
-		"source" : "stack"
+		"build" : "binary_search_tree",
+		"source" : "binary_search_tree"
 	},
 	"sourceGroups" : 
 	[
@@ -207,7 +207,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "stack/tests/test_stack.cpp",
+			"path" : "binary_search_tree/tests/test_bst.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

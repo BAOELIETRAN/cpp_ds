@@ -413,8 +413,8 @@ vector/CMakeFiles/my_vector_lib.dir/clean:
 
 # All Build rule for target.
 vector/CMakeFiles/my_vector_tests.dir/all: vector/CMakeFiles/my_vector_lib.dir/all
-vector/CMakeFiles/my_vector_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 vector/CMakeFiles/my_vector_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+vector/CMakeFiles/my_vector_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_tests.dir\build.make vector/CMakeFiles/my_vector_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f vector\CMakeFiles\my_vector_tests.dir\build.make vector/CMakeFiles/my_vector_tests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=43,44 "Built target my_vector_tests"
@@ -607,8 +607,8 @@ linked_list/CMakeFiles/my_linked_list_lib.dir/clean:
 # Target rules for target linked_list/CMakeFiles/my_linked_list_tests.dir
 
 # All Build rule for target.
-linked_list/CMakeFiles/my_linked_list_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 linked_list/CMakeFiles/my_linked_list_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+linked_list/CMakeFiles/my_linked_list_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 linked_list/CMakeFiles/my_linked_list_tests.dir/all: linked_list/CMakeFiles/my_linked_list_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_tests.dir\build.make linked_list/CMakeFiles/my_linked_list_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f linked_list\CMakeFiles\my_linked_list_tests.dir\build.make linked_list/CMakeFiles/my_linked_list_tests.dir/build
@@ -673,8 +673,8 @@ stack/CMakeFiles/my_stack_lib.dir/clean:
 # Target rules for target stack/CMakeFiles/my_stack_tests.dir
 
 # All Build rule for target.
-stack/CMakeFiles/my_stack_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 stack/CMakeFiles/my_stack_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+stack/CMakeFiles/my_stack_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 stack/CMakeFiles/my_stack_tests.dir/all: stack/CMakeFiles/my_stack_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f stack\CMakeFiles\my_stack_tests.dir\build.make stack/CMakeFiles/my_stack_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f stack\CMakeFiles\my_stack_tests.dir\build.make stack/CMakeFiles/my_stack_tests.dir/build
@@ -739,8 +739,8 @@ queue/CMakeFiles/my_queue_lib.dir/clean:
 # Target rules for target queue/CMakeFiles/my_queue_tests.dir
 
 # All Build rule for target.
-queue/CMakeFiles/my_queue_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 queue/CMakeFiles/my_queue_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+queue/CMakeFiles/my_queue_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 queue/CMakeFiles/my_queue_tests.dir/all: queue/CMakeFiles/my_queue_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f queue\CMakeFiles\my_queue_tests.dir\build.make queue/CMakeFiles/my_queue_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f queue\CMakeFiles\my_queue_tests.dir\build.make queue/CMakeFiles/my_queue_tests.dir/build
@@ -805,8 +805,8 @@ binary_search_tree/CMakeFiles/my_bst_lib.dir/clean:
 # Target rules for target binary_search_tree/CMakeFiles/my_bst_tests.dir
 
 # All Build rule for target.
-binary_search_tree/CMakeFiles/my_bst_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 binary_search_tree/CMakeFiles/my_bst_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+binary_search_tree/CMakeFiles/my_bst_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 binary_search_tree/CMakeFiles/my_bst_tests.dir/all: binary_search_tree/CMakeFiles/my_bst_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f binary_search_tree\CMakeFiles\my_bst_tests.dir\build.make binary_search_tree/CMakeFiles/my_bst_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f binary_search_tree\CMakeFiles\my_bst_tests.dir\build.make binary_search_tree/CMakeFiles/my_bst_tests.dir/build
@@ -871,8 +871,8 @@ priority_queue/CMakeFiles/my_priority_queue_lib.dir/clean:
 # Target rules for target priority_queue/CMakeFiles/my_priority_queue_tests.dir
 
 # All Build rule for target.
-priority_queue/CMakeFiles/my_priority_queue_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 priority_queue/CMakeFiles/my_priority_queue_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+priority_queue/CMakeFiles/my_priority_queue_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 priority_queue/CMakeFiles/my_priority_queue_tests.dir/all: priority_queue/CMakeFiles/my_priority_queue_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f priority_queue\CMakeFiles\my_priority_queue_tests.dir\build.make priority_queue/CMakeFiles/my_priority_queue_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f priority_queue\CMakeFiles\my_priority_queue_tests.dir\build.make priority_queue/CMakeFiles/my_priority_queue_tests.dir/build
@@ -937,8 +937,8 @@ doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/clean:
 # Target rules for target doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir
 
 # All Build rule for target.
-doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/all: doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f doubly_linked_list\CMakeFiles\my_doubly_linked_list_tests.dir\build.make doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f doubly_linked_list\CMakeFiles\my_doubly_linked_list_tests.dir\build.make doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/build
@@ -1003,8 +1003,8 @@ hash_map/CMakeFiles/my_hash_map_lib.dir/clean:
 # Target rules for target hash_map/CMakeFiles/my_hash_map_tests.dir
 
 # All Build rule for target.
-hash_map/CMakeFiles/my_hash_map_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 hash_map/CMakeFiles/my_hash_map_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+hash_map/CMakeFiles/my_hash_map_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 hash_map/CMakeFiles/my_hash_map_tests.dir/all: hash_map/CMakeFiles/my_hash_map_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f hash_map\CMakeFiles\my_hash_map_tests.dir\build.make hash_map/CMakeFiles/my_hash_map_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f hash_map\CMakeFiles\my_hash_map_tests.dir\build.make hash_map/CMakeFiles/my_hash_map_tests.dir/build
@@ -1069,8 +1069,8 @@ trie/CMakeFiles/my_trie_lib.dir/clean:
 # Target rules for target trie/CMakeFiles/my_trie_tests.dir
 
 # All Build rule for target.
-trie/CMakeFiles/my_trie_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 trie/CMakeFiles/my_trie_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+trie/CMakeFiles/my_trie_tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 trie/CMakeFiles/my_trie_tests.dir/all: trie/CMakeFiles/my_trie_lib.dir/all
 	$(MAKE) $(MAKESILENT) -f trie\CMakeFiles\my_trie_tests.dir\build.make trie/CMakeFiles/my_trie_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f trie\CMakeFiles\my_trie_tests.dir\build.make trie/CMakeFiles/my_trie_tests.dir/build
