@@ -1,5 +1,0 @@
-if(EXISTS "D:/LEETCODE/cpp_ds/build/trie/my_hash_map_tests[2]_tests.cmake")
-  include("D:/LEETCODE/cpp_ds/build/trie/my_hash_map_tests[2]_tests.cmake")
-else()
-  add_test(my_hash_map_tests_NOT_BUILT my_hash_map_tests_NOT_BUILT)
-endif()

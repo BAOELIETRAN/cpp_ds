@@ -456,6 +456,32 @@ my_trie_tests/fast:
 	$(MAKE) $(MAKESILENT) -f trie\CMakeFiles\my_trie_tests.dir\build.make trie/CMakeFiles/my_trie_tests.dir/build
 .PHONY : my_trie_tests/fast
 
+#=============================================================================
+# Target rules for targets named my_new_vector_lib
+
+# Build rule for target.
+my_new_vector_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 my_new_vector_lib
+.PHONY : my_new_vector_lib
+
+# fast build rule for target.
+my_new_vector_lib/fast:
+	$(MAKE) $(MAKESILENT) -f revision\vector\CMakeFiles\my_new_vector_lib.dir\build.make revision/vector/CMakeFiles/my_new_vector_lib.dir/build
+.PHONY : my_new_vector_lib/fast
+
+#=============================================================================
+# Target rules for targets named my_new_vector_tests
+
+# Build rule for target.
+my_new_vector_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 my_new_vector_tests
+.PHONY : my_new_vector_tests
+
+# fast build rule for target.
+my_new_vector_tests/fast:
+	$(MAKE) $(MAKESILENT) -f revision\vector\CMakeFiles\my_new_vector_tests.dir\build.make revision/vector/CMakeFiles/my_new_vector_tests.dir/build
+.PHONY : my_new_vector_tests/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -481,6 +507,8 @@ help:
 	@echo ... my_hash_map_tests
 	@echo ... my_linked_list_lib
 	@echo ... my_linked_list_tests
+	@echo ... my_new_vector_lib
+	@echo ... my_new_vector_tests
 	@echo ... my_priority_queue_lib
 	@echo ... my_priority_queue_tests
 	@echo ... my_queue_lib

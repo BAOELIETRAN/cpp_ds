@@ -76,15 +76,15 @@ linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.obj: 
 linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.obj: D:/LEETCODE/cpp_ds/linked_list/tests/test_linked_list.cpp
 linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.obj: linked_list/CMakeFiles/my_linked_list_tests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.obj"
-	cd /d D:\LEETCODE\cpp_ds\build\linked_list && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.obj -MF CMakeFiles\my_linked_list_tests.dir\tests\test_linked_list.cpp.obj.d -o CMakeFiles\my_linked_list_tests.dir\tests\test_linked_list.cpp.obj -c D:\LEETCODE\cpp_ds\linked_list\tests\test_linked_list.cpp
+	cd /d D:\LEETCODE\cpp_ds\build\linked_list && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.obj -MF CMakeFiles\my_linked_list_tests.dir\tests\test_linked_list.cpp.obj.d -o CMakeFiles\my_linked_list_tests.dir\tests\test_linked_list.cpp.obj -c D:\LEETCODE\cpp_ds\linked_list\tests\test_linked_list.cpp
 
 linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.i"
-	cd /d D:\LEETCODE\cpp_ds\build\linked_list && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\LEETCODE\cpp_ds\linked_list\tests\test_linked_list.cpp > CMakeFiles\my_linked_list_tests.dir\tests\test_linked_list.cpp.i
+	cd /d D:\LEETCODE\cpp_ds\build\linked_list && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\LEETCODE\cpp_ds\linked_list\tests\test_linked_list.cpp > CMakeFiles\my_linked_list_tests.dir\tests\test_linked_list.cpp.i
 
 linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.s"
-	cd /d D:\LEETCODE\cpp_ds\build\linked_list && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\LEETCODE\cpp_ds\linked_list\tests\test_linked_list.cpp -o CMakeFiles\my_linked_list_tests.dir\tests\test_linked_list.cpp.s
+	cd /d D:\LEETCODE\cpp_ds\build\linked_list && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\LEETCODE\cpp_ds\linked_list\tests\test_linked_list.cpp -o CMakeFiles\my_linked_list_tests.dir\tests\test_linked_list.cpp.s
 
 # Object files for target my_linked_list_tests
 my_linked_list_tests_OBJECTS = \

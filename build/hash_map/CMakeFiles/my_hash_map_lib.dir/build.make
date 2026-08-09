@@ -76,15 +76,15 @@ hash_map/CMakeFiles/my_hash_map_lib.dir/src/hash_map.cpp.obj: hash_map/CMakeFile
 hash_map/CMakeFiles/my_hash_map_lib.dir/src/hash_map.cpp.obj: D:/LEETCODE/cpp_ds/hash_map/src/hash_map.cpp
 hash_map/CMakeFiles/my_hash_map_lib.dir/src/hash_map.cpp.obj: hash_map/CMakeFiles/my_hash_map_lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object hash_map/CMakeFiles/my_hash_map_lib.dir/src/hash_map.cpp.obj"
-	cd /d D:\LEETCODE\cpp_ds\build\hash_map && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT hash_map/CMakeFiles/my_hash_map_lib.dir/src/hash_map.cpp.obj -MF CMakeFiles\my_hash_map_lib.dir\src\hash_map.cpp.obj.d -o CMakeFiles\my_hash_map_lib.dir\src\hash_map.cpp.obj -c D:\LEETCODE\cpp_ds\hash_map\src\hash_map.cpp
+	cd /d D:\LEETCODE\cpp_ds\build\hash_map && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT hash_map/CMakeFiles/my_hash_map_lib.dir/src/hash_map.cpp.obj -MF CMakeFiles\my_hash_map_lib.dir\src\hash_map.cpp.obj.d -o CMakeFiles\my_hash_map_lib.dir\src\hash_map.cpp.obj -c D:\LEETCODE\cpp_ds\hash_map\src\hash_map.cpp
 
 hash_map/CMakeFiles/my_hash_map_lib.dir/src/hash_map.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_hash_map_lib.dir/src/hash_map.cpp.i"
-	cd /d D:\LEETCODE\cpp_ds\build\hash_map && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\LEETCODE\cpp_ds\hash_map\src\hash_map.cpp > CMakeFiles\my_hash_map_lib.dir\src\hash_map.cpp.i
+	cd /d D:\LEETCODE\cpp_ds\build\hash_map && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\LEETCODE\cpp_ds\hash_map\src\hash_map.cpp > CMakeFiles\my_hash_map_lib.dir\src\hash_map.cpp.i
 
 hash_map/CMakeFiles/my_hash_map_lib.dir/src/hash_map.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_hash_map_lib.dir/src/hash_map.cpp.s"
-	cd /d D:\LEETCODE\cpp_ds\build\hash_map && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\LEETCODE\cpp_ds\hash_map\src\hash_map.cpp -o CMakeFiles\my_hash_map_lib.dir\src\hash_map.cpp.s
+	cd /d D:\LEETCODE\cpp_ds\build\hash_map && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\LEETCODE\cpp_ds\hash_map\src\hash_map.cpp -o CMakeFiles\my_hash_map_lib.dir\src\hash_map.cpp.s
 
 # Object files for target my_hash_map_lib
 my_hash_map_lib_OBJECTS = \

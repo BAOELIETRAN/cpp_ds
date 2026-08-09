@@ -76,15 +76,15 @@ doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/src/doubly_linked_li
 doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/src/doubly_linked_list.cpp.obj: D:/LEETCODE/cpp_ds/doubly_linked_list/src/doubly_linked_list.cpp
 doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/src/doubly_linked_list.cpp.obj: doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/src/doubly_linked_list.cpp.obj"
-	cd /d D:\LEETCODE\cpp_ds\build\doubly_linked_list && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/src/doubly_linked_list.cpp.obj -MF CMakeFiles\my_doubly_linked_list_lib.dir\src\doubly_linked_list.cpp.obj.d -o CMakeFiles\my_doubly_linked_list_lib.dir\src\doubly_linked_list.cpp.obj -c D:\LEETCODE\cpp_ds\doubly_linked_list\src\doubly_linked_list.cpp
+	cd /d D:\LEETCODE\cpp_ds\build\doubly_linked_list && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/src/doubly_linked_list.cpp.obj -MF CMakeFiles\my_doubly_linked_list_lib.dir\src\doubly_linked_list.cpp.obj.d -o CMakeFiles\my_doubly_linked_list_lib.dir\src\doubly_linked_list.cpp.obj -c D:\LEETCODE\cpp_ds\doubly_linked_list\src\doubly_linked_list.cpp
 
 doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/src/doubly_linked_list.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_doubly_linked_list_lib.dir/src/doubly_linked_list.cpp.i"
-	cd /d D:\LEETCODE\cpp_ds\build\doubly_linked_list && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\LEETCODE\cpp_ds\doubly_linked_list\src\doubly_linked_list.cpp > CMakeFiles\my_doubly_linked_list_lib.dir\src\doubly_linked_list.cpp.i
+	cd /d D:\LEETCODE\cpp_ds\build\doubly_linked_list && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\LEETCODE\cpp_ds\doubly_linked_list\src\doubly_linked_list.cpp > CMakeFiles\my_doubly_linked_list_lib.dir\src\doubly_linked_list.cpp.i
 
 doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/src/doubly_linked_list.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_doubly_linked_list_lib.dir/src/doubly_linked_list.cpp.s"
-	cd /d D:\LEETCODE\cpp_ds\build\doubly_linked_list && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\LEETCODE\cpp_ds\doubly_linked_list\src\doubly_linked_list.cpp -o CMakeFiles\my_doubly_linked_list_lib.dir\src\doubly_linked_list.cpp.s
+	cd /d D:\LEETCODE\cpp_ds\build\doubly_linked_list && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\LEETCODE\cpp_ds\doubly_linked_list\src\doubly_linked_list.cpp -o CMakeFiles\my_doubly_linked_list_lib.dir\src\doubly_linked_list.cpp.s
 
 # Object files for target my_doubly_linked_list_lib
 my_doubly_linked_list_lib_OBJECTS = \

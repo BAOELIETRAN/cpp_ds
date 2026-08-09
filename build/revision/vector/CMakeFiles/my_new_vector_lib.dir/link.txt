@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libmy_new_vector_lib.a CMakeFiles/my_new_vector_lib.dir/src/vector.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libmy_new_vector_lib.a

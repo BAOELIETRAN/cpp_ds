@@ -76,15 +76,15 @@ binary_search_tree/CMakeFiles/my_bst_lib.dir/src/bst.cpp.obj: binary_search_tree
 binary_search_tree/CMakeFiles/my_bst_lib.dir/src/bst.cpp.obj: D:/LEETCODE/cpp_ds/binary_search_tree/src/bst.cpp
 binary_search_tree/CMakeFiles/my_bst_lib.dir/src/bst.cpp.obj: binary_search_tree/CMakeFiles/my_bst_lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object binary_search_tree/CMakeFiles/my_bst_lib.dir/src/bst.cpp.obj"
-	cd /d D:\LEETCODE\cpp_ds\build\binary_search_tree && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT binary_search_tree/CMakeFiles/my_bst_lib.dir/src/bst.cpp.obj -MF CMakeFiles\my_bst_lib.dir\src\bst.cpp.obj.d -o CMakeFiles\my_bst_lib.dir\src\bst.cpp.obj -c D:\LEETCODE\cpp_ds\binary_search_tree\src\bst.cpp
+	cd /d D:\LEETCODE\cpp_ds\build\binary_search_tree && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT binary_search_tree/CMakeFiles/my_bst_lib.dir/src/bst.cpp.obj -MF CMakeFiles\my_bst_lib.dir\src\bst.cpp.obj.d -o CMakeFiles\my_bst_lib.dir\src\bst.cpp.obj -c D:\LEETCODE\cpp_ds\binary_search_tree\src\bst.cpp
 
 binary_search_tree/CMakeFiles/my_bst_lib.dir/src/bst.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_bst_lib.dir/src/bst.cpp.i"
-	cd /d D:\LEETCODE\cpp_ds\build\binary_search_tree && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\LEETCODE\cpp_ds\binary_search_tree\src\bst.cpp > CMakeFiles\my_bst_lib.dir\src\bst.cpp.i
+	cd /d D:\LEETCODE\cpp_ds\build\binary_search_tree && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\LEETCODE\cpp_ds\binary_search_tree\src\bst.cpp > CMakeFiles\my_bst_lib.dir\src\bst.cpp.i
 
 binary_search_tree/CMakeFiles/my_bst_lib.dir/src/bst.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_bst_lib.dir/src/bst.cpp.s"
-	cd /d D:\LEETCODE\cpp_ds\build\binary_search_tree && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\LEETCODE\cpp_ds\binary_search_tree\src\bst.cpp -o CMakeFiles\my_bst_lib.dir\src\bst.cpp.s
+	cd /d D:\LEETCODE\cpp_ds\build\binary_search_tree && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\LEETCODE\cpp_ds\binary_search_tree\src\bst.cpp -o CMakeFiles\my_bst_lib.dir\src\bst.cpp.s
 
 # Object files for target my_bst_lib
 my_bst_lib_OBJECTS = \

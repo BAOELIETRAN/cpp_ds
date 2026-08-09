@@ -76,15 +76,15 @@ queue/CMakeFiles/my_queue_tests.dir/tests/test_queue.cpp.obj: queue/CMakeFiles/m
 queue/CMakeFiles/my_queue_tests.dir/tests/test_queue.cpp.obj: D:/LEETCODE/cpp_ds/queue/tests/test_queue.cpp
 queue/CMakeFiles/my_queue_tests.dir/tests/test_queue.cpp.obj: queue/CMakeFiles/my_queue_tests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object queue/CMakeFiles/my_queue_tests.dir/tests/test_queue.cpp.obj"
-	cd /d D:\LEETCODE\cpp_ds\build\queue && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT queue/CMakeFiles/my_queue_tests.dir/tests/test_queue.cpp.obj -MF CMakeFiles\my_queue_tests.dir\tests\test_queue.cpp.obj.d -o CMakeFiles\my_queue_tests.dir\tests\test_queue.cpp.obj -c D:\LEETCODE\cpp_ds\queue\tests\test_queue.cpp
+	cd /d D:\LEETCODE\cpp_ds\build\queue && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT queue/CMakeFiles/my_queue_tests.dir/tests/test_queue.cpp.obj -MF CMakeFiles\my_queue_tests.dir\tests\test_queue.cpp.obj.d -o CMakeFiles\my_queue_tests.dir\tests\test_queue.cpp.obj -c D:\LEETCODE\cpp_ds\queue\tests\test_queue.cpp
 
 queue/CMakeFiles/my_queue_tests.dir/tests/test_queue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_queue_tests.dir/tests/test_queue.cpp.i"
-	cd /d D:\LEETCODE\cpp_ds\build\queue && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\LEETCODE\cpp_ds\queue\tests\test_queue.cpp > CMakeFiles\my_queue_tests.dir\tests\test_queue.cpp.i
+	cd /d D:\LEETCODE\cpp_ds\build\queue && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\LEETCODE\cpp_ds\queue\tests\test_queue.cpp > CMakeFiles\my_queue_tests.dir\tests\test_queue.cpp.i
 
 queue/CMakeFiles/my_queue_tests.dir/tests/test_queue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_queue_tests.dir/tests/test_queue.cpp.s"
-	cd /d D:\LEETCODE\cpp_ds\build\queue && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\LEETCODE\cpp_ds\queue\tests\test_queue.cpp -o CMakeFiles\my_queue_tests.dir\tests\test_queue.cpp.s
+	cd /d D:\LEETCODE\cpp_ds\build\queue && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\LEETCODE\cpp_ds\queue\tests\test_queue.cpp -o CMakeFiles\my_queue_tests.dir\tests\test_queue.cpp.s
 
 # Object files for target my_queue_tests
 my_queue_tests_OBJECTS = \

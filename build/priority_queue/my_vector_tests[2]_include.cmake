@@ -1,5 +1,0 @@
-if(EXISTS "D:/LEETCODE/cpp_ds/build/priority_queue/my_vector_tests[2]_tests.cmake")
-  include("D:/LEETCODE/cpp_ds/build/priority_queue/my_vector_tests[2]_tests.cmake")
-else()
-  add_test(my_vector_tests_NOT_BUILT my_vector_tests_NOT_BUILT)
-endif()

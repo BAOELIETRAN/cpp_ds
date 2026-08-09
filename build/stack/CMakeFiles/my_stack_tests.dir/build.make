@@ -76,15 +76,15 @@ stack/CMakeFiles/my_stack_tests.dir/tests/test_stack.cpp.obj: stack/CMakeFiles/m
 stack/CMakeFiles/my_stack_tests.dir/tests/test_stack.cpp.obj: D:/LEETCODE/cpp_ds/stack/tests/test_stack.cpp
 stack/CMakeFiles/my_stack_tests.dir/tests/test_stack.cpp.obj: stack/CMakeFiles/my_stack_tests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object stack/CMakeFiles/my_stack_tests.dir/tests/test_stack.cpp.obj"
-	cd /d D:\LEETCODE\cpp_ds\build\stack && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT stack/CMakeFiles/my_stack_tests.dir/tests/test_stack.cpp.obj -MF CMakeFiles\my_stack_tests.dir\tests\test_stack.cpp.obj.d -o CMakeFiles\my_stack_tests.dir\tests\test_stack.cpp.obj -c D:\LEETCODE\cpp_ds\stack\tests\test_stack.cpp
+	cd /d D:\LEETCODE\cpp_ds\build\stack && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT stack/CMakeFiles/my_stack_tests.dir/tests/test_stack.cpp.obj -MF CMakeFiles\my_stack_tests.dir\tests\test_stack.cpp.obj.d -o CMakeFiles\my_stack_tests.dir\tests\test_stack.cpp.obj -c D:\LEETCODE\cpp_ds\stack\tests\test_stack.cpp
 
 stack/CMakeFiles/my_stack_tests.dir/tests/test_stack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_stack_tests.dir/tests/test_stack.cpp.i"
-	cd /d D:\LEETCODE\cpp_ds\build\stack && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\LEETCODE\cpp_ds\stack\tests\test_stack.cpp > CMakeFiles\my_stack_tests.dir\tests\test_stack.cpp.i
+	cd /d D:\LEETCODE\cpp_ds\build\stack && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\LEETCODE\cpp_ds\stack\tests\test_stack.cpp > CMakeFiles\my_stack_tests.dir\tests\test_stack.cpp.i
 
 stack/CMakeFiles/my_stack_tests.dir/tests/test_stack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_stack_tests.dir/tests/test_stack.cpp.s"
-	cd /d D:\LEETCODE\cpp_ds\build\stack && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\LEETCODE\cpp_ds\stack\tests\test_stack.cpp -o CMakeFiles\my_stack_tests.dir\tests\test_stack.cpp.s
+	cd /d D:\LEETCODE\cpp_ds\build\stack && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\LEETCODE\cpp_ds\stack\tests\test_stack.cpp -o CMakeFiles\my_stack_tests.dir\tests\test_stack.cpp.s
 
 # Object files for target my_stack_tests
 my_stack_tests_OBJECTS = \
