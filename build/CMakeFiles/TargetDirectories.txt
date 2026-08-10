@@ -120,3 +120,12 @@ D:/LEETCODE/cpp_ds/build/revision/vector/CMakeFiles/list_install_components.dir
 D:/LEETCODE/cpp_ds/build/revision/vector/CMakeFiles/install.dir
 D:/LEETCODE/cpp_ds/build/revision/vector/CMakeFiles/install/local.dir
 D:/LEETCODE/cpp_ds/build/revision/vector/CMakeFiles/install/strip.dir
+D:/LEETCODE/cpp_ds/build/revision/doubly_linked_list/CMakeFiles/my_new_doubly_linked_list_lib.dir
+D:/LEETCODE/cpp_ds/build/revision/doubly_linked_list/CMakeFiles/my_new_doubly_linked_list_tests.dir
+D:/LEETCODE/cpp_ds/build/revision/doubly_linked_list/CMakeFiles/test.dir
+D:/LEETCODE/cpp_ds/build/revision/doubly_linked_list/CMakeFiles/edit_cache.dir
+D:/LEETCODE/cpp_ds/build/revision/doubly_linked_list/CMakeFiles/rebuild_cache.dir
+D:/LEETCODE/cpp_ds/build/revision/doubly_linked_list/CMakeFiles/list_install_components.dir
+D:/LEETCODE/cpp_ds/build/revision/doubly_linked_list/CMakeFiles/install.dir
+D:/LEETCODE/cpp_ds/build/revision/doubly_linked_list/CMakeFiles/install/local.dir
+D:/LEETCODE/cpp_ds/build/revision/doubly_linked_list/CMakeFiles/install/strip.dir

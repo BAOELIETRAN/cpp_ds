@@ -482,6 +482,32 @@ my_new_vector_tests/fast:
 	$(MAKE) $(MAKESILENT) -f revision\vector\CMakeFiles\my_new_vector_tests.dir\build.make revision/vector/CMakeFiles/my_new_vector_tests.dir/build
 .PHONY : my_new_vector_tests/fast
 
+#=============================================================================
+# Target rules for targets named my_new_doubly_linked_list_lib
+
+# Build rule for target.
+my_new_doubly_linked_list_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 my_new_doubly_linked_list_lib
+.PHONY : my_new_doubly_linked_list_lib
+
+# fast build rule for target.
+my_new_doubly_linked_list_lib/fast:
+	$(MAKE) $(MAKESILENT) -f revision\doubly_linked_list\CMakeFiles\my_new_doubly_linked_list_lib.dir\build.make revision/doubly_linked_list/CMakeFiles/my_new_doubly_linked_list_lib.dir/build
+.PHONY : my_new_doubly_linked_list_lib/fast
+
+#=============================================================================
+# Target rules for targets named my_new_doubly_linked_list_tests
+
+# Build rule for target.
+my_new_doubly_linked_list_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 my_new_doubly_linked_list_tests
+.PHONY : my_new_doubly_linked_list_tests
+
+# fast build rule for target.
+my_new_doubly_linked_list_tests/fast:
+	$(MAKE) $(MAKESILENT) -f revision\doubly_linked_list\CMakeFiles\my_new_doubly_linked_list_tests.dir\build.make revision/doubly_linked_list/CMakeFiles/my_new_doubly_linked_list_tests.dir/build
+.PHONY : my_new_doubly_linked_list_tests/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -507,6 +533,8 @@ help:
 	@echo ... my_hash_map_tests
 	@echo ... my_linked_list_lib
 	@echo ... my_linked_list_tests
+	@echo ... my_new_doubly_linked_list_lib
+	@echo ... my_new_doubly_linked_list_tests
 	@echo ... my_new_vector_lib
 	@echo ... my_new_vector_tests
 	@echo ... my_priority_queue_lib

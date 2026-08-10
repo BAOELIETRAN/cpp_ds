@@ -1,0 +1,17 @@
+{
+  "tests": 1,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "InitializingTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "DefaultConstructor",
+          "file": "D:\\LEETCODE\\cpp_ds\\revision\\doubly_linked_list\\tests\\test_doubly_linked_list.cpp",
+          "line": 4
+        }
+      ]
+    }
+  ]
+}

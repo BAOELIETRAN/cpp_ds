@@ -1,0 +1,158 @@
+[
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/vector",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_vector_lib.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_vector_lib.dir\\src\\vector.cpp.obj -c D:\\LEETCODE\\cpp_ds\\vector\\src\\vector.cpp",
+  "file": "D:/LEETCODE/cpp_ds/vector/src/vector.cpp",
+  "output": "vector/CMakeFiles/my_vector_lib.dir/src/vector.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/vector",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_vector_tests.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_vector_tests.dir\\tests\\test_vector.cpp.obj -c D:\\LEETCODE\\cpp_ds\\vector\\tests\\test_vector.cpp",
+  "file": "D:/LEETCODE/cpp_ds/vector/tests/test_vector.cpp",
+  "output": "vector/CMakeFiles/my_vector_tests.dir/tests/test_vector.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/_deps/googletest-build/googlemock",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -g -std=c++23 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c D:\\LEETCODE\\cpp_ds\\build\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
+  "file": "D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/_deps/googletest-build/googlemock",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -g -std=c++23 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c D:\\LEETCODE\\cpp_ds\\build\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
+  "file": "D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/_deps/googletest-build/googletest",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp -g -std=c++23 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c D:\\LEETCODE\\cpp_ds\\build\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
+  "file": "D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/_deps/googletest-build/googletest",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -g -std=c++23 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c D:\\LEETCODE\\cpp_ds\\build\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
+  "file": "D:/LEETCODE/cpp_ds/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/linked_list",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_linked_list_lib.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_linked_list_lib.dir\\src\\linked_list.cpp.obj -c D:\\LEETCODE\\cpp_ds\\linked_list\\src\\linked_list.cpp",
+  "file": "D:/LEETCODE/cpp_ds/linked_list/src/linked_list.cpp",
+  "output": "linked_list/CMakeFiles/my_linked_list_lib.dir/src/linked_list.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/linked_list",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_linked_list_tests.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_linked_list_tests.dir\\tests\\test_linked_list.cpp.obj -c D:\\LEETCODE\\cpp_ds\\linked_list\\tests\\test_linked_list.cpp",
+  "file": "D:/LEETCODE/cpp_ds/linked_list/tests/test_linked_list.cpp",
+  "output": "linked_list/CMakeFiles/my_linked_list_tests.dir/tests/test_linked_list.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/stack",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_stack_lib.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_stack_lib.dir\\src\\stack.cpp.obj -c D:\\LEETCODE\\cpp_ds\\stack\\src\\stack.cpp",
+  "file": "D:/LEETCODE/cpp_ds/stack/src/stack.cpp",
+  "output": "stack/CMakeFiles/my_stack_lib.dir/src/stack.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/stack",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_stack_tests.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_stack_tests.dir\\tests\\test_stack.cpp.obj -c D:\\LEETCODE\\cpp_ds\\stack\\tests\\test_stack.cpp",
+  "file": "D:/LEETCODE/cpp_ds/stack/tests/test_stack.cpp",
+  "output": "stack/CMakeFiles/my_stack_tests.dir/tests/test_stack.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/queue",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_queue_lib.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_queue_lib.dir\\src\\queue.cpp.obj -c D:\\LEETCODE\\cpp_ds\\queue\\src\\queue.cpp",
+  "file": "D:/LEETCODE/cpp_ds/queue/src/queue.cpp",
+  "output": "queue/CMakeFiles/my_queue_lib.dir/src/queue.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/queue",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_queue_tests.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_queue_tests.dir\\tests\\test_queue.cpp.obj -c D:\\LEETCODE\\cpp_ds\\queue\\tests\\test_queue.cpp",
+  "file": "D:/LEETCODE/cpp_ds/queue/tests/test_queue.cpp",
+  "output": "queue/CMakeFiles/my_queue_tests.dir/tests/test_queue.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/binary_search_tree",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_bst_lib.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_bst_lib.dir\\src\\bst.cpp.obj -c D:\\LEETCODE\\cpp_ds\\binary_search_tree\\src\\bst.cpp",
+  "file": "D:/LEETCODE/cpp_ds/binary_search_tree/src/bst.cpp",
+  "output": "binary_search_tree/CMakeFiles/my_bst_lib.dir/src/bst.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/binary_search_tree",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_bst_tests.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_bst_tests.dir\\tests\\test_bst.cpp.obj -c D:\\LEETCODE\\cpp_ds\\binary_search_tree\\tests\\test_bst.cpp",
+  "file": "D:/LEETCODE/cpp_ds/binary_search_tree/tests/test_bst.cpp",
+  "output": "binary_search_tree/CMakeFiles/my_bst_tests.dir/tests/test_bst.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/priority_queue",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_priority_queue_lib.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_priority_queue_lib.dir\\src\\priority_queue.cpp.obj -c D:\\LEETCODE\\cpp_ds\\priority_queue\\src\\priority_queue.cpp",
+  "file": "D:/LEETCODE/cpp_ds/priority_queue/src/priority_queue.cpp",
+  "output": "priority_queue/CMakeFiles/my_priority_queue_lib.dir/src/priority_queue.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/priority_queue",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_priority_queue_tests.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_priority_queue_tests.dir\\tests\\test_priority_queue.cpp.obj -c D:\\LEETCODE\\cpp_ds\\priority_queue\\tests\\test_priority_queue.cpp",
+  "file": "D:/LEETCODE/cpp_ds/priority_queue/tests/test_priority_queue.cpp",
+  "output": "priority_queue/CMakeFiles/my_priority_queue_tests.dir/tests/test_priority_queue.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/doubly_linked_list",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_doubly_linked_list_lib.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_doubly_linked_list_lib.dir\\src\\doubly_linked_list.cpp.obj -c D:\\LEETCODE\\cpp_ds\\doubly_linked_list\\src\\doubly_linked_list.cpp",
+  "file": "D:/LEETCODE/cpp_ds/doubly_linked_list/src/doubly_linked_list.cpp",
+  "output": "doubly_linked_list/CMakeFiles/my_doubly_linked_list_lib.dir/src/doubly_linked_list.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/doubly_linked_list",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_doubly_linked_list_tests.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_doubly_linked_list_tests.dir\\tests\\test_doubly_linked_list.cpp.obj -c D:\\LEETCODE\\cpp_ds\\doubly_linked_list\\tests\\test_doubly_linked_list.cpp",
+  "file": "D:/LEETCODE/cpp_ds/doubly_linked_list/tests/test_doubly_linked_list.cpp",
+  "output": "doubly_linked_list/CMakeFiles/my_doubly_linked_list_tests.dir/tests/test_doubly_linked_list.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/hash_map",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_hash_map_lib.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_hash_map_lib.dir\\src\\hash_map.cpp.obj -c D:\\LEETCODE\\cpp_ds\\hash_map\\src\\hash_map.cpp",
+  "file": "D:/LEETCODE/cpp_ds/hash_map/src/hash_map.cpp",
+  "output": "hash_map/CMakeFiles/my_hash_map_lib.dir/src/hash_map.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/hash_map",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_hash_map_tests.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_hash_map_tests.dir\\tests\\test_hash_map.cpp.obj -c D:\\LEETCODE\\cpp_ds\\hash_map\\tests\\test_hash_map.cpp",
+  "file": "D:/LEETCODE/cpp_ds/hash_map/tests/test_hash_map.cpp",
+  "output": "hash_map/CMakeFiles/my_hash_map_tests.dir/tests/test_hash_map.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/trie",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_trie_lib.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_trie_lib.dir\\src\\trie.cpp.obj -c D:\\LEETCODE\\cpp_ds\\trie\\src\\trie.cpp",
+  "file": "D:/LEETCODE/cpp_ds/trie/src/trie.cpp",
+  "output": "trie/CMakeFiles/my_trie_lib.dir/src/trie.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/trie",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_trie_tests.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_trie_tests.dir\\tests\\test_trie.cpp.obj -c D:\\LEETCODE\\cpp_ds\\trie\\tests\\test_trie.cpp",
+  "file": "D:/LEETCODE/cpp_ds/trie/tests/test_trie.cpp",
+  "output": "trie/CMakeFiles/my_trie_tests.dir/tests/test_trie.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/revision/vector",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_new_vector_lib.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_new_vector_lib.dir\\src\\vector.cpp.obj -c D:\\LEETCODE\\cpp_ds\\revision\\vector\\src\\vector.cpp",
+  "file": "D:/LEETCODE/cpp_ds/revision/vector/src/vector.cpp",
+  "output": "revision/vector/CMakeFiles/my_new_vector_lib.dir/src/vector.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/revision/vector",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_new_vector_tests.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_new_vector_tests.dir\\tests\\test_vector.cpp.obj -c D:\\LEETCODE\\cpp_ds\\revision\\vector\\tests\\test_vector.cpp",
+  "file": "D:/LEETCODE/cpp_ds/revision/vector/tests/test_vector.cpp",
+  "output": "revision/vector/CMakeFiles/my_new_vector_tests.dir/tests/test_vector.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/revision/doubly_linked_list",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_new_doubly_linked_list_lib.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_new_doubly_linked_list_lib.dir\\src\\doubly_linked_list.cpp.obj -c D:\\LEETCODE\\cpp_ds\\revision\\doubly_linked_list\\src\\doubly_linked_list.cpp",
+  "file": "D:/LEETCODE/cpp_ds/revision/doubly_linked_list/src/doubly_linked_list.cpp",
+  "output": "revision/doubly_linked_list/CMakeFiles/my_new_doubly_linked_list_lib.dir/src/doubly_linked_list.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/revision/doubly_linked_list",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_new_doubly_linked_list_tests.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_new_doubly_linked_list_tests.dir\\tests\\test_doubly_linked_list.cpp.obj -c D:\\LEETCODE\\cpp_ds\\revision\\doubly_linked_list\\tests\\test_doubly_linked_list.cpp",
+  "file": "D:/LEETCODE/cpp_ds/revision/doubly_linked_list/tests/test_doubly_linked_list.cpp",
+  "output": "revision/doubly_linked_list/CMakeFiles/my_new_doubly_linked_list_tests.dir/tests/test_doubly_linked_list.cpp.obj"
+}
+]

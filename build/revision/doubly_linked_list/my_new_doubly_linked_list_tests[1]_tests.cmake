@@ -1,0 +1,3 @@
+add_test([=[InitializingTest.DefaultConstructor]=]  D:/LEETCODE/cpp_ds/build/revision/doubly_linked_list/my_new_doubly_linked_list_tests.exe [==[--gtest_filter=InitializingTest.DefaultConstructor]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[InitializingTest.DefaultConstructor]=]  PROPERTIES DEF_SOURCE_LINE [==[D:\LEETCODE\cpp_ds\revision\doubly_linked_list\tests\test_doubly_linked_list.cpp:4]==] WORKING_DIRECTORY D:/LEETCODE/cpp_ds/build/revision/doubly_linked_list SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  my_new_doubly_linked_list_tests_TESTS InitializingTest.DefaultConstructor)

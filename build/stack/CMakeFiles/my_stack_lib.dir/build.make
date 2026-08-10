@@ -76,15 +76,15 @@ stack/CMakeFiles/my_stack_lib.dir/src/stack.cpp.obj: stack/CMakeFiles/my_stack_l
 stack/CMakeFiles/my_stack_lib.dir/src/stack.cpp.obj: D:/LEETCODE/cpp_ds/stack/src/stack.cpp
 stack/CMakeFiles/my_stack_lib.dir/src/stack.cpp.obj: stack/CMakeFiles/my_stack_lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object stack/CMakeFiles/my_stack_lib.dir/src/stack.cpp.obj"
-	cd /d D:\LEETCODE\cpp_ds\build\stack && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT stack/CMakeFiles/my_stack_lib.dir/src/stack.cpp.obj -MF CMakeFiles\my_stack_lib.dir\src\stack.cpp.obj.d -o CMakeFiles\my_stack_lib.dir\src\stack.cpp.obj -c D:\LEETCODE\cpp_ds\stack\src\stack.cpp
+	cd /d D:\LEETCODE\cpp_ds\build\stack && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT stack/CMakeFiles/my_stack_lib.dir/src/stack.cpp.obj -MF CMakeFiles\my_stack_lib.dir\src\stack.cpp.obj.d -o CMakeFiles\my_stack_lib.dir\src\stack.cpp.obj -c D:\LEETCODE\cpp_ds\stack\src\stack.cpp
 
 stack/CMakeFiles/my_stack_lib.dir/src/stack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_stack_lib.dir/src/stack.cpp.i"
-	cd /d D:\LEETCODE\cpp_ds\build\stack && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\LEETCODE\cpp_ds\stack\src\stack.cpp > CMakeFiles\my_stack_lib.dir\src\stack.cpp.i
+	cd /d D:\LEETCODE\cpp_ds\build\stack && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\LEETCODE\cpp_ds\stack\src\stack.cpp > CMakeFiles\my_stack_lib.dir\src\stack.cpp.i
 
 stack/CMakeFiles/my_stack_lib.dir/src/stack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_stack_lib.dir/src/stack.cpp.s"
-	cd /d D:\LEETCODE\cpp_ds\build\stack && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\LEETCODE\cpp_ds\stack\src\stack.cpp -o CMakeFiles\my_stack_lib.dir\src\stack.cpp.s
+	cd /d D:\LEETCODE\cpp_ds\build\stack && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\LEETCODE\cpp_ds\stack\src\stack.cpp -o CMakeFiles\my_stack_lib.dir\src\stack.cpp.s
 
 # Object files for target my_stack_lib
 my_stack_lib_OBJECTS = \

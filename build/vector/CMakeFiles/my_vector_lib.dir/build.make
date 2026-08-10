@@ -76,15 +76,15 @@ vector/CMakeFiles/my_vector_lib.dir/src/vector.cpp.obj: vector/CMakeFiles/my_vec
 vector/CMakeFiles/my_vector_lib.dir/src/vector.cpp.obj: D:/LEETCODE/cpp_ds/vector/src/vector.cpp
 vector/CMakeFiles/my_vector_lib.dir/src/vector.cpp.obj: vector/CMakeFiles/my_vector_lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object vector/CMakeFiles/my_vector_lib.dir/src/vector.cpp.obj"
-	cd /d D:\LEETCODE\cpp_ds\build\vector && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT vector/CMakeFiles/my_vector_lib.dir/src/vector.cpp.obj -MF CMakeFiles\my_vector_lib.dir\src\vector.cpp.obj.d -o CMakeFiles\my_vector_lib.dir\src\vector.cpp.obj -c D:\LEETCODE\cpp_ds\vector\src\vector.cpp
+	cd /d D:\LEETCODE\cpp_ds\build\vector && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT vector/CMakeFiles/my_vector_lib.dir/src/vector.cpp.obj -MF CMakeFiles\my_vector_lib.dir\src\vector.cpp.obj.d -o CMakeFiles\my_vector_lib.dir\src\vector.cpp.obj -c D:\LEETCODE\cpp_ds\vector\src\vector.cpp
 
 vector/CMakeFiles/my_vector_lib.dir/src/vector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_vector_lib.dir/src/vector.cpp.i"
-	cd /d D:\LEETCODE\cpp_ds\build\vector && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\LEETCODE\cpp_ds\vector\src\vector.cpp > CMakeFiles\my_vector_lib.dir\src\vector.cpp.i
+	cd /d D:\LEETCODE\cpp_ds\build\vector && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\LEETCODE\cpp_ds\vector\src\vector.cpp > CMakeFiles\my_vector_lib.dir\src\vector.cpp.i
 
 vector/CMakeFiles/my_vector_lib.dir/src/vector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_vector_lib.dir/src/vector.cpp.s"
-	cd /d D:\LEETCODE\cpp_ds\build\vector && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\LEETCODE\cpp_ds\vector\src\vector.cpp -o CMakeFiles\my_vector_lib.dir\src\vector.cpp.s
+	cd /d D:\LEETCODE\cpp_ds\build\vector && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\LEETCODE\cpp_ds\vector\src\vector.cpp -o CMakeFiles\my_vector_lib.dir\src\vector.cpp.s
 
 # Object files for target my_vector_lib
 my_vector_lib_OBJECTS = \

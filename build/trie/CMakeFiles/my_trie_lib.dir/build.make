@@ -76,15 +76,15 @@ trie/CMakeFiles/my_trie_lib.dir/src/trie.cpp.obj: trie/CMakeFiles/my_trie_lib.di
 trie/CMakeFiles/my_trie_lib.dir/src/trie.cpp.obj: D:/LEETCODE/cpp_ds/trie/src/trie.cpp
 trie/CMakeFiles/my_trie_lib.dir/src/trie.cpp.obj: trie/CMakeFiles/my_trie_lib.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\LEETCODE\cpp_ds\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object trie/CMakeFiles/my_trie_lib.dir/src/trie.cpp.obj"
-	cd /d D:\LEETCODE\cpp_ds\build\trie && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT trie/CMakeFiles/my_trie_lib.dir/src/trie.cpp.obj -MF CMakeFiles\my_trie_lib.dir\src\trie.cpp.obj.d -o CMakeFiles\my_trie_lib.dir\src\trie.cpp.obj -c D:\LEETCODE\cpp_ds\trie\src\trie.cpp
+	cd /d D:\LEETCODE\cpp_ds\build\trie && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT trie/CMakeFiles/my_trie_lib.dir/src/trie.cpp.obj -MF CMakeFiles\my_trie_lib.dir\src\trie.cpp.obj.d -o CMakeFiles\my_trie_lib.dir\src\trie.cpp.obj -c D:\LEETCODE\cpp_ds\trie\src\trie.cpp
 
 trie/CMakeFiles/my_trie_lib.dir/src/trie.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_trie_lib.dir/src/trie.cpp.i"
-	cd /d D:\LEETCODE\cpp_ds\build\trie && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\LEETCODE\cpp_ds\trie\src\trie.cpp > CMakeFiles\my_trie_lib.dir\src\trie.cpp.i
+	cd /d D:\LEETCODE\cpp_ds\build\trie && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\LEETCODE\cpp_ds\trie\src\trie.cpp > CMakeFiles\my_trie_lib.dir\src\trie.cpp.i
 
 trie/CMakeFiles/my_trie_lib.dir/src/trie.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_trie_lib.dir/src/trie.cpp.s"
-	cd /d D:\LEETCODE\cpp_ds\build\trie && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\LEETCODE\cpp_ds\trie\src\trie.cpp -o CMakeFiles\my_trie_lib.dir\src\trie.cpp.s
+	cd /d D:\LEETCODE\cpp_ds\build\trie && C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\LEETCODE\cpp_ds\trie\src\trie.cpp -o CMakeFiles\my_trie_lib.dir\src\trie.cpp.s
 
 # Object files for target my_trie_lib
 my_trie_lib_OBJECTS = \
