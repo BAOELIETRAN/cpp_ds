@@ -15,7 +15,9 @@
 		"D:/LEETCODE/cpp_ds/build/hash_map/cmake_install.cmake",
 		"D:/LEETCODE/cpp_ds/build/trie/cmake_install.cmake",
 		"D:/LEETCODE/cpp_ds/build/revision/vector/cmake_install.cmake",
-		"D:/LEETCODE/cpp_ds/build/revision/doubly_linked_list/cmake_install.cmake"
+		"D:/LEETCODE/cpp_ds/build/revision/doubly_linked_list/cmake_install.cmake",
+		"D:/LEETCODE/cpp_ds/build/revision/binary_search_tree/cmake_install.cmake",
+		"D:/LEETCODE/cpp_ds/build/revision/priority_queue/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

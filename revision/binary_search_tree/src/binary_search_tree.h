@@ -46,7 +46,7 @@ namespace baghdad{
     };
 
     // clone tree
-    new_bst::TreeNode* new_bst::clone_tree(TreeNode* cur_root, TreeNode* neigh_root){
+    inline new_bst::TreeNode* new_bst::clone_tree(TreeNode* cur_root, TreeNode* neigh_root){
         if (neigh_root == nullptr) return nullptr;
         cur_root = new TreeNode(neigh_root->m_value);
         cur_root->left = clone_tree(cur_root->left, neigh_root->left);
@@ -55,7 +55,7 @@ namespace baghdad{
     }
 
     // clean tree
-    void new_bst::clean_tree(TreeNode* cur_root){
+    inline void new_bst::clean_tree(TreeNode* cur_root){
         if (cur_root == nullptr) return;
         TreeNode* left_tree = cur_root->left;
         TreeNode* right_tree = cur_root->right;
@@ -65,10 +65,10 @@ namespace baghdad{
     }
 
     // default constructor
-    new_bst::new_bst() : m_root{nullptr}, m_size{0}{}
+    inline new_bst::new_bst() : m_root{nullptr}, m_size{0}{}
 
     // copy constructor
-    new_bst::new_bst(const new_bst& neigh_bst){
+    inline new_bst::new_bst(const new_bst& neigh_bst){
         if (this == &neigh_bst) return;
         TreeNode* neigh_root = neigh_bst.m_root;
         m_size = neigh_bst.size();
@@ -76,7 +76,7 @@ namespace baghdad{
     }
 
     // copy assignment
-    new_bst& new_bst::operator=(const new_bst& neigh_bst){
+    inline new_bst& new_bst::operator=(const new_bst& neigh_bst){
         if (this == &neigh_bst) return *this;
         // clean tree
         clean_tree(m_root);
@@ -90,7 +90,7 @@ namespace baghdad{
     }
 
     // move constructor
-    new_bst::new_bst(new_bst&& neigh_bst){
+    inline new_bst::new_bst(new_bst&& neigh_bst){
         if (this == &neigh_bst) return;
         m_root = neigh_bst.m_root;
         neigh_bst.m_root = nullptr;
@@ -99,7 +99,7 @@ namespace baghdad{
     }
 
     // move assignment
-    new_bst& new_bst::operator=(new_bst&& neigh_bst){
+    inline new_bst& new_bst::operator=(new_bst&& neigh_bst){
         if (this == &neigh_bst) return *this;
         // clean tree
         clean_tree(m_root);
@@ -114,14 +114,14 @@ namespace baghdad{
     }
 
     // destructor
-    new_bst::~new_bst(){
+    inline new_bst::~new_bst(){
         clean_tree(m_root);
         m_root = nullptr;
         m_size = 0;
     }
 
     // insert into tree
-    void new_bst::insert(int val){
+    inline void new_bst::insert(int val){
         TreeNode* temp = m_root;
         TreeNode* new_node = new TreeNode(val);
         while (temp != nullptr){
@@ -144,7 +144,7 @@ namespace baghdad{
     }
 
     // find on the tree
-    new_bst::TreeNode* new_bst::find(int val){
+    inline new_bst::TreeNode* new_bst::find(int val){
         TreeNode* temp = m_root;
         while (temp != nullptr){
             int cur_val = temp->m_value;
@@ -156,7 +156,7 @@ namespace baghdad{
     }
 
     // find the smallest node to the right
-    std::pair<new_bst::TreeNode*, new_bst::TreeNode*> new_bst::smallest(TreeNode* root){
+    inline std::pair<new_bst::TreeNode*, new_bst::TreeNode*> new_bst::smallest(TreeNode* root){
         TreeNode* parent = nullptr;
         TreeNode* temp = root;
         while (temp->left != nullptr){
@@ -167,7 +167,7 @@ namespace baghdad{
     }
 
     // erase first node with value = val
-    bool new_bst::erase(int val){
+    inline bool new_bst::erase(int val){
         TreeNode* del_node = m_root;
         TreeNode* parent = nullptr;
         while (del_node != nullptr){

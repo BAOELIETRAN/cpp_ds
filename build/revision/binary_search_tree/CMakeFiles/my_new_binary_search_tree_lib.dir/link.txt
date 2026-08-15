@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libmy_new_binary_search_tree_lib.a CMakeFiles/my_new_binary_search_tree_lib.dir/src/binary_search_tree.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libmy_new_binary_search_tree_lib.a

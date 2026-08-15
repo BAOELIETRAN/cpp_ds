@@ -19,7 +19,9 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15,
+						16
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
@@ -47,8 +49,8 @@
 					"source" : "vector",
 					"targetIndexes" : 
 					[
-						24,
-						25
+						28,
+						29
 					]
 				},
 				{
@@ -133,8 +135,8 @@
 					"source" : "stack",
 					"targetIndexes" : 
 					[
-						20,
-						21
+						24,
+						25
 					]
 				},
 				{
@@ -149,8 +151,8 @@
 					"source" : "queue",
 					"targetIndexes" : 
 					[
-						18,
-						19
+						22,
+						23
 					]
 				},
 				{
@@ -181,8 +183,8 @@
 					"source" : "priority_queue",
 					"targetIndexes" : 
 					[
-						16,
-						17
+						20,
+						21
 					]
 				},
 				{
@@ -229,8 +231,8 @@
 					"source" : "trie",
 					"targetIndexes" : 
 					[
-						22,
-						23
+						26,
+						27
 					]
 				},
 				{
@@ -245,8 +247,8 @@
 					"source" : "revision/vector",
 					"targetIndexes" : 
 					[
-						14,
-						15
+						18,
+						19
 					]
 				},
 				{
@@ -261,8 +263,40 @@
 					"source" : "revision/doubly_linked_list",
 					"targetIndexes" : 
 					[
+						14,
+						15
+					]
+				},
+				{
+					"build" : "revision/binary_search_tree",
+					"jsonFile" : "directory-revision.binary_search_tree-Debug-a08216929d827d1108e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 15,
+					"source" : "revision/binary_search_tree",
+					"targetIndexes" : 
+					[
 						12,
 						13
+					]
+				},
+				{
+					"build" : "revision/priority_queue",
+					"jsonFile" : "directory-revision.priority_queue-Debug-6d7b107b7486a2e517de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 16,
+					"source" : "revision/priority_queue",
+					"targetIndexes" : 
+					[
+						16,
+						17
 					]
 				}
 			],
@@ -282,7 +316,9 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15,
+						16
 					],
 					"directoryIndexes" : 
 					[
@@ -303,8 +339,8 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						24,
-						25
+						28,
+						29
 					]
 				},
 				{
@@ -371,8 +407,8 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						20,
-						21
+						24,
+						25
 					]
 				},
 				{
@@ -384,8 +420,8 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						18,
-						19
+						22,
+						23
 					]
 				},
 				{
@@ -410,8 +446,8 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						16,
-						17
+						20,
+						21
 					]
 				},
 				{
@@ -449,8 +485,8 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						22,
-						23
+						26,
+						27
 					]
 				},
 				{
@@ -462,8 +498,8 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						14,
-						15
+						18,
+						19
 					]
 				},
 				{
@@ -475,8 +511,34 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
+						14,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "MY_NEW_BST",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
 						12,
 						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "MY_NEW_PRIORITY_QUEUE",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						16,
+						17
 					]
 				}
 			],
@@ -567,6 +629,20 @@
 					"projectIndex" : 5
 				},
 				{
+					"directoryIndex" : 15,
+					"id" : "my_new_binary_search_tree_lib::@ba3ce17c907c294406f4",
+					"jsonFile" : "target-my_new_binary_search_tree_lib-Debug-08f04447dabc7caca733.json",
+					"name" : "my_new_binary_search_tree_lib",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "my_new_binary_search_tree_tests::@ba3ce17c907c294406f4",
+					"jsonFile" : "target-my_new_binary_search_tree_tests-Debug-71cac4b2e5d5ce0c4bf1.json",
+					"name" : "my_new_binary_search_tree_tests",
+					"projectIndex" : 15
+				},
+				{
 					"directoryIndex" : 14,
 					"id" : "my_new_doubly_linked_list_lib::@58745dd99f3ebbb2f7c5",
 					"jsonFile" : "target-my_new_doubly_linked_list_lib-Debug-a3039346410c6d6c807c.json",
@@ -579,6 +655,20 @@
 					"jsonFile" : "target-my_new_doubly_linked_list_tests-Debug-44d082718489d1eae51c.json",
 					"name" : "my_new_doubly_linked_list_tests",
 					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "my_new_priority_queue_lib::@48484a298e5a5f511dc5",
+					"jsonFile" : "target-my_new_priority_queue_lib-Debug-69f6d80b134d22b9401a.json",
+					"name" : "my_new_priority_queue_lib",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "my_new_priority_queue_tests::@48484a298e5a5f511dc5",
+					"jsonFile" : "target-my_new_priority_queue_tests-Debug-723c2f28f76660dedcde.json",
+					"name" : "my_new_priority_queue_tests",
+					"projectIndex" : 16
 				},
 				{
 					"directoryIndex" : 13,

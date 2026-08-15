@@ -387,6 +387,15 @@ MY_LINKED_LIST_IS_TOP_LEVEL:STATIC=OFF
 MY_LINKED_LIST_SOURCE_DIR:STATIC=D:/LEETCODE/cpp_ds/linked_list
 
 //Value Computed by CMake
+MY_NEW_BST_BINARY_DIR:STATIC=D:/LEETCODE/cpp_ds/build/revision/binary_search_tree
+
+//Value Computed by CMake
+MY_NEW_BST_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+MY_NEW_BST_SOURCE_DIR:STATIC=D:/LEETCODE/cpp_ds/revision/binary_search_tree
+
+//Value Computed by CMake
 MY_NEW_DOUBLY_LINKED_LIST_BINARY_DIR:STATIC=D:/LEETCODE/cpp_ds/build/revision/doubly_linked_list
 
 //Value Computed by CMake
@@ -394,6 +403,15 @@ MY_NEW_DOUBLY_LINKED_LIST_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 MY_NEW_DOUBLY_LINKED_LIST_SOURCE_DIR:STATIC=D:/LEETCODE/cpp_ds/revision/doubly_linked_list
+
+//Value Computed by CMake
+MY_NEW_PRIORITY_QUEUE_BINARY_DIR:STATIC=D:/LEETCODE/cpp_ds/build/revision/priority_queue
+
+//Value Computed by CMake
+MY_NEW_PRIORITY_QUEUE_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+MY_NEW_PRIORITY_QUEUE_SOURCE_DIR:STATIC=D:/LEETCODE/cpp_ds/revision/priority_queue
 
 //Value Computed by CMake
 MY_PRIORITY_QUEUE_BINARY_DIR:STATIC=D:/LEETCODE/cpp_ds/build/priority_queue
@@ -634,7 +652,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=15
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=17
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

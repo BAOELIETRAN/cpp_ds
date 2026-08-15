@@ -32,6 +32,8 @@ add_subdirectory(hash_map)
 add_subdirectory(trie)
 add_subdirectory(revision/vector)
 add_subdirectory(revision/doubly_linked_list)
+add_subdirectory(revision/binary_search_tree)
+add_subdirectory(revision/priority_queue)
 
 
 # a few helpful commands:

@@ -68,7 +68,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/LEETCODE/cpp_ds/linked_list/CMakeLists.txt"
   "D:/LEETCODE/cpp_ds/priority_queue/CMakeLists.txt"
   "D:/LEETCODE/cpp_ds/queue/CMakeLists.txt"
+  "D:/LEETCODE/cpp_ds/revision/binary_search_tree/CMakeLists.txt"
   "D:/LEETCODE/cpp_ds/revision/doubly_linked_list/CMakeLists.txt"
+  "D:/LEETCODE/cpp_ds/revision/priority_queue/CMakeLists.txt"
   "D:/LEETCODE/cpp_ds/revision/vector/CMakeLists.txt"
   "D:/LEETCODE/cpp_ds/stack/CMakeLists.txt"
   "D:/LEETCODE/cpp_ds/trie/CMakeLists.txt"
@@ -105,6 +107,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "trie/CMakeFiles/CMakeDirectoryInformation.cmake"
   "revision/vector/CMakeFiles/CMakeDirectoryInformation.cmake"
   "revision/doubly_linked_list/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "revision/binary_search_tree/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "revision/priority_queue/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -135,4 +139,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "revision/vector/CMakeFiles/my_new_vector_tests.dir/DependInfo.cmake"
   "revision/doubly_linked_list/CMakeFiles/my_new_doubly_linked_list_lib.dir/DependInfo.cmake"
   "revision/doubly_linked_list/CMakeFiles/my_new_doubly_linked_list_tests.dir/DependInfo.cmake"
+  "revision/binary_search_tree/CMakeFiles/my_new_binary_search_tree_lib.dir/DependInfo.cmake"
+  "revision/binary_search_tree/CMakeFiles/my_new_binary_search_tree_tests.dir/DependInfo.cmake"
+  "revision/priority_queue/CMakeFiles/my_new_priority_queue_lib.dir/DependInfo.cmake"
+  "revision/priority_queue/CMakeFiles/my_new_priority_queue_tests.dir/DependInfo.cmake"
   )

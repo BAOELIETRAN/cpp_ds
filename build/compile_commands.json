@@ -154,5 +154,29 @@
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_new_doubly_linked_list_tests.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_new_doubly_linked_list_tests.dir\\tests\\test_doubly_linked_list.cpp.obj -c D:\\LEETCODE\\cpp_ds\\revision\\doubly_linked_list\\tests\\test_doubly_linked_list.cpp",
   "file": "D:/LEETCODE/cpp_ds/revision/doubly_linked_list/tests/test_doubly_linked_list.cpp",
   "output": "revision/doubly_linked_list/CMakeFiles/my_new_doubly_linked_list_tests.dir/tests/test_doubly_linked_list.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/revision/binary_search_tree",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_new_binary_search_tree_lib.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_new_binary_search_tree_lib.dir\\src\\binary_search_tree.cpp.obj -c D:\\LEETCODE\\cpp_ds\\revision\\binary_search_tree\\src\\binary_search_tree.cpp",
+  "file": "D:/LEETCODE/cpp_ds/revision/binary_search_tree/src/binary_search_tree.cpp",
+  "output": "revision/binary_search_tree/CMakeFiles/my_new_binary_search_tree_lib.dir/src/binary_search_tree.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/revision/binary_search_tree",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_new_binary_search_tree_tests.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_new_binary_search_tree_tests.dir\\tests\\test_binary_search_tree.cpp.obj -c D:\\LEETCODE\\cpp_ds\\revision\\binary_search_tree\\tests\\test_binary_search_tree.cpp",
+  "file": "D:/LEETCODE/cpp_ds/revision/binary_search_tree/tests/test_binary_search_tree.cpp",
+  "output": "revision/binary_search_tree/CMakeFiles/my_new_binary_search_tree_tests.dir/tests/test_binary_search_tree.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/revision/priority_queue",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_new_priority_queue_lib.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_new_priority_queue_lib.dir\\src\\priority_queue.cpp.obj -c D:\\LEETCODE\\cpp_ds\\revision\\priority_queue\\src\\priority_queue.cpp",
+  "file": "D:/LEETCODE/cpp_ds/revision/priority_queue/src/priority_queue.cpp",
+  "output": "revision/priority_queue/CMakeFiles/my_new_priority_queue_lib.dir/src/priority_queue.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/revision/priority_queue",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_new_priority_queue_tests.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_new_priority_queue_tests.dir\\tests\\test_priority_queue.cpp.obj -c D:\\LEETCODE\\cpp_ds\\revision\\priority_queue\\tests\\test_priority_queue.cpp",
+  "file": "D:/LEETCODE/cpp_ds/revision/priority_queue/tests/test_priority_queue.cpp",
+  "output": "revision/priority_queue/CMakeFiles/my_new_priority_queue_tests.dir/tests/test_priority_queue.cpp.obj"
 }
 ]

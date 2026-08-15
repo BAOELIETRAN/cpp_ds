@@ -508,6 +508,58 @@ my_new_doubly_linked_list_tests/fast:
 	$(MAKE) $(MAKESILENT) -f revision\doubly_linked_list\CMakeFiles\my_new_doubly_linked_list_tests.dir\build.make revision/doubly_linked_list/CMakeFiles/my_new_doubly_linked_list_tests.dir/build
 .PHONY : my_new_doubly_linked_list_tests/fast
 
+#=============================================================================
+# Target rules for targets named my_new_binary_search_tree_lib
+
+# Build rule for target.
+my_new_binary_search_tree_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 my_new_binary_search_tree_lib
+.PHONY : my_new_binary_search_tree_lib
+
+# fast build rule for target.
+my_new_binary_search_tree_lib/fast:
+	$(MAKE) $(MAKESILENT) -f revision\binary_search_tree\CMakeFiles\my_new_binary_search_tree_lib.dir\build.make revision/binary_search_tree/CMakeFiles/my_new_binary_search_tree_lib.dir/build
+.PHONY : my_new_binary_search_tree_lib/fast
+
+#=============================================================================
+# Target rules for targets named my_new_binary_search_tree_tests
+
+# Build rule for target.
+my_new_binary_search_tree_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 my_new_binary_search_tree_tests
+.PHONY : my_new_binary_search_tree_tests
+
+# fast build rule for target.
+my_new_binary_search_tree_tests/fast:
+	$(MAKE) $(MAKESILENT) -f revision\binary_search_tree\CMakeFiles\my_new_binary_search_tree_tests.dir\build.make revision/binary_search_tree/CMakeFiles/my_new_binary_search_tree_tests.dir/build
+.PHONY : my_new_binary_search_tree_tests/fast
+
+#=============================================================================
+# Target rules for targets named my_new_priority_queue_lib
+
+# Build rule for target.
+my_new_priority_queue_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 my_new_priority_queue_lib
+.PHONY : my_new_priority_queue_lib
+
+# fast build rule for target.
+my_new_priority_queue_lib/fast:
+	$(MAKE) $(MAKESILENT) -f revision\priority_queue\CMakeFiles\my_new_priority_queue_lib.dir\build.make revision/priority_queue/CMakeFiles/my_new_priority_queue_lib.dir/build
+.PHONY : my_new_priority_queue_lib/fast
+
+#=============================================================================
+# Target rules for targets named my_new_priority_queue_tests
+
+# Build rule for target.
+my_new_priority_queue_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 my_new_priority_queue_tests
+.PHONY : my_new_priority_queue_tests
+
+# fast build rule for target.
+my_new_priority_queue_tests/fast:
+	$(MAKE) $(MAKESILENT) -f revision\priority_queue\CMakeFiles\my_new_priority_queue_tests.dir\build.make revision/priority_queue/CMakeFiles/my_new_priority_queue_tests.dir/build
+.PHONY : my_new_priority_queue_tests/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -533,8 +585,12 @@ help:
 	@echo ... my_hash_map_tests
 	@echo ... my_linked_list_lib
 	@echo ... my_linked_list_tests
+	@echo ... my_new_binary_search_tree_lib
+	@echo ... my_new_binary_search_tree_tests
 	@echo ... my_new_doubly_linked_list_lib
 	@echo ... my_new_doubly_linked_list_tests
+	@echo ... my_new_priority_queue_lib
+	@echo ... my_new_priority_queue_tests
 	@echo ... my_new_vector_lib
 	@echo ... my_new_vector_tests
 	@echo ... my_priority_queue_lib
