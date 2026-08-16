@@ -70,6 +70,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "D:/LEETCODE/cpp_ds/queue/CMakeLists.txt"
   "D:/LEETCODE/cpp_ds/revision/binary_search_tree/CMakeLists.txt"
   "D:/LEETCODE/cpp_ds/revision/doubly_linked_list/CMakeLists.txt"
+  "D:/LEETCODE/cpp_ds/revision/hash_map/CMakeLists.txt"
   "D:/LEETCODE/cpp_ds/revision/priority_queue/CMakeLists.txt"
   "D:/LEETCODE/cpp_ds/revision/vector/CMakeLists.txt"
   "D:/LEETCODE/cpp_ds/stack/CMakeLists.txt"
@@ -109,6 +110,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "revision/doubly_linked_list/CMakeFiles/CMakeDirectoryInformation.cmake"
   "revision/binary_search_tree/CMakeFiles/CMakeDirectoryInformation.cmake"
   "revision/priority_queue/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "revision/hash_map/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -143,4 +145,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "revision/binary_search_tree/CMakeFiles/my_new_binary_search_tree_tests.dir/DependInfo.cmake"
   "revision/priority_queue/CMakeFiles/my_new_priority_queue_lib.dir/DependInfo.cmake"
   "revision/priority_queue/CMakeFiles/my_new_priority_queue_tests.dir/DependInfo.cmake"
+  "revision/hash_map/CMakeFiles/my_new_hash_map_lib.dir/DependInfo.cmake"
+  "revision/hash_map/CMakeFiles/my_new_hash_map_tests.dir/DependInfo.cmake"
   )

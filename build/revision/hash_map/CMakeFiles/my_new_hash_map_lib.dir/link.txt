@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libmy_new_hash_map_lib.a CMakeFiles/my_new_hash_map_lib.dir/src/hash_map.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libmy_new_hash_map_lib.a

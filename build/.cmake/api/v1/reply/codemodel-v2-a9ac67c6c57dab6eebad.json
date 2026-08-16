@@ -21,7 +21,8 @@
 						13,
 						14,
 						15,
-						16
+						16,
+						17
 					],
 					"hasInstallRule" : true,
 					"jsonFile" : "directory-.-Debug-f6f22219c74102c3da70.json",
@@ -49,8 +50,8 @@
 					"source" : "vector",
 					"targetIndexes" : 
 					[
-						28,
-						29
+						30,
+						31
 					]
 				},
 				{
@@ -135,8 +136,8 @@
 					"source" : "stack",
 					"targetIndexes" : 
 					[
-						24,
-						25
+						26,
+						27
 					]
 				},
 				{
@@ -151,8 +152,8 @@
 					"source" : "queue",
 					"targetIndexes" : 
 					[
-						22,
-						23
+						24,
+						25
 					]
 				},
 				{
@@ -183,8 +184,8 @@
 					"source" : "priority_queue",
 					"targetIndexes" : 
 					[
-						20,
-						21
+						22,
+						23
 					]
 				},
 				{
@@ -231,8 +232,8 @@
 					"source" : "trie",
 					"targetIndexes" : 
 					[
-						26,
-						27
+						28,
+						29
 					]
 				},
 				{
@@ -247,8 +248,8 @@
 					"source" : "revision/vector",
 					"targetIndexes" : 
 					[
-						18,
-						19
+						20,
+						21
 					]
 				},
 				{
@@ -295,6 +296,22 @@
 					"source" : "revision/priority_queue",
 					"targetIndexes" : 
 					[
+						18,
+						19
+					]
+				},
+				{
+					"build" : "revision/hash_map",
+					"jsonFile" : "directory-revision.hash_map-Debug-647de988926a51afe75d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 17,
+					"source" : "revision/hash_map",
+					"targetIndexes" : 
+					[
 						16,
 						17
 					]
@@ -318,7 +335,8 @@
 						13,
 						14,
 						15,
-						16
+						16,
+						17
 					],
 					"directoryIndexes" : 
 					[
@@ -339,8 +357,8 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						28,
-						29
+						30,
+						31
 					]
 				},
 				{
@@ -407,8 +425,8 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						24,
-						25
+						26,
+						27
 					]
 				},
 				{
@@ -420,8 +438,8 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						22,
-						23
+						24,
+						25
 					]
 				},
 				{
@@ -446,8 +464,8 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						20,
-						21
+						22,
+						23
 					]
 				},
 				{
@@ -485,8 +503,8 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						26,
-						27
+						28,
+						29
 					]
 				},
 				{
@@ -498,8 +516,8 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						18,
-						19
+						20,
+						21
 					]
 				},
 				{
@@ -534,6 +552,19 @@
 						16
 					],
 					"name" : "MY_NEW_PRIORITY_QUEUE",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						18,
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "MY_NEW_HASH_MAP",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
@@ -624,7 +655,7 @@
 				{
 					"directoryIndex" : 5,
 					"id" : "my_linked_list_tests::@52f4e78c28c861d9067e",
-					"jsonFile" : "target-my_linked_list_tests-Debug-416e09ec1034a2b0f250.json",
+					"jsonFile" : "target-my_linked_list_tests-Debug-07a4a77bd65daf38c669.json",
 					"name" : "my_linked_list_tests",
 					"projectIndex" : 5
 				},
@@ -655,6 +686,20 @@
 					"jsonFile" : "target-my_new_doubly_linked_list_tests-Debug-44d082718489d1eae51c.json",
 					"name" : "my_new_doubly_linked_list_tests",
 					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "my_new_hash_map_lib::@b2c0ead61e71d63b6ca6",
+					"jsonFile" : "target-my_new_hash_map_lib-Debug-140abe8bd86c9bf56c90.json",
+					"name" : "my_new_hash_map_lib",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "my_new_hash_map_tests::@b2c0ead61e71d63b6ca6",
+					"jsonFile" : "target-my_new_hash_map_tests-Debug-848392120cd43c71b8c3.json",
+					"name" : "my_new_hash_map_tests",
+					"projectIndex" : 17
 				},
 				{
 					"directoryIndex" : 16,

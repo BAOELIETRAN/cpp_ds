@@ -1091,7 +1091,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "17"
+			"value" : "18"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1996,6 +1996,42 @@
 			],
 			"type" : "STATIC",
 			"value" : "D:/LEETCODE/cpp_ds/revision/doubly_linked_list"
+		},
+		{
+			"name" : "MY_NEW_HASH_MAP_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/LEETCODE/cpp_ds/build/revision/hash_map"
+		},
+		{
+			"name" : "MY_NEW_HASH_MAP_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "MY_NEW_HASH_MAP_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/LEETCODE/cpp_ds/revision/hash_map"
 		},
 		{
 			"name" : "MY_NEW_PRIORITY_QUEUE_BINARY_DIR",

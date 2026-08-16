@@ -178,5 +178,17 @@
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_new_priority_queue_tests.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_new_priority_queue_tests.dir\\tests\\test_priority_queue.cpp.obj -c D:\\LEETCODE\\cpp_ds\\revision\\priority_queue\\tests\\test_priority_queue.cpp",
   "file": "D:/LEETCODE/cpp_ds/revision/priority_queue/tests/test_priority_queue.cpp",
   "output": "revision/priority_queue/CMakeFiles/my_new_priority_queue_tests.dir/tests/test_priority_queue.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/revision/hash_map",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_new_hash_map_lib.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_new_hash_map_lib.dir\\src\\hash_map.cpp.obj -c D:\\LEETCODE\\cpp_ds\\revision\\hash_map\\src\\hash_map.cpp",
+  "file": "D:/LEETCODE/cpp_ds/revision/hash_map/src/hash_map.cpp",
+  "output": "revision/hash_map/CMakeFiles/my_new_hash_map_lib.dir/src/hash_map.cpp.obj"
+},
+{
+  "directory": "D:/LEETCODE/cpp_ds/build/revision/hash_map",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/my_new_hash_map_tests.dir/includes_CXX.rsp -g -std=gnu++23 -o CMakeFiles\\my_new_hash_map_tests.dir\\tests\\test_hash_map.cpp.obj -c D:\\LEETCODE\\cpp_ds\\revision\\hash_map\\tests\\test_hash_map.cpp",
+  "file": "D:/LEETCODE/cpp_ds/revision/hash_map/tests/test_hash_map.cpp",
+  "output": "revision/hash_map/CMakeFiles/my_new_hash_map_tests.dir/tests/test_hash_map.cpp.obj"
 }
 ]

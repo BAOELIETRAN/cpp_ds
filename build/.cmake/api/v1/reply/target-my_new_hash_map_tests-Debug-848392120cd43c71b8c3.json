@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "linked_list/my_linked_list_tests.exe"
+			"path" : "revision/hash_map/my_new_hash_map_tests.exe"
 		},
 		{
-			"path" : "linked_list/my_linked_list_tests.pdb"
+			"path" : "revision/hash_map/my_new_hash_map_tests.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -20,7 +20,7 @@
 		],
 		"files" : 
 		[
-			"linked_list/CMakeLists.txt",
+			"revision/hash_map/CMakeLists.txt",
 			"build/_deps/googletest-src/googletest/CMakeLists.txt",
 			"C:/Program Files/CMake/share/cmake-4.2/Modules/GoogleTest.cmake"
 		],
@@ -32,13 +32,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 54,
+				"line" : 26,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 59,
+				"line" : 30,
 				"parent" : 0
 			},
 			{
@@ -53,7 +53,7 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 70,
+				"line" : 37,
 				"parent" : 0
 			},
 			{
@@ -73,7 +73,7 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "my_linked_list_lib::@52f4e78c28c861d9067e"
+			"id" : "my_new_hash_map_lib::@b2c0ead61e71d63b6ca6"
 		},
 		{
 			"backtrace" : 2,
@@ -93,7 +93,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "D:/LEETCODE/cpp_ds/linked_list/src"
+					"path" : "D:/LEETCODE/cpp_ds/revision/hash_map/src"
 				},
 				{
 					"backtrace" : 2,
@@ -133,10 +133,10 @@
 		},
 		{
 			"backtrace" : 2,
-			"id" : "my_linked_list_lib::@52f4e78c28c861d9067e"
+			"id" : "my_new_hash_map_lib::@b2c0ead61e71d63b6ca6"
 		}
 	],
-	"id" : "my_linked_list_tests::@52f4e78c28c861d9067e",
+	"id" : "my_new_hash_map_tests::@b2c0ead61e71d63b6ca6",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -147,17 +147,17 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "libmy_linked_list_lib.a",
+				"fragment" : "libmy_new_hash_map_lib.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "..\\lib\\libgtest_main.a",
+				"fragment" : "..\\..\\lib\\libgtest_main.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "..\\lib\\libgtest.a",
+				"fragment" : "..\\..\\lib\\libgtest.a",
 				"role" : "libraries"
 			},
 			{
@@ -171,26 +171,26 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "my_linked_list_lib::@52f4e78c28c861d9067e"
+			"id" : "my_new_hash_map_lib::@b2c0ead61e71d63b6ca6"
 		},
 		{
 			"backtrace" : 2,
 			"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f"
 		}
 	],
-	"name" : "my_linked_list_tests",
-	"nameOnDisk" : "my_linked_list_tests.exe",
+	"name" : "my_new_hash_map_tests",
+	"nameOnDisk" : "my_new_hash_map_tests.exe",
 	"orderDependencies" : 
 	[
 		{
 			"backtrace" : 6,
-			"id" : "my_linked_list_tests::@52f4e78c28c861d9067e"
+			"id" : "my_new_hash_map_tests::@b2c0ead61e71d63b6ca6"
 		}
 	],
 	"paths" : 
 	{
-		"build" : "linked_list",
-		"source" : "linked_list"
+		"build" : "revision/hash_map",
+		"source" : "revision/hash_map"
 	},
 	"sourceGroups" : 
 	[
@@ -207,7 +207,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "linked_list/tests/test_linked_list.cpp",
+			"path" : "revision/hash_map/tests/test_hash_map.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
